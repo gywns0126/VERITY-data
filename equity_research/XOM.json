@@ -1,0 +1,109 @@
+{
+  "ticker": "XOM",
+  "company_summary": "Exxon Mobil is a global integrated energy company with operations spanning upstream oil and gas, energy products refining, and chemical products. Its business is typically described in three major segments: Upstream (exploration and production), Energy Products (refining, fuels, lubricants, trading), and Chemical Products (commodity and specialty chemicals), with the company also reporting Corporate and Other. [1][2]",
+  "thesis": [
+    "Bull case: Exxon’s integrated model can help offset commodity-price volatility because upstream cash flows can be partially balanced by downstream/chemicals performance when crude margins weaken. [1][2]",
+    "Bull case: The company has historically emphasized capital discipline, portfolio quality, and shareholder returns, which investors often view as supportive of durable free cash flow through cycles. [1][3]",
+    "Bear case: Exxon remains highly exposed to global oil and gas prices, refining margins, and macro demand swings, so earnings can compress quickly if commodity fundamentals soften. [1][4]",
+    "Bear case: Large multi-year project execution and regulatory/permitting risk can delay returns on growth investments and create cost overruns or timing slippage. [1][4]",
+    "Consensus tone in recent major-media coverage has generally remained constructive on Exxon’s scale and cash generation but cautious on cyclicality, with attention to commodity exposure and capital intensity. [3][4]"
+  ],
+  "recent_catalysts": [],
+  "earnings_highlights": {
+    "last_quarter": {
+      "period": "FY2025 Q1",
+      "eps_actual": 0,
+      "eps_estimate": 0,
+      "revenue_actual_m": 0,
+      "revenue_estimate_m": 0
+    },
+    "fy_guidance_update": "No verified recent earnings release or guidance update could be confirmed from accessible sources in this session; latest quarter-specific EPS/revenue figures were not available from the retrieved materials. [1][2][3][4]"
+  },
+  "sec_filings_recent": [],
+  "risks": [
+    "Commodity-price downside: earnings and cash flow are sensitive to crude oil, natural gas, and refined-product pricing. [1][4]",
+    "Refining margin compression: weaker spreads can reduce downstream profitability even if upstream results hold up. [1][4]",
+    "Execution/regulatory risk: large capital projects, environmental regulation, and permitting can affect returns and timing. [1][2]",
+    "Macro demand slowdown: recessionary pressure or weaker industrial/fuel demand could hurt volumes and pricing. [1][4]",
+    "Energy transition risk: long-term demand and policy shifts could pressure hydrocarbons-focused valuation multiples. [1][2][4]"
+  ],
+  "brief_verdict": "HOLD",
+  "industry_themes": [
+    {
+      "theme": "Oil price volatility",
+      "direction": "negative",
+      "conviction": "high",
+      "evidence": "Integrated majors’ earnings remain highly sensitive to crude and gas pricing cycles. [1][4]"
+    },
+    {
+      "theme": "Refining margins",
+      "direction": "neutral",
+      "conviction": "mid",
+      "evidence": "Downstream profitability tends to swing with fuel spreads and utilization rates. [1][4]"
+    },
+    {
+      "theme": "Capital discipline",
+      "direction": "positive",
+      "conviction": "mid",
+      "evidence": "Investor focus remains on spending discipline and free-cash-flow conversion across the sector. [1][3]"
+    },
+    {
+      "theme": "Energy security",
+      "direction": "positive",
+      "conviction": "mid",
+      "evidence": "Policy and market discussions continue to emphasize supply reliability and large-scale hydrocarbons investment. [3][4]"
+    }
+  ],
+  "generated_at": "2026-05-25T06:47:21+09:00",
+  "model": "sonar-pro",
+  "citations": [],
+  "analyst_consensus": {
+    "price_target_avg": 168.31818,
+    "price_target_high": 185.0,
+    "price_target_low": 130.0,
+    "price_target_median": 169.5,
+    "current_price": 154.92,
+    "n_analysts": 22,
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.36,
+    "eps_fy1_estimate": 10.4218,
+    "pe_forward": 14.864995,
+    "_source": "yfinance (Yahoo Finance)"
+  },
+  "verity_trail": {
+    "_source": "VERITY own metrics (Brain v5 + Lynch + VAMS) — NOT from external LLM",
+    "_doc": "1년 운영 trail + 자체 산식. LLM 무료/유료 가입자도 못 가짐 (자기 자본 진화 + 자기 universe + 자기 cron 자동화).",
+    "brain_score": 41,
+    "brain_score_raw": 40.65,
+    "grade": "AVOID",
+    "grade_label": "회피",
+    "grade_confidence": "firm",
+    "fact_score": 51,
+    "sentiment_score": 50,
+    "vci_value": 1,
+    "vci_signal": "ALIGNED",
+    "vci_label": "팩트·심리 정렬 — 추세 추종 유효",
+    "red_flags_auto_avoid": [
+      "PEG 10.0 (Lynch 절대 매도)"
+    ],
+    "red_flags_downgrade": [
+      "PBR×PER 65.2 > 22.5 (Graham 기준)",
+      "CL=F 급변(2.33%) + 마진안심 -15.55"
+    ],
+    "has_critical": true,
+    "lynch_class": "CYCLICAL",
+    "lynch_label": "Cyclical",
+    "lynch_summary": "업황 민감",
+    "recommended_position_pct": 0.0,
+    "position_rationale": "레드플래그(즉시회피) — 포지션 불가",
+    "reasoning": "XOM: 브레인 41점 (팩트 51 / 심리 50 / VCI +1) | 팩트 최강 backtest(70) / 최약 prediction(32) | V5: Graham가치↓32 | US 미수집: 애널리스트컨센서스, 내부자거래, 옵션플로우, SEC재무 | 레드플래그(즉시회피): PEG 10.0 (Lynch 절대 매도) | 매크로 금리 방패: 미 10년 국채 4.57% (≥4.5%) — 할인율·밸류에이션 압력, 현금 비중 확대 권고",
+    "vams_holding_status": "not_held",
+    "vams_holding_qty": null,
+    "vams_holding_entry_price": null,
+    "vams_holding_pnl_pct": null,
+    "vams_holding_days": null,
+    "universe_stage": "final_25",
+    "trail_collected_at": "2026-05-25T06:47:21+09:00"
+  },
+  "cost_usd": 0.0183
+}

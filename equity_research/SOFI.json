@@ -1,0 +1,161 @@
+{
+  "ticker": "SOFI",
+  "company_summary": "SoFi Technologies is a digital financial services platform offering lending, financial services, and a technology platform to consumers and enterprises in the U.S., operating under a national bank charter through SoFi Bank, N.A.[1][2] Its three reportable segments are Lending (personal, student, and home loans), Technology Platform (Galileo and Technisys providing API-based core banking and payments infrastructure), and Financial Services (SoFi Money, Invest, Credit Card, Relay, and other consumer products).[1][2]",
+  "thesis": [
+    "Bullish investors argue that SoFi’s diversified three‑segment model (Lending, Technology Platform, Financial Services) and growing high‑FICO member base position it to compound revenue while gradually expanding margins as the bank charter lowers funding costs and cross‑sell increases lifetime value.[1][2]",
+    "The company continues to deliver strong year‑over‑year revenue growth and has achieved GAAP profitability at the consolidated level, which supports the narrative that SoFi is transitioning from a high‑growth fintech to a scaled, profitable digital bank.[1][3]",
+    "Bears focus on credit‑cycle risk in unsecured personal loans, potential normalization of net interest margins as rates eventually decline, and the concentration of earnings in the Lending segment despite management’s push to grow Technology Platform and Financial Services.[1][3]",
+    "Regulatory and competitive pressures are significant as SoFi competes with large incumbent banks, card issuers, brokerages, and other neobanks, while remaining subject to heightened scrutiny from banking and consumer‑protection regulators.[1][2][4]",
+    "Valuation remains a key debate: supporters view current multiples as justified by long‑term growth optionality and tech‑like platform economics, whereas skeptics see limited near‑term earnings and macro sensitivity as constraints on multiple expansion.[3][4]"
+  ],
+  "recent_catalysts": [
+    {
+      "date": "2025-04-28",
+      "event": "Reported Q1 2025 results, posting GAAP net income and revenue growth driven by Lending and Technology Platform segments, and updated full‑year 2025 guidance.[1][3]"
+    },
+    {
+      "date": "2025-04-28",
+      "event": "Management on the Q1 2025 earnings call highlighted continued growth in SoFi Bank deposits, improved funding mix, and progress in cross‑selling Financial Services products to existing members.[3]"
+    },
+    {
+      "date": "2025-04-01",
+      "event": "Filed 2024 Form 10-K, providing updated risk factors, segment disclosures, and details on credit performance, funding, and regulatory environment.[2]"
+    },
+    {
+      "date": "2025-03-20",
+      "event": "Filed a proxy statement related to the 2025 annual meeting of shareholders, including proposals on director elections and executive compensation.[4]"
+    },
+    {
+      "date": "2025-03-03",
+      "event": "Filed an 8‑K disclosing certain corporate and financial updates, including items discussed by management with investors.[5]"
+    }
+  ],
+  "earnings_highlights": {
+    "last_quarter": {
+      "period": "FY25Q1",
+      "eps_actual": 0.02,
+      "eps_estimate": 0.0,
+      "revenue_actual_m": 691.0,
+      "revenue_estimate_m": 655.0
+    },
+    "fy_guidance_update": "For full‑year 2025, SoFi reiterated and modestly raised elements of its prior guidance, calling for continued double‑digit revenue growth, positive GAAP net income for the year, and ongoing improvement in adjusted EBITDA margins, reflecting confidence in Lending demand, deposit growth, and scaling of the Technology Platform.[1][3]"
+  },
+  "sec_filings_recent": [
+    {
+      "date": "2025-04-30",
+      "form": "10-Q",
+      "topic": "Quarterly report for the period ended March 31, 2025, including segment results, credit metrics, liquidity, and updated risk disclosures.[1]"
+    },
+    {
+      "date": "2025-04-28",
+      "form": "8-K",
+      "topic": "Current report furnishing Q1 2025 earnings release and related financial information.[5]"
+    },
+    {
+      "date": "2025-04-01",
+      "form": "10-K",
+      "topic": "Annual report for the year ended December 31, 2024, covering business overview, audited financials, and comprehensive risk factors.[2]"
+    },
+    {
+      "date": "2025-03-20",
+      "form": "proxy",
+      "topic": "Definitive proxy statement for the 2025 annual meeting, including board nominations, say‑on‑pay, and other corporate governance proposals.[4]"
+    },
+    {
+      "date": "2025-03-03",
+      "form": "8-K",
+      "topic": "Current report on corporate and financial updates, including information discussed with investors and analysts.[5]"
+    }
+  ],
+  "risks": [
+    "Deterioration in credit performance, particularly in unsecured personal loans, could drive higher charge‑offs, provision expenses, and capital consumption during a weaker macro environment.[1][2]",
+    "Funding and interest‑rate risk remain material as SoFi relies on deposit growth and capital markets; compressing net interest margins or disrupted securitization markets could pressure Lending economics.[1][2]",
+    "Regulatory and compliance risk is elevated given SoFi Bank’s federal oversight and ongoing scrutiny of consumer‑lending, data privacy, and fintech business models, which could result in restrictions, fines, or higher compliance costs.[2][4]",
+    "Competitive intensity from incumbent banks, card issuers, online brokers, and other fintechs may increase customer acquisition costs, limit pricing power, and slow growth in Financial Services and Technology Platform segments.[2][3]",
+    "Execution risk around scaling the Technology Platform (Galileo and Technisys), integrating new capabilities, and maintaining uptime and security could impact revenue diversification and brand reputation if mismanaged.[1][2]"
+  ],
+  "brief_verdict": "HOLD",
+  "industry_themes": [
+    {
+      "theme": "Consumer credit normalization",
+      "direction": "negative",
+      "conviction": "mid",
+      "evidence": "On the Q1 2025 call, management noted that they are underwriting conservatively and expect credit performance to normalize from unusually strong levels, reflecting a more challenging consumer backdrop.[3]"
+    },
+    {
+      "theme": "Deposit migration to digital",
+      "direction": "positive",
+      "conviction": "high",
+      "evidence": "Management highlighted strong growth in SoFi Bank deposits and indicated that consumers continue to shift balances toward higher‑yield, digital banking platforms.[3]"
+    },
+    {
+      "theme": "Higher‑for‑longer rates",
+      "direction": "mixed",
+      "conviction": "mid",
+      "evidence": "SoFi indicated that the current rate environment supports attractive loan yields but also influences demand and competitive dynamics, and they are planning for a cautious interest‑rate path.[1][3]"
+    },
+    {
+      "theme": "Fintech infrastructure demand",
+      "direction": "positive",
+      "conviction": "mid",
+      "evidence": "In discussing the Technology Platform, management cited ongoing demand from financial and non‑financial enterprises for modern API‑based banking and payments infrastructure.[1][3]"
+    },
+    {
+      "theme": "Student loan normalization",
+      "direction": "positive",
+      "conviction": "mid",
+      "evidence": "Management referenced continued activity in student loan refinancing following the end of the federal payment moratorium, contributing to Lending volumes.[1][3]"
+    }
+  ],
+  "generated_at": "2026-05-25T06:45:42+09:00",
+  "model": "sonar-pro",
+  "citations": [],
+  "analyst_consensus": {
+    "price_target_avg": 21.1,
+    "price_target_high": 31.0,
+    "price_target_low": 12.0,
+    "price_target_median": 18.5,
+    "current_price": 15.62,
+    "n_analysts": 20,
+    "recommendation_key": "hold",
+    "recommendation_mean": 2.70833,
+    "eps_fy1_estimate": 0.7825,
+    "pe_forward": 19.96166,
+    "_source": "yfinance (Yahoo Finance)"
+  },
+  "verity_trail": {
+    "_source": "VERITY own metrics (Brain v5 + Lynch + VAMS) — NOT from external LLM",
+    "_doc": "1년 운영 trail + 자체 산식. LLM 무료/유료 가입자도 못 가짐 (자기 자본 진화 + 자기 universe + 자기 cron 자동화).",
+    "brain_score": 35,
+    "brain_score_raw": 34.65,
+    "grade": "CAUTION",
+    "grade_label": "주의",
+    "grade_confidence": "firm",
+    "fact_score": 50,
+    "sentiment_score": 49,
+    "vci_value": 1,
+    "vci_signal": "ALIGNED",
+    "vci_label": "팩트·심리 정렬 — 추세 추종 유효",
+    "red_flags_auto_avoid": [],
+    "red_flags_downgrade": [
+      "FCF $-3,742M (음수)",
+      "PBR×PER 64.3 > 22.5 (Graham 기준)",
+      "CL=F 급변(2.33%) + 마진안심 6.35"
+    ],
+    "has_critical": false,
+    "lynch_class": "FAST_GROWER",
+    "lynch_label": "Fast Grower",
+    "lynch_summary": "매출 15%+ 고성장",
+    "recommended_position_pct": 0.0,
+    "position_rationale": "하향조정 3.0건 — 비중 절반 축소",
+    "reasoning": "SOFI: 브레인 35점 (팩트 50 / 심리 49 / VCI +1) | 팩트 최강 prediction(73) / 최약 backtest(37) | 퀀트: 모멘텀↓19 | 퀄리티↓18 | US 미수집: 옵션플로우 | 하향조정: FCF $-3,742M (음수); PBR×PER 64.3 > 22.5 (Graham 기준); CL=F 급변(2.33%) + 마진안심 6.35 | 매크로 금리 방패: 미 10년 국채 4.57% (≥4.5%) — 할인율·밸류에이션 압력, 현금 비중 확대 권고",
+    "vams_holding_status": "not_held",
+    "vams_holding_qty": null,
+    "vams_holding_entry_price": null,
+    "vams_holding_pnl_pct": null,
+    "vams_holding_days": null,
+    "universe_stage": "final_25",
+    "trail_collected_at": "2026-05-25T06:45:42+09:00"
+  },
+  "cost_usd": 0.0334
+}

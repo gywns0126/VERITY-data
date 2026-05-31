@@ -1,0 +1,89 @@
+{
+  "collected_at": "2026-05-31T11:20:26.678930+00:00",
+  "schema_version": 1,
+  "severity": "GREEN",
+  "severity_reasons": [],
+  "n_verification_days": 30,
+  "n_milestones": {
+    "to_50": 20,
+    "to_100": 70,
+    "to_252": 222,
+    "to_365": 335
+  },
+  "n_trades": 13,
+  "trade_milestones": {
+    "to_50": 37,
+    "to_100": 87,
+    "to_252": 239,
+    "to_365": 352
+  },
+  "n_validation_samples": 30,
+  "sample_milestones": {
+    "to_50": 20,
+    "to_100": 70,
+    "to_252": 222,
+    "to_365": 335
+  },
+  "one_liner": "과열 (Euphoria) · 0 BUY / 7 WATCH / 14 CAUTION / 4 AVOID · VAMS 70% 현금 · 가설 N=30",
+  "ttd_recent_p50_minutes": null,
+  "days_clean": {
+    "kis": 0,
+    "fred": 0,
+    "telegram": 1,
+    "vercel": null
+  },
+  "open_p0_p1": [],
+  "operator_deadman": {
+    "days_git": 0.02,
+    "days_telegram": null,
+    "days_uaq": 0.83,
+    "trigger": "ok",
+    "maintenance": false,
+    "warn_days": 7.0
+  },
+  "pre_registration_pending": [],
+  "alert_volume_24h": {
+    "sent": 0,
+    "dedupe_skip": 0,
+    "quiet_skip": 0,
+    "fp_repeat_max": 0
+  },
+  "auto_action_blocked": [],
+  "_inputs_snapshot": {
+    "kis_lock_commits_24h": 1,
+    "fred_age_h": 1.15,
+    "fred_24h_failure_rate": 0.41025641025641024,
+    "core_sources_ok": true,
+    "runtime_mode": "full_us",
+    "ramp_up_stage": 5000,
+    "brain_anomaly_24h": 0,
+    "vams_days_since_reset": 14,
+    "validation_sample": 30
+  },
+  "rule7_quota": {
+    "quarter": "2026Q2",
+    "start": "2026-04-01",
+    "end": "2026-06-30",
+    "count": 3,
+    "limit": 4,
+    "status": "OK",
+    "commits": [
+      {
+        "sha": "65f4467a",
+        "date": "2026-05-24",
+        "subject": "pre-register+impl(brain): USD/KRW Quantile threshold (Q1/Q5/Q95/Q99) 병행 박음"
+      },
+      {
+        "sha": "6a89dd1c",
+        "date": "2026-05-24",
+        "subject": "pre-register+impl(brain): USD/KRW σ EWMA(λ=0.94) RiskMetrics 표준 박음"
+      },
+      {
+        "sha": "e3586cca",
+        "date": "2026-05-18",
+        "subject": "[brain] B-continuous macro_multiplier v0 박음 — soft gate score discount (PM 승인 20"
+      }
+    ],
+    "as_of": "2026-05-31T13:51:21+09:00"
+  }
+}

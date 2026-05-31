@@ -1,0 +1,17 @@
+total 2.4M
+-rw-r--r-- 1 runner runner   494 May 31 11:20 README.md
+-rw-r--r-- 1 runner runner     0 May 31 11:20 _manifest.txt
+-rw-r--r-- 1 runner runner  1.6K May 31 11:20 admin_todos.json
+-rw-r--r-- 1 runner runner  2.2K May 31 11:20 brain_kb_usage.json
+-rw-r--r-- 1 runner runner   12K May 31 11:20 consensus_data.json
+drwxr-xr-x 2 runner runner  4.0K May 31 11:20 equity_research
+-rw-r--r-- 1 runner runner  6.6K May 31 11:20 history.json
+-rw-r--r-- 1 runner runner   18K May 31 11:20 macro_snapshot.json
+drwxr-xr-x 2 runner runner  4.0K May 31 11:20 metadata
+-rw-r--r-- 1 runner runner  1.3M May 31 11:20 portfolio.json
+-rw-r--r-- 1 runner runner  1.7K May 31 11:20 price_pulse.json
+-rw-r--r-- 1 runner runner 1023K May 31 11:20 recommendations.json
+-rw-r--r-- 1 runner runner  4.2K May 31 11:20 system_health_snapshot.json
+drwxr-xr-x 2 runner runner  4.0K May 31 11:20 us_financials
+Published at: 2026-05-31T11:20:30Z
+Source ref: 05d573caefbacb27c0790fb81a6ca5daa870145c
