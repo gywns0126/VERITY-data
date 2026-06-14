@@ -1,0 +1,105 @@
+{
+  "ticker": "JPM",
+  "company_summary": "JPMorgan Chase & Co.는 미국 최대급 금융지주로 소비자·카드·자산관리·기업금융·투자은행·상업은행을 아우르는 종합 금융 서비스를 제공함. 사업은 Consumer & Community Banking, Commercial & Investment Bank, Asset & Wealth Management, Corporate 부문으로 구성되며, 분산된 수익원과 대규모 예금 기반이 핵심 경쟁력임.",
+  "thesis": [
+    "순이자이익(NII)과 수수료 수익이 고금리 환경과 대형 기업금융·자산관리 활동에 힘입어 견조하게 유지될 가능성이 높음.",
+    "초대형 예금 기반과 높은 자본력은 경기 둔화 국면에서 방어력을 제공하나, 경기침체 심화 시 대손비용 상승이 실적 변동성을 키울 수 있음.",
+    "투자은행·시장부문은 자본시장 회복 시 업사이드가 크지만, 거래·딜 사이클 회복 속도가 예상보다 느리면 밸류에이션 재평가가 제한될 수 있음.",
+    "규제자본, 스트레스테스트, 소비자금융 규제 강화는 장기적으로 ROE를 제약할 수 있는 핵심 베어 케이스임."
+  ],
+  "recent_catalysts": [],
+  "earnings_highlights": {
+    "last_quarter": {
+      "period": "FY2025Q4",
+      "eps_actual": null,
+      "eps_estimate": null,
+      "revenue_actual_m": null,
+      "revenue_estimate_m": null
+    },
+    "fy_guidance_update": "최근 분기 실적 및 가이던스 수치를 확인할 수 있는 신뢰 가능한 소스가 제공되지 않아 FY 가이던스 업데이트를 특정할 수 없음."
+  },
+  "sec_filings_recent": [],
+  "risks": [
+    "경기 둔화와 실업률 상승이 카드·소매대출 연체율 및 대손충당금 증가로 이어질 수 있음.",
+    "금리 하락 국면에서는 순이자마진 압축으로 이자수익 성장률이 둔화될 수 있음.",
+    "미국 및 글로벌 규제 강화가 자본비율, 배당, 자사주매입 여력을 제한할 수 있음.",
+    "대형 은행 간 예금·대출·자산관리 경쟁 심화로 수익성 방어가 어려워질 수 있음.",
+    "투자은행 및 거래 관련 수수료는 자본시장 변동성에 민감해 실적 가시성이 낮음."
+  ],
+  "brief_verdict": "HOLD",
+  "industry_themes": [
+    {
+      "theme": "금리정점",
+      "direction": "neutral",
+      "conviction": "mid",
+      "evidence": "대형 은행의 이자수익은 금리 수준과 예금베타에 크게 좌우되며, 금리 인하 기대가 커질수록 순이자이익 둔화 우려가 부각됨."
+    },
+    {
+      "theme": "신용비용",
+      "direction": "negative",
+      "conviction": "mid",
+      "evidence": "경기 둔화가 이어질 경우 은행권 전반에서 대손충당금과 charge-off 부담이 높아질 수 있음."
+    },
+    {
+      "theme": "자본규제",
+      "direction": "negative",
+      "conviction": "mid",
+      "evidence": "대형 금융주에 대한 자본·유동성 규제 강화 논의는 주주환원과 ROE에 하방 압력을 줄 수 있음."
+    },
+    {
+      "theme": "자본시장",
+      "direction": "positive",
+      "conviction": "low",
+      "evidence": "기업 인수합병과 IPO, 채권·주식 발행이 회복되면 투자은행 및 거래 수수료 환경이 개선될 수 있음."
+    }
+  ],
+  "generated_at": "2026-06-08T06:57:42+09:00",
+  "model": "sonar-pro",
+  "citations": [],
+  "analyst_consensus": {
+    "price_target_avg": 342.1905,
+    "price_target_high": 391.0,
+    "price_target_low": 295.0,
+    "price_target_median": 340.0,
+    "current_price": 312.37,
+    "n_analysts": 21,
+    "recommendation_key": "buy",
+    "recommendation_mean": 2.16667,
+    "eps_fy1_estimate": 23.55174,
+    "pe_forward": 13.263139,
+    "_source": "yfinance (Yahoo Finance)"
+  },
+  "verity_trail": {
+    "_source": "VERITY own metrics (Brain v5 + Lynch + VAMS) — NOT from external LLM",
+    "_doc": "1년 운영 trail + 자체 산식. LLM 무료/유료 가입자도 못 가짐 (자기 자본 진화 + 자기 universe + 자기 cron 자동화).",
+    "brain_score": 46,
+    "brain_score_raw": 45.55,
+    "grade": "CAUTION",
+    "grade_label": "주의",
+    "grade_confidence": "soft",
+    "fact_score": 53,
+    "sentiment_score": 46,
+    "vci_value": 7,
+    "vci_signal": "ALIGNED",
+    "vci_label": "팩트·심리 정렬 — 추세 추종 유효",
+    "red_flags_auto_avoid": [],
+    "red_flags_downgrade": [
+      "FCF $-147,782M (음수)"
+    ],
+    "has_critical": false,
+    "lynch_class": "SLOW_GROWER",
+    "lynch_label": "Slow Grower",
+    "lynch_summary": "저성장 배당주",
+    "recommended_position_pct": 0,
+    "position_rationale": "Kelly 10.0% → CAUTION 상한 0% 적용",
+    "reasoning": "JPM: 브레인 46점 (팩트 53 / 심리 46 / VCI +7) | 팩트 최강 prediction(89) / 최약 multi_factor(50) | V5: Graham가치↑72 | US 미수집: 옵션플로우 | 하향조정: FCF $-147,782M (음수) | 매크로 자금 이탈 경보: 펀드 플로우: 주식·채권 동반 유출 (현금 선호). 주식·채권 동반 유출 — 현금 선호",
+    "vams_holding_status": "not_held",
+    "vams_holding_qty": null,
+    "vams_holding_entry_price": null,
+    "vams_holding_pnl_pct": null,
+    "vams_holding_days": null,
+    "universe_stage": "final_25",
+    "trail_collected_at": "2026-06-08T06:57:43+09:00"
+  },
+  "cost_usd": 0.0212
+}

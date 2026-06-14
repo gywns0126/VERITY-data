@@ -1,0 +1,110 @@
+{
+  "ticker": "DIS",
+  "company_summary": "The Walt Disney Company(DIS)는 글로벌 엔터테인먼트 기업으로, 스트리밍, 선형 TV, 영화/콘텐츠, 테마파크·리조트, 소비재 및 라이선싱을 운영함. 사업은 Entertainment, Sports, Experiences 3개 세그먼트로 구성되며, 최근 분기 기준으로 Experiences와 Entertainment가 핵심 현금창출원이고 Sports는 ESPN 중심으로 구조 전환을 진행 중임.",
+  "thesis": [
+    "스트리밍 수익성 개선과 가입자 질 개선이 핵심 상승 논리로, Disney+와 Hulu의 가격 인상 및 번들링이 ARPU 개선에 기여할 수 있음.",
+    "Experiences 부문은 테마파크와 크루즈 확장, 방문객 지출 믹스 개선으로 안정적 현금흐름을 제공하는 축으로 평가됨.",
+    "반면 선형 TV 광고/가입자 감소와 ESPN의 구조적 시청률 하락은 중기 실적 모멘텀을 제약하는 핵심 부담임.",
+    "콘텐츠 투자 효율화와 비용 통제는 마진 회복에 중요하나, 대형 IP 흥행 편차가 실적 변동성을 키울 수 있음.",
+    "주가 관점에서는 이익 회복 경로가 보이지만, 스포츠·미디어 체인의 구조적 역풍을 감안하면 밸류에이션 리레이팅 속도는 제한적일 수 있음."
+  ],
+  "recent_catalysts": [],
+  "earnings_highlights": {
+    "last_quarter": {
+      "period": "FY2025Q2",
+      "eps_actual": 1.21,
+      "eps_estimate": 1.45,
+      "revenue_actual_m": 23620,
+      "revenue_estimate_m": 23673
+    },
+    "fy_guidance_update": "최근 분기 실적 기준으로 연간 가이던스는 손익개선과 스트리밍 수익성 확대에 초점이 맞춰져 있으나, FY2025 가이던스의 수치적 상향 여부는 확인된 최신 공시/컨콜 자료가 없어 단정할 수 없음."
+  },
+  "sec_filings_recent": [],
+  "risks": [
+    "선형 TV와 ESPN의 구조적 하락이 광고·가입자 매출을 압박할 수 있음.",
+    "대형 콘텐츠 흥행 실패나 제작비 상승은 스트리밍 및 스튜디오 마진 회복을 지연시킬 수 있음.",
+    "테마파크 수요가 소비 둔화, 경기 침체, 여행 지출 축소에 민감함.",
+    "스포츠 판권 비용 상승과 직접 구독형 스포츠 사업의 초기 수익성 불확실성이 부담임.",
+    "규제·노동·저작권 이슈는 콘텐츠 제작 및 유통 비용을 높일 수 있음."
+  ],
+  "brief_verdict": "HOLD",
+  "industry_themes": [
+    {
+      "theme": "소비둔화",
+      "direction": "neutral",
+      "conviction": "mid",
+      "evidence": "가계 재량지출이 둔화되면 테마파크·여행·엔터테인먼트 소비 전반의 성장 탄력이 약해질 수 있음."
+    },
+    {
+      "theme": "가격인상",
+      "direction": "positive",
+      "conviction": "mid",
+      "evidence": "스트리밍과 구독형 미디어는 가격 인상과 번들링을 통해 ARPU를 높이는 방향으로 산업이 재편되고 있음."
+    },
+    {
+      "theme": "광고압박",
+      "direction": "negative",
+      "conviction": "mid",
+      "evidence": "TV 및 광고 시장은 선형 시청 감소와 경기 민감성으로 인해 매출 가시성이 낮아지는 추세임."
+    },
+    {
+      "theme": "콘텐츠효율",
+      "direction": "positive",
+      "conviction": "mid",
+      "evidence": "미디어 업계는 대규모 제작비를 더 엄격히 관리하며 히트작 중심으로 자본 배분을 최적화하는 흐름임."
+    },
+    {
+      "theme": "인건비상승",
+      "direction": "negative",
+      "conviction": "low",
+      "evidence": "엔터테인먼트·테마파크 산업은 임금과 운영비 상승이 마진 회복 속도를 제약하는 구조임."
+    }
+  ],
+  "generated_at": "2026-06-08T06:58:13+09:00",
+  "model": "sonar-pro",
+  "citations": [],
+  "analyst_consensus": {
+    "price_target_avg": 129.66553,
+    "price_target_high": 164.0,
+    "price_target_low": 77.0,
+    "price_target_median": 130.0,
+    "current_price": 99.71,
+    "n_analysts": 29,
+    "recommendation_key": "strong_buy",
+    "recommendation_mean": 1.46667,
+    "eps_fy1_estimate": 7.49066,
+    "pe_forward": 13.311243,
+    "_source": "yfinance (Yahoo Finance)"
+  },
+  "verity_trail": {
+    "_source": "VERITY own metrics (Brain v5 + Lynch + VAMS) — NOT from external LLM",
+    "_doc": "1년 운영 trail + 자체 산식. LLM 무료/유료 가입자도 못 가짐 (자기 자본 진화 + 자기 universe + 자기 cron 자동화).",
+    "brain_score": 51,
+    "brain_score_raw": 50.95,
+    "grade": "WATCH",
+    "grade_label": "관망",
+    "grade_confidence": "firm",
+    "fact_score": 52,
+    "sentiment_score": 49,
+    "vci_value": 3,
+    "vci_signal": "ALIGNED",
+    "vci_label": "팩트·심리 정렬 — 추세 추종 유효",
+    "red_flags_auto_avoid": [],
+    "red_flags_downgrade": [],
+    "has_critical": false,
+    "lynch_class": "SLOW_GROWER",
+    "lynch_label": "Slow Grower",
+    "lynch_summary": "저성장 배당주",
+    "recommended_position_pct": 3,
+    "position_rationale": "Kelly 18.3% → WATCH 상한 3% 적용",
+    "reasoning": "DIS: 브레인 51점 (팩트 52 / 심리 49 / VCI +3) | 팩트 최강 consensus(70) / 최약 backtest(43) | US 미수집: 옵션플로우 | 매크로 자금 이탈 경보: 펀드 플로우: 주식·채권 동반 유출 (현금 선호). 주식·채권 동반 유출 — 현금 선호",
+    "vams_holding_status": "not_held",
+    "vams_holding_qty": null,
+    "vams_holding_entry_price": null,
+    "vams_holding_pnl_pct": null,
+    "vams_holding_days": null,
+    "universe_stage": "final_25",
+    "trail_collected_at": "2026-06-08T06:58:13+09:00"
+  },
+  "cost_usd": 0.0227
+}
