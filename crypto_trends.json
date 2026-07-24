@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "source": "Google Trends",
+  "as_of": "2026-07-24T17:02:45.476782+00:00",
+  "timeframe": "today 3-m",
+  "geo": "",
+  "keywords": [
+    {
+      "term": "Bitcoin",
+      "interest_now": 37,
+      "trend_pct": -1.9,
+      "timeframe": "today 3-m"
+    },
+    {
+      "term": "Ethereum",
+      "interest_now": 6,
+      "trend_pct": 7.1,
+      "timeframe": "today 3-m"
+    },
+    {
+      "term": "cryptocurrency",
+      "interest_now": 3,
+      "trend_pct": -12.0,
+      "timeframe": "today 3-m"
+    }
+  ],
+  "points": 92,
+  "collected_at": "2026-07-25T02:02:45+09:00",
+  "schema_version": "v0",
+  "diagnostics": {
+    "keywords": 3,
+    "used_prev_snapshot": true,
+    "last_error": "google_trends_rate_limited_429"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "_meta": {
+    "generated_at": "2026-07-24T22:04:26.378576+09:00",
+    "track": "kr_supply_demand",
+    "count": 12,
+    "source": "KIS 종목별 스냅샷 (공매도 FHPST04830000 · 신용잔고 FHPST04760000 · 투자자별). portfolio.json 추출, KIS 호출 0.",
+    "disclaimer": "공매도 비중·신용잔고율·순매매 = 외부 사실(KRX/KIS). 자체 점수/판단 아님. 스냅샷 universe 한정.",
+    "rule": "RULE 7 (사실만) / RULE 6 (LLM 0) / RULE 1 무관(로컬 읽기)"
+  },
+  "stocks": {
+    "114090": {
+      "short_ratio_5d": 9.18,
+      "short_qty": 14979.0,
+      "credit_qty": 0.0,
+      "credit_rate": 0.0,
+      "foreign_net": -53663.0,
+      "inst_net": -45524.0
+    },
+    "078520": {
+      "short_ratio_5d": 7.92,
+      "short_qty": 10832.0,
+      "credit_qty": 0.0,
+      "credit_rate": 0.0,
+      "foreign_net": 15415.0,
+      "inst_net": -38259.0
+    },
+    "329180": {
+      "short_ratio_5d": 14.89,
+      "short_qty": 22016.0,
+      "credit_qty": 0.0,
+      "credit_rate": 0.0,
+      "foreign_net": -86520.0,
+      "inst_net": 84813.0
+    },
+    "013030": {
+      "short_ratio_5d": 4.97,
+      "short_qty": 3115.0,
+      "credit_qty": 0.0,
+      "credit_rate": 0.0,
+      "foreign_net": 3128.0,
+      "inst_net": -99.0
+    },
+    "000270": {
+      "short_ratio_5d": 11.84,
+      "short_qty": 195656.0,
+      "credit_qty": 0.0,
+      "credit_rate": 0.0,
+      "foreign_net": 53997.0,
+      "inst_net": 379577.0
+    },
+    "064350": {
+      "short_ratio_5d": 17.8,
+      "short_qty": 140509.0,
+      "credit_qty": 0.0,
+      "credit_rate": 0.0,
+      "foreign_net": 47477.0,
+      "inst_net": 203652.0
+    },
+    "035420": {
+      "short_ratio_5d": 11.12,
+      "short_qty": 143623.0,
+      "credit_qty": 0.0,
+      "credit_rate": 0.0,
+      "foreign_net": 654497.0,
+      "inst_net": 750508.0
+    },
+    "003550": {
+      "short_ratio_5d": 19.24,
+      "short_qty": 15570.0,
+      "credit_qty": 0.0,
+      "credit_rate": 0.0,
+      "foreign_net": 142001.0,
+      "inst_net": -161271.0
+    },
+    "100840": {
+      "short_ratio_5d": 9.13,
+      "short_qty": 9987.0,
+      "credit_qty": 0.0,
+      "credit_rate": 0.0,
+      "foreign_net": -7424.0,
+      "inst_net": -27460.0
+    },
+    "017960": {
+      "short_ratio_5d": 9.24,
+      "short_qty": 42451.0,
+      "credit_qty": 0.0,
+      "credit_rate": 0.0,
+      "foreign_net": -51857.0,
+      "inst_net": -31775.0
+    },
+    "204610": {
+      "short_ratio_5d": 2.1,
+      "short_qty": 1659.0,
+      "credit_qty": 0.0,
+      "credit_rate": 0.0,
+      "foreign_net": 26866.0,
+      "inst_net": 99366.0
+    },
+    "214450": {
+      "short_ratio_5d": 12.37,
+      "short_qty": 14260.0,
+      "credit_qty": 0.0,
+      "credit_rate": 0.0,
+      "foreign_net": 15077.0,
+      "inst_net": -9444.0
+    }
+  }
+}

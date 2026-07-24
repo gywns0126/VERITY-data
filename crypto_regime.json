@@ -1,0 +1,330 @@
+{
+  "collected_at": "2026-07-25T03:32:34+09:00",
+  "schema_version": "v0",
+  "spec": "crypto_regime_synthesis_v0 (사전등록 2026-06-24, PM 승인: 역발상+채점 지금)",
+  "composite": {
+    "call": "risk_off",
+    "net_score": -2,
+    "active_dims": 4,
+    "rule": "net≥+2 risk_on / ≤−2 risk_off / else neutral (투명 tally, 가중치 없음)"
+  },
+  "dimensions": [
+    {
+      "name": "심리",
+      "vote": 0,
+      "read": "neutral",
+      "active": true,
+      "drivers": {
+        "fng": 28.0,
+        "search_trend_pct": -1.9
+      },
+      "rule": "FNG≤25 역발상 on / ≥75 off · 검색 급등 caution"
+    },
+    {
+      "name": "포지셔닝",
+      "vote": -1,
+      "read": "off",
+      "active": true,
+      "drivers": {
+        "funding_signal": "neutral",
+        "put_call_oi": 0.429,
+        "long_short_ratio": 1.78
+      },
+      "rule": "펀딩 과열 off · 풋콜≥1.2 역발상 on · 롱숏≥2 쏠림 off"
+    },
+    {
+      "name": "자금흐름",
+      "vote": -1,
+      "read": "off",
+      "active": true,
+      "drivers": {
+        "btc_net_inflow_usd": -225176828.385,
+        "eth_net_inflow_usd": 26319895.12,
+        "combined_net_inflow_usd": -198856933.265
+      },
+      "rule": "ETF(BTC+ETH) 일일 순유입 on / 순유출 off"
+    },
+    {
+      "name": "추세",
+      "vote": 0,
+      "read": "neutral",
+      "active": true,
+      "drivers": {
+        "btc_change_pct_7d": 0.9
+      },
+      "rule": "BTC 7d ≥+3% on / ≤−3% off (v0 proxy, 200d SMA=TIDE 브릿지 후)"
+    },
+    {
+      "name": "유동성",
+      "vote": 0,
+      "read": "누적 중",
+      "active": false,
+      "drivers": {
+        "ssr": 5.01,
+        "stablecoin_supply_usd": 256817638963.4189
+      },
+      "rule": "스테이블 공급 추세 = 이력 누적 후 활성 · SSR 정보용"
+    },
+    {
+      "name": "펀더멘털·온체인",
+      "vote": 0,
+      "read": "브릿지 대기",
+      "active": false,
+      "drivers": {
+        "top_protocol_fees_24h": {
+          "name": "Tether",
+          "fees_24h": 16176549.0
+        },
+        "protocol_count": 25
+      },
+      "rule": "DeFiLlama 매출 추세=이력 누적 · 활성주소/NVT=TIDE 브릿지 후"
+    }
+  ],
+  "btc_price_at_call": 64086.0,
+  "trail": [
+    {
+      "date": "2026-06-24",
+      "call": "neutral",
+      "net_score": -1,
+      "btc_price": 61798.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-06-25",
+      "call": "neutral",
+      "net_score": -1,
+      "btc_price": 61672.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-06-26",
+      "call": "neutral",
+      "net_score": -1,
+      "btc_price": 58873.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-06-27",
+      "call": "neutral",
+      "net_score": -1,
+      "btc_price": 60457.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-06-28",
+      "call": "neutral",
+      "net_score": -1,
+      "btc_price": 60080.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-06-29",
+      "call": "neutral",
+      "net_score": -1,
+      "btc_price": 60300.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-06-30",
+      "call": "risk_off",
+      "net_score": -2,
+      "btc_price": 58964.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-01",
+      "call": "risk_off",
+      "net_score": -2,
+      "btc_price": 58359.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-02",
+      "call": "neutral",
+      "net_score": 0,
+      "btc_price": 61706.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-03",
+      "call": "neutral",
+      "net_score": 1,
+      "btc_price": 61936.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-04",
+      "call": "neutral",
+      "net_score": 1,
+      "btc_price": 62525.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-05",
+      "call": "neutral",
+      "net_score": 1,
+      "btc_price": 62738.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-06",
+      "call": "neutral",
+      "net_score": 1,
+      "btc_price": 61789.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-07",
+      "call": "risk_on",
+      "net_score": 2,
+      "btc_price": 63532.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-08",
+      "call": "risk_on",
+      "net_score": 3,
+      "btc_price": 61891.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-09",
+      "call": "neutral",
+      "net_score": 0,
+      "btc_price": 62906.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-10",
+      "call": "neutral",
+      "net_score": 1,
+      "btc_price": 64122.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-11",
+      "call": "neutral",
+      "net_score": 1,
+      "btc_price": 64206.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-12",
+      "call": "neutral",
+      "net_score": 1,
+      "btc_price": 63957.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-13",
+      "call": "neutral",
+      "net_score": 1,
+      "btc_price": 62523.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-14",
+      "call": "neutral",
+      "net_score": 0,
+      "btc_price": 63813.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-15",
+      "call": "risk_on",
+      "net_score": 3,
+      "btc_price": 65280.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-16",
+      "call": "risk_on",
+      "net_score": 2,
+      "btc_price": 64672.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-17",
+      "call": "neutral",
+      "net_score": 0,
+      "btc_price": 63176.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-18",
+      "call": "neutral",
+      "net_score": 1,
+      "btc_price": 64136.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-19",
+      "call": "neutral",
+      "net_score": 0,
+      "btc_price": 64408.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-20",
+      "call": "neutral",
+      "net_score": 1,
+      "btc_price": 64518.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-21",
+      "call": "risk_on",
+      "net_score": 2,
+      "btc_price": 66720.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-22",
+      "call": "neutral",
+      "net_score": 0,
+      "btc_price": 65595.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-23",
+      "call": "neutral",
+      "net_score": 0,
+      "btc_price": 65006.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-24",
+      "call": "risk_off",
+      "net_score": -2,
+      "btc_price": 63795.0,
+      "active_dims": 4
+    },
+    {
+      "date": "2026-07-25",
+      "call": "risk_off",
+      "net_score": -2,
+      "btc_price": 64086.0,
+      "active_dims": 4
+    }
+  ],
+  "track_record": {
+    "buckets": [
+      {
+        "horizon_days": 7,
+        "n": 6,
+        "hit_rate": 0.6667,
+        "mean_realized_return": 0.034527,
+        "label": "통계 무의미 (N<30)"
+      },
+      {
+        "horizon_days": 30,
+        "n": 0,
+        "hit_rate": null,
+        "mean_realized_return": null,
+        "label": "통계 무의미 (N<30)"
+      }
+    ],
+    "_disclaimer": "가설 v0 · 관측-only · 매매 미연결 · hit rate는 N·평균수익률 병기 · N<30 통계 무의미"
+  },
+  "_disclaimer": "가설 v0 · 자체 기준 · 관측-only · 매매 미연결 · 임계 변경 1회+PM 승인"
+}

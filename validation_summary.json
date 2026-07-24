@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-07-24T22:05:09.244759+09:00",
+  "spec_version": "v0",
+  "gate": {
+    "target_n": 252,
+    "milestone": "N=252 IC 게이트 (Bailey-López de Prado, 2027-05 목표)",
+    "best_signal_n": 18.0,
+    "progress_pct": 7.1
+  },
+  "rule7_disclaimer": "모든 항목 = 자기 산식 가설 (관측 only, 결정 피드백 0). N<30 통계 무의미 / N<100 예비. hit_rate 단독 해석 금지 — expectancy + CI95 + N 병기. N=252 게이트(2027-05) 도달 전 통계 판정 무의미.",
+  "signals": [
+    {
+      "signal": "brain_production",
+      "status": "채점 진행 중",
+      "n": 999,
+      "n_eff": 8.0,
+      "label": "통계 무의미 (N<30)",
+      "gate_status": "가설 (게이트 N≥252 미도달, 진척 3.2%)",
+      "source": "prediction_ic_history.jsonl (Brain 종합 verdict, prediction_scoring v0)"
+    },
+    {
+      "signal": "xgb_ml",
+      "status": "채점 진행 중",
+      "n": 734,
+      "n_eff": 5.8,
+      "label": "통계 무의미 (N<30)",
+      "gate_status": "가설 (게이트 N≥252 미도달, 진척 2.3%)",
+      "source": "ml_prediction_ic_history.jsonl (XGB up_probability shadow, source-agnostic scorer 재사용)"
+    },
+    {
+      "signal": "factor",
+      "status": "IC 시계열 누적 중",
+      "n": 18,
+      "n_eff": null,
+      "label": "통계 무의미 (N<30)",
+      "gate_status": "가설 (게이트 N≥252 미도달, 진척 7.1%)",
+      "source": "factor_ic_history.json (ic_stats machinery, forward_days 63)"
+    },
+    {
+      "signal": "sector",
+      "status": "채점 DEFERRED (검증된 섹터 index return source 미확정)",
+      "n": 0,
+      "n_eff": null,
+      "label": "데이터 없음 (채점 보류)",
+      "gate_status": "가설 (채점 보류 — return source 미검증)",
+      "source": "prediction_trail.jsonl (target_type=sector)"
+    }
+  ],
+  "_note": "공개 = 과정·신호명·표본·성숙도만. raw 성과(IC·적중률·기댓값·CI) = 검증(N≥252) 후. 표본 누적 ≠ 신호 검증 (게이트 전 동전던지기와 구별 불가). 점수·등급·종목 추천 아님 (RULE 7 가설)."
+}
