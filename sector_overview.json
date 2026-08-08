@@ -1,0 +1,353 @@
+{
+  "_meta": {
+    "generated_at": "2026-08-08T12:10:23.394164+09:00",
+    "track": "kr_sector_overview",
+    "sector_count": 11,
+    "min_n": 5,
+    "disclaimer": "업종별 사실 집계(중앙값·대표주·수급). 점수/순위/추천 아님. 섹터 N>=5 한정.",
+    "rule": "RULE 7 (사실만) / RULE 6 (LLM 0)"
+  },
+  "sectors": [
+    {
+      "sector": "IT·기술",
+      "n": 364,
+      "median_per": 16.3,
+      "median_pbr": 1.4,
+      "median_roe": 4.5,
+      "flow_foreign": -11260646,
+      "flow_inst": 1478365,
+      "leaders": [
+        {
+          "ticker": "005930",
+          "name": "삼성전자"
+        },
+        {
+          "ticker": "000660",
+          "name": "SK하이닉스"
+        },
+        {
+          "ticker": "402340",
+          "name": "SK스퀘어"
+        },
+        {
+          "ticker": "009150",
+          "name": "삼성전기"
+        },
+        {
+          "ticker": "066570",
+          "name": "LG전자"
+        }
+      ]
+    },
+    {
+      "sector": "산업재",
+      "n": 347,
+      "median_per": 13.5,
+      "median_pbr": 1.1,
+      "median_roe": 5.1,
+      "flow_foreign": -144807,
+      "flow_inst": 2442596,
+      "leaders": [
+        {
+          "ticker": "373220",
+          "name": "LG에너지솔루션"
+        },
+        {
+          "ticker": "012450",
+          "name": "한화에어로스페이스"
+        },
+        {
+          "ticker": "028260",
+          "name": "삼성물산"
+        },
+        {
+          "ticker": "329180",
+          "name": "HD현대중공업"
+        },
+        {
+          "ticker": "034020",
+          "name": "두산에너빌리티"
+        }
+      ]
+    },
+    {
+      "sector": "헬스케어",
+      "n": 222,
+      "median_per": 17.95,
+      "median_pbr": 1.6,
+      "median_roe": -0.7,
+      "flow_foreign": -2363580,
+      "flow_inst": -795133,
+      "leaders": [
+        {
+          "ticker": "207940",
+          "name": "삼성바이오로직스"
+        },
+        {
+          "ticker": "068270",
+          "name": "셀트리온"
+        },
+        {
+          "ticker": "196170",
+          "name": "알테오젠"
+        },
+        {
+          "ticker": "326030",
+          "name": "에스케이바이오팜"
+        },
+        {
+          "ticker": "000100",
+          "name": "유한양행"
+        }
+      ]
+    },
+    {
+      "sector": "경기소비재",
+      "n": 164,
+      "median_per": 9.4,
+      "median_pbr": 0.6,
+      "median_roe": 5.6,
+      "flow_foreign": 808135,
+      "flow_inst": -1139932,
+      "leaders": [
+        {
+          "ticker": "005380",
+          "name": "현대자동차"
+        },
+        {
+          "ticker": "000270",
+          "name": "기아"
+        },
+        {
+          "ticker": "012330",
+          "name": "현대모비스"
+        },
+        {
+          "ticker": "161390",
+          "name": "한국타이어앤테크놀로지"
+        },
+        {
+          "ticker": "180640",
+          "name": "한진칼"
+        }
+      ]
+    },
+    {
+      "sector": "소재",
+      "n": 154,
+      "median_per": 12.7,
+      "median_pbr": 0.5,
+      "median_roe": 2.8,
+      "flow_foreign": -634342,
+      "flow_inst": 78279,
+      "leaders": [
+        {
+          "ticker": "005490",
+          "name": "POSCO홀딩스"
+        },
+        {
+          "ticker": "010130",
+          "name": "고려아연"
+        },
+        {
+          "ticker": "051910",
+          "name": "LG화학"
+        },
+        {
+          "ticker": "011790",
+          "name": "SKC"
+        },
+        {
+          "ticker": "002380",
+          "name": "케이씨씨"
+        }
+      ]
+    },
+    {
+      "sector": "필수소비재",
+      "n": 81,
+      "median_per": 12.1,
+      "median_pbr": 0.65,
+      "median_roe": 6.65,
+      "flow_foreign": 455598,
+      "flow_inst": 77985,
+      "leaders": [
+        {
+          "ticker": "033780",
+          "name": "케이티앤지"
+        },
+        {
+          "ticker": "278470",
+          "name": "에이피알"
+        },
+        {
+          "ticker": "003230",
+          "name": "삼양식품"
+        },
+        {
+          "ticker": "090430",
+          "name": "아모레퍼시픽"
+        },
+        {
+          "ticker": "271560",
+          "name": "오리온"
+        }
+      ]
+    },
+    {
+      "sector": "금융",
+      "n": 74,
+      "median_per": 9.0,
+      "median_pbr": 0.8,
+      "median_roe": 7.4,
+      "flow_foreign": 1330944,
+      "flow_inst": -79329,
+      "leaders": [
+        {
+          "ticker": "105560",
+          "name": "KB금융"
+        },
+        {
+          "ticker": "032830",
+          "name": "삼성생명"
+        },
+        {
+          "ticker": "055550",
+          "name": "신한지주"
+        },
+        {
+          "ticker": "086790",
+          "name": "하나금융지주"
+        },
+        {
+          "ticker": "000810",
+          "name": "삼성화재해상보험"
+        }
+      ]
+    },
+    {
+      "sector": "커뮤니케이션",
+      "n": 54,
+      "median_per": 12.5,
+      "median_pbr": 0.9,
+      "median_roe": 6.35,
+      "flow_foreign": -565319,
+      "flow_inst": -153081,
+      "leaders": [
+        {
+          "ticker": "035420",
+          "name": "NAVER"
+        },
+        {
+          "ticker": "017670",
+          "name": "SK텔레콤"
+        },
+        {
+          "ticker": "035720",
+          "name": "카카오"
+        },
+        {
+          "ticker": "030200",
+          "name": "케이티"
+        },
+        {
+          "ticker": "259960",
+          "name": "크래프톤"
+        }
+      ]
+    },
+    {
+      "sector": "부동산",
+      "n": 24,
+      "median_per": 42.6,
+      "median_pbr": 0.7,
+      "median_roe": 1.45,
+      "flow_foreign": 44683,
+      "flow_inst": -86566,
+      "leaders": [
+        {
+          "ticker": "395400",
+          "name": "SK리츠"
+        },
+        {
+          "ticker": "330590",
+          "name": "롯데리츠"
+        },
+        {
+          "ticker": "451800",
+          "name": "한화리츠"
+        },
+        {
+          "ticker": "365550",
+          "name": "ESR켄달스퀘어리츠"
+        },
+        {
+          "ticker": "293940",
+          "name": "신한알파리츠"
+        }
+      ]
+    },
+    {
+      "sector": "유틸리티",
+      "n": 18,
+      "median_per": 7.6,
+      "median_pbr": 0.45,
+      "median_roe": 6.95,
+      "flow_foreign": -440143,
+      "flow_inst": 3060,
+      "leaders": [
+        {
+          "ticker": "015760",
+          "name": "한국전력공사"
+        },
+        {
+          "ticker": "036460",
+          "name": "한국가스공사"
+        },
+        {
+          "ticker": "475150",
+          "name": "SK이터닉스"
+        },
+        {
+          "ticker": "071320",
+          "name": "지역난방공사"
+        },
+        {
+          "ticker": "004690",
+          "name": "삼천리"
+        }
+      ]
+    },
+    {
+      "sector": "에너지",
+      "n": 9,
+      "median_per": 7.7,
+      "median_pbr": 0.6,
+      "median_roe": 4.4,
+      "flow_foreign": 72000,
+      "flow_inst": 595787,
+      "leaders": [
+        {
+          "ticker": "096770",
+          "name": "SK이노베이션"
+        },
+        {
+          "ticker": "267250",
+          "name": "HD현대"
+        },
+        {
+          "ticker": "010950",
+          "name": "S-Oil"
+        },
+        {
+          "ticker": "018670",
+          "name": "SK가스"
+        },
+        {
+          "ticker": "006120",
+          "name": "SK디스커버리"
+        }
+      ]
+    }
+  ]
+}

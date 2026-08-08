@@ -1,0 +1,104 @@
+{
+  "collected_at": "2026-08-08T19:43:20.899347+00:00",
+  "schema_version": 1,
+  "severity": "GREEN",
+  "severity_reasons": [],
+  "n_verification_days": 74,
+  "n_milestones": {
+    "to_50": 0,
+    "to_100": 26,
+    "to_252": 178,
+    "to_365": 291
+  },
+  "n_trades": 22,
+  "trade_milestones": {
+    "to_50": 28,
+    "to_100": 78,
+    "to_252": 230,
+    "to_365": 343
+  },
+  "n_validation_samples": 29,
+  "sample_milestones": {
+    "to_50": 21,
+    "to_100": 71,
+    "to_252": 223,
+    "to_365": 336
+  },
+  "one_liner": "과열 (Euphoria) · 5 BUY / 21 WATCH / 8 CAUTION / 6 AVOID · VAMS 12% 현금 · 가설 N=74",
+  "ttd_recent_p50_minutes": null,
+  "days_clean": {
+    "kis": 0,
+    "fred": 1,
+    "telegram": 1,
+    "vercel": null
+  },
+  "open_p0_p1": [],
+  "operator_deadman": {
+    "days_git": 0.01,
+    "days_telegram": null,
+    "days_uaq": 39.51,
+    "trigger": "ok",
+    "maintenance": false,
+    "warn_days": 7.0
+  },
+  "pre_registration_pending": [
+    {
+      "sha": "403bcac0",
+      "date": "2026-08-03",
+      "subject": "fix(scoring): 측정 정화 — placeholder 가 실측으로 위장하는 3경로 차단 (#259)",
+      "is_candidate": true,
+      "has_pm": false,
+      "has_why": true,
+      "has_data": true,
+      "has_expected": true,
+      "missing": [
+        "PM=approved"
+      ],
+      "passed": false
+    }
+  ],
+  "alert_volume_24h": {
+    "sent": 3,
+    "dedupe_skip": 2,
+    "quiet_skip": 1,
+    "fp_repeat_max": 2
+  },
+  "auto_action_blocked": [],
+  "_inputs_snapshot": {
+    "kis_lock_commits_24h": 1,
+    "fred_age_h": 0.39,
+    "fred_24h_failure_rate": 0.0,
+    "core_sources_ok": true,
+    "runtime_mode": "full",
+    "ramp_up_stage": 5000,
+    "brain_anomaly_24h": 0,
+    "vams_days_since_reset": 83,
+    "validation_sample": 29
+  },
+  "rule7_quota": {
+    "quarter": "2026Q3",
+    "start": "2026-07-01",
+    "end": "2026-09-30",
+    "count": 3,
+    "limit": 4,
+    "status": "OK",
+    "commits": [
+      {
+        "sha": "403bcac0",
+        "date": "2026-08-03",
+        "subject": "fix(scoring): 측정 정화 — placeholder 가 실측으로 위장하는 3경로 차단 (#259)"
+      },
+      {
+        "sha": "8b4844e1",
+        "date": "2026-08-02",
+        "subject": "fix(vams): Kelly 사이징 degeneracy 수정 — 검증연동 fractional Kelly (사전등록·PM 승인) (#231)"
+      },
+      {
+        "sha": "81057343",
+        "date": "2026-07-23",
+        "subject": "fix(brain): fact_score LLM 정성점수 정직화 4종 (RULE 7 사전등록)"
+      }
+    ],
+    "as_of": "2026-08-08T11:22:08+09:00"
+  }
+}
