@@ -1,0 +1,8949 @@
+{
+  "_meta": {
+    "generated_at": "2026-08-06T16:12:08.000641+09:00",
+    "track": "us_smallcap_forensics",
+    "source": "SEC EDGAR submissions 8-K items",
+    "window_days": 730,
+    "universe_n": 1545,
+    "flagged_n": 909,
+    "item_map": {
+      "3.02": "dilution",
+      "3.01": "delisting_risk",
+      "1.03": "bankruptcy",
+      "2.04": "debt_default",
+      "2.06": "impairment",
+      "4.02": "restatement",
+      "4.01": "auditor_change",
+      "2.01": "mna",
+      "3.03": "rights_modification",
+      "5.01": "control_change",
+      "2.05": "restructuring"
+    },
+    "disclaimer": "8-K item 사실 카운트 — 점수/추천 아님(RULE 7). dilution=Item 3.02(unregistered)만, registered offering(424B) 미포함. convertible(CB) 미집계."
+  },
+  "stocks": [
+    {
+      "ticker": "CPHI",
+      "name": "China Pharma Holdings, Inc.",
+      "counts": {
+        "dilution": 4
+      },
+      "n_8k": 10,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "HAIN",
+      "name": "Hain Celestial Group Inc",
+      "counts": {
+        "delisting_risk": 1,
+        "mna": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-05-11"
+    },
+    {
+      "ticker": "INMB",
+      "name": "INmune Bio Inc. Common stock",
+      "counts": {
+        "rights_modification": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 60,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "LVLU",
+      "name": "Lulu's Fashion Lounge Holdings, Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 4,
+        "rights_modification": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "SCYX",
+      "name": "SCYNEXIS, Inc.",
+      "counts": {
+        "dilution": 1,
+        "mna": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-06-26"
+    },
+    {
+      "ticker": "SNWV",
+      "name": "SANUWAVE Health, Inc. Common Stock",
+      "counts": {
+        "restatement": 1,
+        "auditor_change": 2,
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "TCRX",
+      "name": "TScan Therapeutics, Inc. Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "dilution": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-06-22"
+    },
+    {
+      "ticker": "ATYR",
+      "name": "aTyr Pharma, Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 2,
+        "impairment": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "CMTL",
+      "name": "Comtech Telecommunications",
+      "counts": {
+        "dilution": 3,
+        "rights_modification": 3,
+        "delisting_risk": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "NXB",
+      "name": "NextBoat Inc.",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 37,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "RYM",
+      "name": "RYTHM, Inc. Common Stock",
+      "counts": {
+        "mna": 3,
+        "dilution": 9,
+        "restructuring": 1,
+        "rights_modification": 2,
+        "delisting_risk": 1,
+        "restatement": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "WWR",
+      "name": "Westwater Resources, Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-05-22"
+    },
+    {
+      "ticker": "ELWT",
+      "name": "Elauwit Connection, Inc. Common Stock",
+      "counts": {
+        "restatement": 1
+      },
+      "n_8k": 10,
+      "latest_8k": "2026-06-18"
+    },
+    {
+      "ticker": "FEAM",
+      "name": "5E Advanced Materials, Inc. Common Stock",
+      "counts": {
+        "dilution": 6,
+        "delisting_risk": 2
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-04-17"
+    },
+    {
+      "ticker": "BRID",
+      "name": "Bridgford Foods Corp",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 3,
+      "latest_8k": "2026-04-14"
+    },
+    {
+      "ticker": "CVV",
+      "name": "CVD Equipment Corp.",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-05-14"
+    },
+    {
+      "ticker": "LIDR",
+      "name": "AEye, Inc. Class A Common Stock",
+      "counts": {
+        "delisting_risk": 1,
+        "dilution": 1,
+        "debt_default": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-06-03"
+    },
+    {
+      "ticker": "XTIA",
+      "name": "XTI Aerospace, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 3,
+        "rights_modification": 4,
+        "mna": 3,
+        "dilution": 14,
+        "delisting_risk": 1
+      },
+      "n_8k": 60,
+      "latest_8k": "2026-06-26"
+    },
+    {
+      "ticker": "AIFC",
+      "name": "AI Financial Corporation Common Stock",
+      "counts": {
+        "delisting_risk": 2,
+        "dilution": 5,
+        "auditor_change": 3
+      },
+      "n_8k": 44,
+      "latest_8k": "2026-07-02"
+    },
+    {
+      "ticker": "BGSF",
+      "name": "BGSF, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "SGA",
+      "name": "Saga Communications, Inc. Class A Common Stock (FL)",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-06-02"
+    },
+    {
+      "ticker": "JRSH",
+      "name": "Jerash Holdings (US), Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "QXL",
+      "name": "Quantum X Labs Inc. Common Stock",
+      "counts": {
+        "dilution": 5
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-05-29"
+    },
+    {
+      "ticker": "DCGO",
+      "name": "DocGo Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 2
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "INVE",
+      "name": "Identive, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "UPXI",
+      "name": "Upexi, Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 5,
+        "dilution": 7,
+        "rights_modification": 1
+      },
+      "n_8k": 76,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "XTNT",
+      "name": "Xtant Medical Holdings, Inc.",
+      "counts": {
+        "mna": 1,
+        "debt_default": 1,
+        "control_change": 1,
+        "dilution": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-05-13"
+    },
+    {
+      "ticker": "BSIN",
+      "name": "Big Sky Industrial Inc. Common Stock",
+      "counts": {
+        "dilution": 4,
+        "mna": 2,
+        "delisting_risk": 1
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "CNVS",
+      "name": "Cineverse Corp. Class A Common Stock",
+      "counts": {
+        "dilution": 2,
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-26"
+    },
+    {
+      "ticker": "BOF",
+      "name": "BranchOut Food Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 2
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "FSI",
+      "name": "Flexible Solutions International, Inc.",
+      "counts": {
+        "auditor_change": 2
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-01"
+    },
+    {
+      "ticker": "USIO",
+      "name": "Usio, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-06-17"
+    },
+    {
+      "ticker": "WFCF",
+      "name": "Where Food Comes From, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-05-15"
+    },
+    {
+      "ticker": "OESX",
+      "name": "Orion Energy Systems, Inc.",
+      "counts": {
+        "delisting_risk": 3,
+        "rights_modification": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "PLRX",
+      "name": "Pliant Therapeutics, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 2,
+        "restructuring": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "CVU",
+      "name": "CPI Aerostructures, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-06-11"
+    },
+    {
+      "ticker": "CLST",
+      "name": "Catalyst Bancorp, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 2
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "IPWR",
+      "name": "Ideal Power Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "KG",
+      "name": "Kestrel Group, Ltd.",
+      "counts": {
+        "auditor_change": 2,
+        "restatement": 1,
+        "mna": 1,
+        "rights_modification": 1,
+        "control_change": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-06-15"
+    },
+    {
+      "ticker": "RGS",
+      "name": "Regis Corporation",
+      "counts": {
+        "rights_modification": 1,
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-05-13"
+    },
+    {
+      "ticker": "XPL",
+      "name": "Solitario Resources Corp.",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 1
+      },
+      "n_8k": 4,
+      "latest_8k": "2026-06-18"
+    },
+    {
+      "ticker": "DH",
+      "name": "Definitive Healthcare Corp. Class A Common Stock",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-06-24"
+    },
+    {
+      "ticker": "TLPH",
+      "name": "Talphera, Inc. Common Stock",
+      "counts": {
+        "dilution": 4,
+        "delisting_risk": 4
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-06-23"
+    },
+    {
+      "ticker": "PROP",
+      "name": "Prairie Operating Co. Common Stock",
+      "counts": {
+        "delisting_risk": 1,
+        "rights_modification": 2,
+        "dilution": 4,
+        "auditor_change": 1,
+        "mna": 2
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "AVD",
+      "name": "American Vanguard Corporation",
+      "counts": {
+        "delisting_risk": 2
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-06-08"
+    },
+    {
+      "ticker": "AEYE",
+      "name": "AudioEye, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-06-23"
+    },
+    {
+      "ticker": "MVIS",
+      "name": "Microvision Inc",
+      "counts": {
+        "rights_modification": 1,
+        "delisting_risk": 2,
+        "dilution": 2,
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "DRIO",
+      "name": "DarioHealth Corp. Common Stock",
+      "counts": {
+        "dilution": 6,
+        "rights_modification": 3,
+        "delisting_risk": 2
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "GANX",
+      "name": "Gain Therapeutics, Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "PEW",
+      "name": "GrabAGun Digital Holdings Inc.",
+      "counts": {
+        "mna": 1,
+        "rights_modification": 1,
+        "auditor_change": 1,
+        "control_change": 1
+      },
+      "n_8k": 10,
+      "latest_8k": "2026-06-29"
+    },
+    {
+      "ticker": "HFFG",
+      "name": "HF Foods Group Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "HNNA",
+      "name": "Hennessy Advisors, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "BODI",
+      "name": "The Beachbody Company, Inc. Class A Common Stock",
+      "counts": {
+        "delisting_risk": 2,
+        "restructuring": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "GNSS",
+      "name": "Genasys Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "BLNK",
+      "name": "Blink Charging Co. Common Stock",
+      "counts": {
+        "delisting_risk": 5,
+        "dilution": 1,
+        "restructuring": 2
+      },
+      "n_8k": 38,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "EMPD",
+      "name": "Empery Digital Inc. Common stock",
+      "counts": {
+        "rights_modification": 3,
+        "mna": 1,
+        "delisting_risk": 2,
+        "dilution": 4
+      },
+      "n_8k": 59,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "TEAD",
+      "name": "Teads Holding Co. Common Stock",
+      "counts": {
+        "delisting_risk": 1,
+        "restructuring": 2,
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "DTI",
+      "name": "Drilling Tools International Corporation Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-05-07"
+    },
+    {
+      "ticker": "FLL",
+      "name": "Full House Resorts, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-05-20"
+    },
+    {
+      "ticker": "BDL",
+      "name": "Flanigan's Enterprises Inc",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 5,
+      "latest_8k": "2026-03-02"
+    },
+    {
+      "ticker": "PUSA",
+      "name": "Aureus Greenway Holdings Inc. Common Stock",
+      "counts": {
+        "dilution": 4,
+        "delisting_risk": 3
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-20"
+    },
+    {
+      "ticker": "BARK",
+      "name": "BARK, Inc.",
+      "counts": {
+        "rights_modification": 1,
+        "delisting_risk": 2
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "CPSH",
+      "name": "CPS Technologies Corp. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-06-01"
+    },
+    {
+      "ticker": "DFDV",
+      "name": "DeFi Development Corp. Common Stock",
+      "counts": {
+        "dilution": 8,
+        "mna": 1,
+        "auditor_change": 1,
+        "control_change": 1,
+        "rights_modification": 2
+      },
+      "n_8k": 44,
+      "latest_8k": "2026-06-26"
+    },
+    {
+      "ticker": "ELTX",
+      "name": "Elicio Therapeutics, Inc. Common Stock",
+      "counts": {
+        "dilution": 3
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-07-02"
+    },
+    {
+      "ticker": "LFVN",
+      "name": "Lifevantage Corporation Common Stock (Delaware)",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "NAKA",
+      "name": "Nakamoto Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "rights_modification": 2,
+        "mna": 2,
+        "dilution": 5,
+        "delisting_risk": 2,
+        "control_change": 1
+      },
+      "n_8k": 41,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "VNCE",
+      "name": "Vince Holding Corp. Common Stock",
+      "counts": {
+        "delisting_risk": 3,
+        "control_change": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-06-16"
+    },
+    {
+      "ticker": "LUNG",
+      "name": "Pulmonx Corporation Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "MDIA",
+      "name": "Mediaco Holding Inc. Class A Common Stock",
+      "counts": {
+        "delisting_risk": 2,
+        "dilution": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "NRXS",
+      "name": "Neuraxis, Inc.",
+      "counts": {
+        "rights_modification": 1,
+        "dilution": 3
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-10"
+    },
+    {
+      "ticker": "SOTK",
+      "name": "Sono-Tek Corporation Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-08"
+    },
+    {
+      "ticker": "AIRT",
+      "name": "Air T Inc",
+      "counts": {
+        "mna": 4
+      },
+      "n_8k": 45,
+      "latest_8k": "2026-07-10"
+    },
+    {
+      "ticker": "BEEP",
+      "name": "Mobile Infrastructure Corporation Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "delisting_risk": 1,
+        "dilution": 2
+      },
+      "n_8k": 39,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "SLNG",
+      "name": "Stabilis Solutions, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-10"
+    },
+    {
+      "ticker": "ARQ",
+      "name": "Arq, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "ATLX",
+      "name": "Atlas Lithium Corporation Common Stock",
+      "counts": {
+        "restatement": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-06-29"
+    },
+    {
+      "ticker": "RANI",
+      "name": "Rani Therapeutics Holdings, Inc. Class A Common Stock",
+      "counts": {
+        "delisting_risk": 3,
+        "rights_modification": 1,
+        "dilution": 2,
+        "auditor_change": 2
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "REKR",
+      "name": "Rekor Systems, Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-07-15"
+    },
+    {
+      "ticker": "ULBI",
+      "name": "Ultralife Corporation",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "GRWG",
+      "name": "GROW GENERATION CORP",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-06-22"
+    },
+    {
+      "ticker": "SPAI",
+      "name": "Safe Pro Group Inc. Common Stock",
+      "counts": {
+        "dilution": 3,
+        "rights_modification": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "BCIC",
+      "name": "BCP Investment Corporation Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-06-26"
+    },
+    {
+      "ticker": "BZFD",
+      "name": "BuzzFeed, Inc. Class A Common Stock",
+      "counts": {
+        "restructuring": 2,
+        "dilution": 2,
+        "control_change": 1,
+        "auditor_change": 1,
+        "delisting_risk": 1,
+        "mna": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "FBIO",
+      "name": "Fortress Biotech, Inc.",
+      "counts": {
+        "dilution": 2,
+        "mna": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-06-23"
+    },
+    {
+      "ticker": "MHH",
+      "name": "Mastech Digital, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-05-18"
+    },
+    {
+      "ticker": "GEOS",
+      "name": "Geospace Technologies Corporation Common Stock",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-05-07"
+    },
+    {
+      "ticker": "NFE",
+      "name": "New Fortress Energy Inc. Class A Common Stock",
+      "counts": {
+        "delisting_risk": 3,
+        "restatement": 1,
+        "dilution": 7,
+        "mna": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 49,
+      "latest_8k": "2026-06-25"
+    },
+    {
+      "ticker": "OM",
+      "name": "Outset Medical, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 1,
+        "delisting_risk": 2,
+        "dilution": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-17"
+    },
+    {
+      "ticker": "VIRC",
+      "name": "Virco Mfg. Corporation",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-06-17"
+    },
+    {
+      "ticker": "VRCA",
+      "name": "Verrica Pharmaceuticals Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "delisting_risk": 3,
+        "rights_modification": 1,
+        "restructuring": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-06-09"
+    },
+    {
+      "ticker": "FTLF",
+      "name": "FitLife Brands, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-05-22"
+    },
+    {
+      "ticker": "ICCC",
+      "name": "Immucell Corp",
+      "counts": {
+        "impairment": 2
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-07-09"
+    },
+    {
+      "ticker": "TYGO",
+      "name": "Tigo Energy, Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "VRA",
+      "name": "Vera Bradley, Inc.",
+      "counts": {
+        "rights_modification": 3,
+        "mna": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "BNC",
+      "name": "CEA Industries Inc. Common Stock",
+      "counts": {
+        "restatement": 1,
+        "delisting_risk": 2,
+        "rights_modification": 1,
+        "dilution": 2,
+        "mna": 1
+      },
+      "n_8k": 47,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "WYY",
+      "name": "WidePoint Corporation",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "ACR",
+      "name": "ACRES Commercial Realty Corp.",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "FLNT",
+      "name": "Fluent, Inc. Common Stock",
+      "counts": {
+        "dilution": 3
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-06-22"
+    },
+    {
+      "ticker": "KEQU",
+      "name": "Kewaunee Scientific Corp",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-06-23"
+    },
+    {
+      "ticker": "NRDY",
+      "name": "Nerdy Inc.",
+      "counts": {
+        "delisting_risk": 2
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-14"
+    },
+    {
+      "ticker": "RPID",
+      "name": "Rapid Micro Biosystems, Inc. Class A Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-05-28"
+    },
+    {
+      "ticker": "AGPU",
+      "name": "Axe Compute Inc. Common Stock",
+      "counts": {
+        "dilution": 4,
+        "rights_modification": 1,
+        "delisting_risk": 4
+      },
+      "n_8k": 47,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "BWEN",
+      "name": "Broadwind, Inc. Common Stock",
+      "counts": {
+        "mna": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-05-29"
+    },
+    {
+      "ticker": "FNWB",
+      "name": "First Northwest Bancorp Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "restatement": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "CCLD",
+      "name": "CareCloud, Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 2,
+        "dilution": 1,
+        "mna": 1,
+        "auditor_change": 1,
+        "rights_modification": 2
+      },
+      "n_8k": 39,
+      "latest_8k": "2026-06-26"
+    },
+    {
+      "ticker": "TRT",
+      "name": "Trio-Tech International",
+      "counts": {
+        "rights_modification": 2
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-10"
+    },
+    {
+      "ticker": "CUE",
+      "name": "Cue Biopharma, Inc.",
+      "counts": {
+        "dilution": 2,
+        "rights_modification": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "SFBC",
+      "name": "Sound Financial Bancorp, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "VERI",
+      "name": "Veritone, Inc. Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "auditor_change": 1,
+        "restatement": 1,
+        "dilution": 1,
+        "mna": 1
+      },
+      "n_8k": 34,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "STHO",
+      "name": "Star Holdings Shares of Beneficial Interest",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "SCOR",
+      "name": "comScore, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 2,
+        "rights_modification": 3
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-06-23"
+    },
+    {
+      "ticker": "BRCC",
+      "name": "BRC Inc.",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "PZG",
+      "name": "Paramount Gold Nevada Corp.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 8,
+      "latest_8k": "2026-07-14"
+    },
+    {
+      "ticker": "JYNT",
+      "name": "The Joint Corp.",
+      "counts": {
+        "restatement": 1,
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-05-21"
+    },
+    {
+      "ticker": "SLQT",
+      "name": "SelectQuote, Inc.",
+      "counts": {
+        "delisting_risk": 1,
+        "dilution": 3,
+        "rights_modification": 2
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-05-05"
+    },
+    {
+      "ticker": "LAKE",
+      "name": "Lakeland Industries Inc",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-06-18"
+    },
+    {
+      "ticker": "UFI",
+      "name": "UNIFI, Inc. New",
+      "counts": {
+        "mna": 1,
+        "restructuring": 1
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-05-05"
+    },
+    {
+      "ticker": "MBOT",
+      "name": "Microbot Medical, Inc. Common Stock",
+      "counts": {
+        "dilution": 13,
+        "rights_modification": 2,
+        "delisting_risk": 1
+      },
+      "n_8k": 84,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "GPRO",
+      "name": "GoPro, Inc.",
+      "counts": {
+        "delisting_risk": 2,
+        "dilution": 4,
+        "restructuring": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "SPRB",
+      "name": "Spruce Biosciences, Inc. Common Stock",
+      "counts": {
+        "dilution": 3,
+        "rights_modification": 2,
+        "delisting_risk": 3,
+        "restructuring": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "VENU",
+      "name": "Venu Holding Corporation",
+      "counts": {
+        "dilution": 5
+      },
+      "n_8k": 41,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "CLAR",
+      "name": "Clarus Corporation Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-06-01"
+    },
+    {
+      "ticker": "CVGI",
+      "name": "Commercial Vehicle Group, Inc.",
+      "counts": {
+        "dilution": 1,
+        "mna": 2
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "OPRX",
+      "name": "OptimizeRx Corporation Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-06-12"
+    },
+    {
+      "ticker": "HURA",
+      "name": "TuHURA Biosciences, Inc. Common Stock",
+      "counts": {
+        "dilution": 2,
+        "delisting_risk": 1,
+        "mna": 2,
+        "auditor_change": 1,
+        "rights_modification": 1,
+        "control_change": 1
+      },
+      "n_8k": 49,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "PED",
+      "name": "PEDEVCO Corp.",
+      "counts": {
+        "rights_modification": 4,
+        "dilution": 2,
+        "control_change": 1,
+        "mna": 1,
+        "restatement": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 38,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "MX",
+      "name": "Magnachip Semiconductor Corp.",
+      "counts": {
+        "restructuring": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "PLBY",
+      "name": "Playboy, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1,
+        "delisting_risk": 2,
+        "dilution": 5,
+        "rights_modification": 1
+      },
+      "n_8k": 42,
+      "latest_8k": "2026-06-22"
+    },
+    {
+      "ticker": "PNBK",
+      "name": "Patriot National Bancorp Inc",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 3,
+        "rights_modification": 2
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "AMPG",
+      "name": "AMPLITECH GROUP INC. COM",
+      "counts": {
+        "dilution": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 43,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "TUSK",
+      "name": "Mammoth Energy Services, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 2,
+        "mna": 3,
+        "impairment": 1,
+        "debt_default": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-06-26"
+    },
+    {
+      "ticker": "EQ",
+      "name": "Equillium, Inc. Common Stock",
+      "counts": {
+        "dilution": 2,
+        "auditor_change": 1,
+        "delisting_risk": 2
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-05-29"
+    },
+    {
+      "ticker": "OCC",
+      "name": "Optical Cable Corp.",
+      "counts": {
+        "dilution": 1,
+        "restatement": 1
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-06-10"
+    },
+    {
+      "ticker": "STXS",
+      "name": "Stereotaxis, Inc. Common Stock",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "SRG",
+      "name": "Seritage Growth Properties Class A common shares of beneficial interest, par value $0.01",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "ACNT",
+      "name": "Ascent Industries Co. Common Stock",
+      "counts": {
+        "mna": 3,
+        "auditor_change": 1
+      },
+      "n_8k": 37,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "USBC",
+      "name": "USBC, Inc.",
+      "counts": {
+        "delisting_risk": 5,
+        "control_change": 2,
+        "dilution": 3,
+        "rights_modification": 2
+      },
+      "n_8k": 41,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "BHR",
+      "name": "Braemar Hotels & Resorts Inc. Common Stock",
+      "counts": {
+        "mna": 4
+      },
+      "n_8k": 76,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "WHF",
+      "name": "WhiteHorse Finance, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "SAFX",
+      "name": "XCF Global, Inc. Class A Common Stock",
+      "counts": {
+        "dilution": 10,
+        "delisting_risk": 2,
+        "debt_default": 1,
+        "mna": 1,
+        "rights_modification": 1,
+        "control_change": 1
+      },
+      "n_8k": 38,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "CBUS",
+      "name": "Cibus, Inc. Class A Common Stock",
+      "counts": {
+        "restructuring": 2
+      },
+      "n_8k": 34,
+      "latest_8k": "2026-06-09"
+    },
+    {
+      "ticker": "EML",
+      "name": "Eastern Company",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-06-02"
+    },
+    {
+      "ticker": "BOOM",
+      "name": "DMC Global Inc. Common Stock",
+      "counts": {
+        "rights_modification": 2
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "CHPT",
+      "name": "ChargePoint Holdings, Inc.",
+      "counts": {
+        "restructuring": 2,
+        "dilution": 1,
+        "rights_modification": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "LGCY",
+      "name": "Legacy Education Inc.",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "RGP",
+      "name": "Resources Connection",
+      "counts": {
+        "control_change": 1,
+        "restructuring": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "FIRY",
+      "name": "Firy Inc.",
+      "counts": {
+        "delisting_risk": 2
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "WW",
+      "name": "WW International, Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1,
+        "control_change": 1,
+        "bankruptcy": 4,
+        "delisting_risk": 2,
+        "debt_default": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "FGBI",
+      "name": "FIRST GUARANTY BANCSHARES INC",
+      "counts": {
+        "dilution": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 49,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CDXS",
+      "name": "Codexis, Inc.",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "JELD",
+      "name": "JELD-WEN Holding, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "NEOV",
+      "name": "NeoVolta Inc. Common Stock",
+      "counts": {
+        "dilution": 3,
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-05-29"
+    },
+    {
+      "ticker": "OXSQ",
+      "name": "Oxford Square Capital Corp.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "BCBP",
+      "name": "BCB Bancorp Inc (NJ)",
+      "counts": {
+        "impairment": 1,
+        "dilution": 3
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "CHCI",
+      "name": "Comstock Holding Companies, Inc. Class A",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-06-18"
+    },
+    {
+      "ticker": "DOUG",
+      "name": "Douglas Elliman Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1,
+        "control_change": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "HOFT",
+      "name": "Hooker Furnishings Corporation Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-06-12"
+    },
+    {
+      "ticker": "AMPY",
+      "name": "Amplify Energy Corp.",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 3,
+        "dilution": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-06-03"
+    },
+    {
+      "ticker": "OWLT",
+      "name": "Owlet, Inc.",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-01"
+    },
+    {
+      "ticker": "XGN",
+      "name": "Exagen Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "ABOS",
+      "name": "Acumen Pharmaceuticals, Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-06-16"
+    },
+    {
+      "ticker": "STIM",
+      "name": "Neuronetics, Inc. Common Stock",
+      "counts": {
+        "restructuring": 2,
+        "mna": 1,
+        "dilution": 2,
+        "delisting_risk": 1
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-07-20"
+    },
+    {
+      "ticker": "ALEC",
+      "name": "Alector, Inc. Common Stock",
+      "counts": {
+        "restructuring": 3
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-08"
+    },
+    {
+      "ticker": "KRRO",
+      "name": "Korro Bio, Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "restructuring": 2
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-06-11"
+    },
+    {
+      "ticker": "LFCR",
+      "name": "Lifecore Biomedical, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "SIF",
+      "name": "SIFCO Industries, Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-05-08"
+    },
+    {
+      "ticker": "BSET",
+      "name": "Bassett Furniture Industries I",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-17"
+    },
+    {
+      "ticker": "SITC",
+      "name": "SITE Centers Corp. Common Shares",
+      "counts": {
+        "mna": 5,
+        "rights_modification": 2
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "APYX",
+      "name": "Apyx Medical Corporation Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "NLOP",
+      "name": "Net Lease Office Properties",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "HCAT",
+      "name": "Health Catalyst, Inc Common Stock",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-20"
+    },
+    {
+      "ticker": "MDV",
+      "name": "Modiv Industrial, Inc.",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-06-11"
+    },
+    {
+      "ticker": "MRDN",
+      "name": "Meridian Holdings Inc. Common Stock",
+      "counts": {
+        "rights_modification": 3,
+        "delisting_risk": 1,
+        "dilution": 9,
+        "mna": 1
+      },
+      "n_8k": 43,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "QTRX",
+      "name": "Quanterix Corporation Common Stock",
+      "counts": {
+        "restructuring": 3,
+        "mna": 2,
+        "auditor_change": 1,
+        "delisting_risk": 1,
+        "restatement": 1
+      },
+      "n_8k": 36,
+      "latest_8k": "2026-06-10"
+    },
+    {
+      "ticker": "INGN",
+      "name": "Inogen Inc",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-01"
+    },
+    {
+      "ticker": "INTT",
+      "name": "inTEST Corporation",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "TNXP",
+      "name": "Tonix Pharmaceuticals Holding Corp.",
+      "counts": {
+        "auditor_change": 1,
+        "rights_modification": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 96,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "EVI",
+      "name": "EVI Industries, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "ORMP",
+      "name": "Oramed Pharmaceuticals Inc.",
+      "counts": {
+        "mna": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "DHX",
+      "name": "DHI Group, Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "restructuring": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "BVFL",
+      "name": "BV Financial, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "BRCB",
+      "name": "Black Rock Coffee Bar, Inc. Class A Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 8,
+      "latest_8k": "2026-06-01"
+    },
+    {
+      "ticker": "SLNH",
+      "name": "Soluna Holdings, Inc. Common Stock",
+      "counts": {
+        "dilution": 5,
+        "delisting_risk": 2,
+        "auditor_change": 1,
+        "debt_default": 1
+      },
+      "n_8k": 105,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "COOK",
+      "name": "Traeger, Inc.",
+      "counts": {
+        "delisting_risk": 2,
+        "restructuring": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "EBMT",
+      "name": "Eagle Bancorp Montana, Inc",
+      "counts": {
+        "auditor_change": 2,
+        "restatement": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "STRW",
+      "name": "Strawberry Fields REIT, Inc.",
+      "counts": {
+        "dilution": 1,
+        "mna": 3
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-06-22"
+    },
+    {
+      "ticker": "AP",
+      "name": "Ampco-Pittsburgh Corp.",
+      "counts": {
+        "impairment": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-09"
+    },
+    {
+      "ticker": "LCUT",
+      "name": "Lifetime Brands, Inc.",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-06-22"
+    },
+    {
+      "ticker": "ANGI",
+      "name": "Angi Inc. Class A Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "dilution": 3,
+        "rights_modification": 2,
+        "control_change": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "EXFY",
+      "name": "Expensify, Inc. Class A Common Stock",
+      "counts": {
+        "delisting_risk": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-05-29"
+    },
+    {
+      "ticker": "PAL",
+      "name": "Proficient Auto Logistics, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-06-01"
+    },
+    {
+      "ticker": "HUMA",
+      "name": "Humacyte, Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 2,
+        "dilution": 1
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "PLX",
+      "name": "Protalix BioTherapeutics, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-25"
+    },
+    {
+      "ticker": "RICK",
+      "name": "RCI Hospitality Holdings, Inc.",
+      "counts": {
+        "delisting_risk": 3,
+        "auditor_change": 1
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-07-09"
+    },
+    {
+      "ticker": "FOA",
+      "name": "Finance of America Companies Inc.",
+      "counts": {
+        "rights_modification": 2,
+        "dilution": 3,
+        "control_change": 1,
+        "restatement": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "GETY",
+      "name": "Getty Images Holdings, Inc.",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "III",
+      "name": "Information Services Group, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "ONEW",
+      "name": "OneWater Marine Inc. Class A Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "CZWI",
+      "name": "Citizens Community Bancorp, Inc.",
+      "counts": {
+        "debt_default": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "PPIH",
+      "name": "Perma-Pipe International Holdings, Inc.",
+      "counts": {
+        "restatement": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-06-29"
+    },
+    {
+      "ticker": "ACU",
+      "name": "Acme United Corporation",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "GWRS",
+      "name": "Global Water Resources, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-05-18"
+    },
+    {
+      "ticker": "SRI",
+      "name": "Stoneridge, Inc",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "GENC",
+      "name": "Gencor Industries, Inc.",
+      "counts": {
+        "delisting_risk": 5,
+        "control_change": 1,
+        "auditor_change": 3
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-06-17"
+    },
+    {
+      "ticker": "PDEX",
+      "name": "Pro-Dex Inc New",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-06-17"
+    },
+    {
+      "ticker": "VUZI",
+      "name": "Vuzix Corporation",
+      "counts": {
+        "dilution": 3,
+        "auditor_change": 1,
+        "impairment": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-06-17"
+    },
+    {
+      "ticker": "JRVR",
+      "name": "James River Group Holdings, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 2,
+        "dilution": 1
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-06-17"
+    },
+    {
+      "ticker": "ZSQR",
+      "name": "Z Squared Inc. Common Stock",
+      "counts": {
+        "dilution": 4,
+        "mna": 1,
+        "control_change": 1,
+        "delisting_risk": 2,
+        "auditor_change": 1,
+        "restatement": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "CXDO",
+      "name": "CREXENDO INC",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "AOMR",
+      "name": "Angel Oak Mortgage REIT, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 43,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "EU",
+      "name": "enCore Energy Corp.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 37,
+      "latest_8k": "2026-07-09"
+    },
+    {
+      "ticker": "FORR",
+      "name": "Forrester Research Inc",
+      "counts": {
+        "restructuring": 2
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "CMTV",
+      "name": "Community Bancorp. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "AREC",
+      "name": "AMERICAN RESOURCES CORP",
+      "counts": {
+        "auditor_change": 2,
+        "restatement": 1,
+        "delisting_risk": 5,
+        "dilution": 2
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "RTB",
+      "name": "RTB Digital, Inc. Common Stock",
+      "counts": {
+        "mna": 2,
+        "dilution": 3,
+        "control_change": 1,
+        "delisting_risk": 6,
+        "rights_modification": 3,
+        "debt_default": 1
+      },
+      "n_8k": 49,
+      "latest_8k": "2026-07-17"
+    },
+    {
+      "ticker": "CFBK",
+      "name": "CF Bankshares Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "NAGE",
+      "name": "Niagen Bioscience, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 2
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "LODE",
+      "name": "Comstock Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 7,
+        "mna": 1
+      },
+      "n_8k": 55,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "VFF",
+      "name": "Village Farms International, Inc. Common Shares",
+      "counts": {
+        "mna": 1,
+        "delisting_risk": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 40,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "INR",
+      "name": "Infinity Natural Resources, Inc.",
+      "counts": {
+        "mna": 1,
+        "dilution": 3,
+        "rights_modification": 2
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-17"
+    },
+    {
+      "ticker": "CMTG",
+      "name": "Claros Mortgage Trust, Inc.",
+      "counts": {
+        "dilution": 1,
+        "mna": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "DVLT",
+      "name": "Datavault AI Inc. Common Stock",
+      "counts": {
+        "dilution": 20,
+        "auditor_change": 2,
+        "delisting_risk": 2,
+        "mna": 5,
+        "rights_modification": 1
+      },
+      "n_8k": 83,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "INFU",
+      "name": "InfuSystem Holdings, Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 42,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "RWAY",
+      "name": "Runway Growth Finance Corp. Common Stock",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 40,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CABO",
+      "name": "Cable One, Inc.",
+      "counts": {
+        "restatement": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-09"
+    },
+    {
+      "ticker": "DSP",
+      "name": "Viant Technology Inc. Class A Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-06-05"
+    },
+    {
+      "ticker": "ASUR",
+      "name": "Asure Software, Inc",
+      "counts": {
+        "mna": 1,
+        "rights_modification": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "LMNR",
+      "name": "Limoneira Co",
+      "counts": {
+        "impairment": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-06-18"
+    },
+    {
+      "ticker": "MFIN",
+      "name": "Medallion Financial Corp",
+      "counts": {
+        "debt_default": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "POWW",
+      "name": "Outdoor Holding Company Common Stock",
+      "counts": {
+        "auditor_change": 2,
+        "dilution": 2,
+        "mna": 1,
+        "delisting_risk": 3,
+        "restatement": 2
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-06-29"
+    },
+    {
+      "ticker": "REFI",
+      "name": "Chicago Atlantic Real Estate Finance, Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "NUS",
+      "name": "NuSkin Enterprises, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-05-29"
+    },
+    {
+      "ticker": "OBIO",
+      "name": "Orchestra BioMed Holdings, Inc. Ordinary Shares",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-06-23"
+    },
+    {
+      "ticker": "LVWR",
+      "name": "LiveWire Group, Inc.",
+      "counts": {
+        "delisting_risk": 1,
+        "dilution": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "IMMR",
+      "name": "Immersion Corp",
+      "counts": {
+        "delisting_risk": 5,
+        "restatement": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "INBK",
+      "name": "First Internet Bancorp",
+      "counts": {
+        "mna": 1,
+        "impairment": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "OSG",
+      "name": "Octave Specialty Group, Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 2,
+        "dilution": 2
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-05-29"
+    },
+    {
+      "ticker": "SMHI",
+      "name": "SEACOR Marine Holdings Inc. Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "ANIK",
+      "name": "Anika Therapeutics Inc",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "ALXO",
+      "name": "ALX Oncology Holdings Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 1,
+        "restructuring": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "KWY",
+      "name": "Kingsway Corporation",
+      "counts": {
+        "dilution": 5
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-05-21"
+    },
+    {
+      "ticker": "SSP",
+      "name": "The E.W. Scripps Company",
+      "counts": {
+        "mna": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-05-15"
+    },
+    {
+      "ticker": "TBCH",
+      "name": "Turtle Beach Corporation Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "SENS",
+      "name": "Senseonics Holdings, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 1,
+        "dilution": 2
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-06-08"
+    },
+    {
+      "ticker": "TG",
+      "name": "Tredegar Corporation",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "AVNW",
+      "name": "Aviat Networks, Inc.",
+      "counts": {
+        "rights_modification": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-06-03"
+    },
+    {
+      "ticker": "CMRC",
+      "name": "Commerce.com, Inc. Series 1 Common Stock",
+      "counts": {
+        "rights_modification": 1,
+        "restructuring": 1,
+        "dilution": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-05-14"
+    },
+    {
+      "ticker": "DUOT",
+      "name": "Duos Technologies Group, Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 40,
+      "latest_8k": "2026-07-20"
+    },
+    {
+      "ticker": "MVST",
+      "name": "Microvast Holdings, Inc. Common Stock",
+      "counts": {
+        "restatement": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-05-28"
+    },
+    {
+      "ticker": "NL",
+      "name": "NLI Holdings, Inc.",
+      "counts": {
+        "mna": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "ALCO",
+      "name": "Alico Inc",
+      "counts": {
+        "mna": 1,
+        "restructuring": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-07-17"
+    },
+    {
+      "ticker": "KLTR",
+      "name": "Kaltura, Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "BGS",
+      "name": "B&G Foods, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-06-10"
+    },
+    {
+      "ticker": "ESOA",
+      "name": "Energy Services of America Corporation Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 37,
+      "latest_8k": "2026-06-18"
+    },
+    {
+      "ticker": "BPRN",
+      "name": "Princeton Bancorp, Inc. Common Stock (PA)",
+      "counts": {
+        "impairment": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "FXNC",
+      "name": "FIRST NATL CORP STRASBURG VA",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "INV",
+      "name": "Innventure, Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 2,
+        "dilution": 8,
+        "auditor_change": 2,
+        "rights_modification": 2,
+        "mna": 1,
+        "control_change": 1
+      },
+      "n_8k": 49,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "JILL",
+      "name": "J.Jill, Inc. Common Stock",
+      "counts": {
+        "control_change": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-10"
+    },
+    {
+      "ticker": "PROF",
+      "name": "Profound Medical Corp. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "restatement": 1
+      },
+      "n_8k": 37,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "BKTI",
+      "name": "BK Technologies Corporation",
+      "counts": {
+        "auditor_change": 2
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-06-18"
+    },
+    {
+      "ticker": "GLOO",
+      "name": "Gloo Holdings, Inc. Class A Common Stock",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 6,
+      "latest_8k": "2026-07-14"
+    },
+    {
+      "ticker": "HRZN",
+      "name": "Horizon Technology Finance Corporation",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1,
+        "dilution": 2
+      },
+      "n_8k": 43,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "KINS",
+      "name": "Kingstone Companies, Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 1
+      },
+      "n_8k": 40,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "AVXL",
+      "name": "Anavex Life Sciences",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "FNRN",
+      "name": "First Northern Community Bancorp Common stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "NMRA",
+      "name": "Neumora Therapeutics, Inc. Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "dilution": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "NNBR",
+      "name": "NN Inc",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 38,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "PAMT",
+      "name": "PAMT CORP Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "TBI",
+      "name": "Trueblue, Inc.",
+      "counts": {
+        "rights_modification": 2
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "PNRG",
+      "name": "PrimeEnergy Resources Corporation Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 5,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "SGHT",
+      "name": "Sight Sciences, Inc. Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "dilution": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "FATE",
+      "name": "Fate Therapeutics, Inc.",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-06-15"
+    },
+    {
+      "ticker": "LAB",
+      "name": "Standard BioTools Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 2,
+        "dilution": 1,
+        "control_change": 1,
+        "mna": 1,
+        "restructuring": 2
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "ORGO",
+      "name": "Organogenesis Holdings Inc. Class A Common Stock",
+      "counts": {
+        "debt_default": 1,
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-06-16"
+    },
+    {
+      "ticker": "OPTX",
+      "name": "Syntec Optics Holdings, Inc. Class A Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "delisting_risk": 5
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-04-30"
+    },
+    {
+      "ticker": "TMCI",
+      "name": "Treace Medical Concepts, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-05-20"
+    },
+    {
+      "ticker": "FWDI",
+      "name": "Forward Industries, Inc. Common Stock",
+      "counts": {
+        "dilution": 11,
+        "rights_modification": 1,
+        "delisting_risk": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 49,
+      "latest_8k": "2026-07-20"
+    },
+    {
+      "ticker": "IRD",
+      "name": "Opus Genetics, Inc. Common Stock",
+      "counts": {
+        "dilution": 5,
+        "mna": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 38,
+      "latest_8k": "2026-06-16"
+    },
+    {
+      "ticker": "REI",
+      "name": "Ring Energy Inc.",
+      "counts": {
+        "mna": 1,
+        "dilution": 2
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-05-22"
+    },
+    {
+      "ticker": "SBC",
+      "name": "SBC Medical Group Holdings Incorporated Common Stock",
+      "counts": {
+        "delisting_risk": 1,
+        "rights_modification": 2,
+        "mna": 1,
+        "auditor_change": 1,
+        "control_change": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-14"
+    },
+    {
+      "ticker": "SMTI",
+      "name": "Sanara MedTech Inc. Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "TSSI",
+      "name": "TSS, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "FUBO",
+      "name": "FuboTV Inc.",
+      "counts": {
+        "mna": 1,
+        "dilution": 1,
+        "rights_modification": 1,
+        "control_change": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "NODK",
+      "name": "NI Holdings, Inc.",
+      "counts": {
+        "restatement": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-05-26"
+    },
+    {
+      "ticker": "ABAT",
+      "name": "American Battery Technology Company Common Stock",
+      "counts": {
+        "delisting_risk": 1,
+        "dilution": 3,
+        "rights_modification": 1
+      },
+      "n_8k": 34,
+      "latest_8k": "2026-07-10"
+    },
+    {
+      "ticker": "NREF",
+      "name": "NexPoint Real Estate Finance, Inc.",
+      "counts": {
+        "rights_modification": 2,
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-06-02"
+    },
+    {
+      "ticker": "ONIT",
+      "name": "Onity Group Inc.",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 2
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-07-01"
+    },
+    {
+      "ticker": "TTGT",
+      "name": "TechTarget, Inc. Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "delisting_risk": 3,
+        "restatement": 2,
+        "auditor_change": 1,
+        "mna": 1,
+        "debt_default": 1,
+        "dilution": 1,
+        "rights_modification": 1,
+        "control_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "FSBW",
+      "name": "FS Bancorp, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "OSS",
+      "name": "One Stop Systems, Inc. Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "BRBS",
+      "name": "Blue Ridge Bankshares, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "ZUMZ",
+      "name": "Zumiez Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-07-01"
+    },
+    {
+      "ticker": "RPAY",
+      "name": "Repay Holdings Corporation Class A Common Stock",
+      "counts": {
+        "mna": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-14"
+    },
+    {
+      "ticker": "EGHT",
+      "name": "8x8, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "BCML",
+      "name": "BayCom Corp Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "CATX",
+      "name": "Perspective Therapeutics, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 54,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "MLP",
+      "name": "Maui Land & Pineapple Co.",
+      "counts": {
+        "restatement": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-06-09"
+    },
+    {
+      "ticker": "SEG",
+      "name": "Seaport Entertainment Group Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "MASS",
+      "name": "908 Devices Inc. Common Stock",
+      "counts": {
+        "mna": 2,
+        "dilution": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-07-08"
+    },
+    {
+      "ticker": "AKBA",
+      "name": "Akebia Therapeutics, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "EVH",
+      "name": "Evolent Health, Inc Class A Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "FOSL",
+      "name": "Fossil Group, Inc.",
+      "counts": {
+        "dilution": 3,
+        "rights_modification": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-20"
+    },
+    {
+      "ticker": "ARTNA",
+      "name": "Artesian Resources Corp",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-05-07"
+    },
+    {
+      "ticker": "PINE",
+      "name": "Alpine Income Property Trust, Inc",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "IPSC",
+      "name": "Century Therapeutics, Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "delisting_risk": 2,
+        "restructuring": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-16"
+    },
+    {
+      "ticker": "CVEO",
+      "name": "Civeo Corporation",
+      "counts": {
+        "dilution": 1,
+        "mna": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "CLW",
+      "name": "Clearwater Paper Corporation",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "PALI",
+      "name": "Palisade Bio, Inc. Common Stock",
+      "counts": {
+        "dilution": 2,
+        "delisting_risk": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-06-11"
+    },
+    {
+      "ticker": "ATNI",
+      "name": "ATN International, Inc",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "ISSC",
+      "name": "Innovative Solutions & Support",
+      "counts": {
+        "mna": 3,
+        "rights_modification": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "RNGR",
+      "name": "Ranger Energy Services, Inc.",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "SLP",
+      "name": "Simulations Plus, Inc.",
+      "counts": {
+        "auditor_change": 2,
+        "restructuring": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-09"
+    },
+    {
+      "ticker": "SPCE",
+      "name": "Virgin Galactic Holdings, Inc.",
+      "counts": {
+        "dilution": 5
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-06-22"
+    },
+    {
+      "ticker": "GEVO",
+      "name": "Gevo, Inc.",
+      "counts": {
+        "mna": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 36,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "GNE",
+      "name": "GENIE ENERGY LTD",
+      "counts": {
+        "delisting_risk": 1,
+        "restatement": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-06-11"
+    },
+    {
+      "ticker": "PESI",
+      "name": "Perma-Fix Environmental Services, Inc.",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "IKT",
+      "name": "Inhibikase Therapeutics, Inc. Common Stock",
+      "counts": {
+        "dilution": 3
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "XPER",
+      "name": "Xperi Inc",
+      "counts": {
+        "restructuring": 1,
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "VELO",
+      "name": "Velo3D, Inc. Common stock",
+      "counts": {
+        "dilution": 5,
+        "mna": 1,
+        "rights_modification": 1,
+        "auditor_change": 2,
+        "control_change": 1,
+        "restructuring": 2,
+        "delisting_risk": 1
+      },
+      "n_8k": 38,
+      "latest_8k": "2026-07-14"
+    },
+    {
+      "ticker": "ALIT",
+      "name": "Alight, Inc.",
+      "counts": {
+        "rights_modification": 1,
+        "delisting_risk": 1,
+        "restructuring": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "SKYH",
+      "name": "Sky Harbour Group Corporation",
+      "counts": {
+        "dilution": 3,
+        "delisting_risk": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-06"
+    },
+    {
+      "ticker": "AIV",
+      "name": "Apartment Investment and Management Company",
+      "counts": {
+        "mna": 3
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-06-10"
+    },
+    {
+      "ticker": "NCMI",
+      "name": "National CineMedia, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-05-12"
+    },
+    {
+      "ticker": "ABEO",
+      "name": "Abeona Therapeutics Inc. Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-12"
+    },
+    {
+      "ticker": "EBS",
+      "name": "Emergent Biosolutions, Inc.",
+      "counts": {
+        "restructuring": 1,
+        "dilution": 3
+      },
+      "n_8k": 34,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "XFOR",
+      "name": "X4 Pharmaceuticals, Inc. Common Stock",
+      "counts": {
+        "restructuring": 2,
+        "dilution": 2,
+        "delisting_risk": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-01"
+    },
+    {
+      "ticker": "ALTO",
+      "name": "Alto Ingredients, Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "RLGT",
+      "name": "Radiant Logistics, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-05-11"
+    },
+    {
+      "ticker": "LE",
+      "name": "Lands' End, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 2
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-10"
+    },
+    {
+      "ticker": "BMBL",
+      "name": "Bumble Inc. Class A Common Stock",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "FNLC",
+      "name": "First Bancorp, Inc. (ME)",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "CLPT",
+      "name": "ClearPoint Neuro, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "FIP",
+      "name": "FTAI Infrastructure Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 2,
+        "dilution": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "PACB",
+      "name": "Pacific Biosciences of California, Inc.",
+      "counts": {
+        "restructuring": 2,
+        "mna": 1,
+        "dilution": 2
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "LSAK",
+      "name": "Lesaka Technologies, Inc. Common Stock",
+      "counts": {
+        "restatement": 1,
+        "mna": 2,
+        "dilution": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "MNRO",
+      "name": "Monro, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "XRX",
+      "name": "Xerox Holdings Corporation Common Stock",
+      "counts": {
+        "mna": 2,
+        "dilution": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "CRNC",
+      "name": "Cerence Inc. Common Stock",
+      "counts": {
+        "restructuring": 2
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-02"
+    },
+    {
+      "ticker": "GBLI",
+      "name": "Global Indemnity Group, LLC Class A Common Stock",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "OPI",
+      "name": "Office Properties Income Trust Common shares of beneficial interest",
+      "counts": {
+        "bankruptcy": 5,
+        "dilution": 4,
+        "rights_modification": 1,
+        "control_change": 1,
+        "debt_default": 1,
+        "delisting_risk": 2,
+        "mna": 1
+      },
+      "n_8k": 41,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "SMC",
+      "name": "Summit Midstream Corporation",
+      "counts": {
+        "dilution": 4,
+        "mna": 2
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-06-10"
+    },
+    {
+      "ticker": "ORN",
+      "name": "Orion Group Holdings, Inc",
+      "counts": {
+        "mna": 1,
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "ISTR",
+      "name": "Investar Holding Corporation",
+      "counts": {
+        "auditor_change": 2,
+        "mna": 1,
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-20"
+    },
+    {
+      "ticker": "FRPH",
+      "name": "FRP Holdings, Inc.",
+      "counts": {
+        "auditor_change": 2
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "EDIT",
+      "name": "Editas Medicine, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "restructuring": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "LRMR",
+      "name": "Larimar Therapeutics, Inc. Common Stock",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "PLBC",
+      "name": "Plumas Bancorp",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 49,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "FPI",
+      "name": "Farmland Partners Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "DCTH",
+      "name": "Delcath Systems Inc",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-05-14"
+    },
+    {
+      "ticker": "GCO",
+      "name": "Genesco Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "NEWT",
+      "name": "NewtekOne, Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 55,
+      "latest_8k": "2026-06-15"
+    },
+    {
+      "ticker": "BOC",
+      "name": "Boston Omaha Corporation",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "ACTG",
+      "name": "Acacia Research Corporation",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "ADV",
+      "name": "Advantage Solutions Inc. Class A Common Stock",
+      "counts": {
+        "rights_modification": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "BNED",
+      "name": "Barnes & Noble Education, Inc",
+      "counts": {
+        "restatement": 2,
+        "delisting_risk": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-09"
+    },
+    {
+      "ticker": "IIIV",
+      "name": "i3 Verticals, Inc. Class A Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-06-02"
+    },
+    {
+      "ticker": "BBBY",
+      "name": "Bed Bath & Beyond, Inc.",
+      "counts": {
+        "delisting_risk": 1,
+        "dilution": 4,
+        "mna": 4
+      },
+      "n_8k": 45,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "STRZ",
+      "name": "Starz Entertainment Corp. Common Shares",
+      "counts": {
+        "rights_modification": 2,
+        "mna": 1,
+        "delisting_risk": 2,
+        "control_change": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-05-18"
+    },
+    {
+      "ticker": "GTN",
+      "name": "Gray Media, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 43,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "LWAY",
+      "name": "Lifeway Foods Inc",
+      "counts": {
+        "rights_modification": 3
+      },
+      "n_8k": 42,
+      "latest_8k": "2026-07-07"
+    },
+    {
+      "ticker": "RZLT",
+      "name": "Rezolute, Inc. Common Stock (NV)",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-06-02"
+    },
+    {
+      "ticker": "CZNC",
+      "name": "Citizens & Northern Corporation",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "IPI",
+      "name": "Intrepid Potash, Inc",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "ERII",
+      "name": "Energy Recovery, Inc.",
+      "counts": {
+        "restructuring": 1,
+        "impairment": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "LXFR",
+      "name": "Luxfer Holdings PLC Ordinary Shares",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "CLFD",
+      "name": "Clearfield, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CBAN",
+      "name": "Colony Bankcorp Inc.",
+      "counts": {
+        "mna": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "FBYD",
+      "name": "Falcon's Beyond Global, Inc. Class A Common Stock",
+      "counts": {
+        "dilution": 4,
+        "rights_modification": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-06-12"
+    },
+    {
+      "ticker": "FVR",
+      "name": "FrontView REIT, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-07-01"
+    },
+    {
+      "ticker": "PACK",
+      "name": "Ranpak Holdings Corp.",
+      "counts": {
+        "dilution": 3
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "PANL",
+      "name": "Pangaea Logistics Solutions Ltd.",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 2,
+        "dilution": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-06-08"
+    },
+    {
+      "ticker": "CWCO",
+      "name": "Consolidated Water Co Inc",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "ABTC",
+      "name": "American Bitcoin Corp. Class A Common Stock",
+      "counts": {
+        "rights_modification": 2,
+        "auditor_change": 1,
+        "mna": 2,
+        "dilution": 3,
+        "control_change": 1,
+        "delisting_risk": 4
+      },
+      "n_8k": 46,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "BSVN",
+      "name": "Bank7 Corp. Common stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "CAL",
+      "name": "Caleres Inc",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "SLDP",
+      "name": "Solid Power, Inc. Class A Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "BTBT",
+      "name": "Bit Digital, Inc. Ordinary Shares",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 38,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "MAGN",
+      "name": "Magnera Corporation",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1,
+        "control_change": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-05-07"
+    },
+    {
+      "ticker": "ULH",
+      "name": "Universal Logistics Holdings, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 2,
+        "restatement": 1,
+        "impairment": 1,
+        "rights_modification": 1,
+        "mna": 1,
+        "restructuring": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "FWRD",
+      "name": "Forward Air Corp",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "SD",
+      "name": "SandRidge Energy, Inc.",
+      "counts": {
+        "rights_modification": 1,
+        "mna": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "BIOA",
+      "name": "BioAge Labs, Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "SPIR",
+      "name": "Spire Global, Inc.",
+      "counts": {
+        "dilution": 2,
+        "delisting_risk": 4,
+        "auditor_change": 2,
+        "mna": 1,
+        "restatement": 2
+      },
+      "n_8k": 39,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "OIS",
+      "name": "OIL STATES INTERNATIONAL, INC.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "XRN",
+      "name": "Chiron Real Estate Inc.",
+      "counts": {
+        "mna": 2,
+        "dilution": 2,
+        "rights_modification": 3
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "ASPI",
+      "name": "ASP Isotopes Inc. Common Stock",
+      "counts": {
+        "dilution": 5,
+        "mna": 1
+      },
+      "n_8k": 87,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "ALTI",
+      "name": "AlTi Global, Inc. Class A Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "impairment": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-02"
+    },
+    {
+      "ticker": "VSTM",
+      "name": "Verastem, Inc.",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-23"
+    },
+    {
+      "ticker": "URG",
+      "name": "Ur-Energy Inc.",
+      "counts": {
+        "dilution": 1,
+        "control_change": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-06-05"
+    },
+    {
+      "ticker": "AHRT",
+      "name": "AH Realty Trust, Inc.",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "SRTA",
+      "name": "Strata Critical Medical, Inc. Class A Common Stock",
+      "counts": {
+        "mna": 2,
+        "dilution": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "WNC",
+      "name": "Wabash National Corp.",
+      "counts": {
+        "dilution": 1,
+        "restructuring": 1,
+        "impairment": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "SPT",
+      "name": "Sprout Social, Inc Class A Common Stock",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-15"
+    },
+    {
+      "ticker": "MSIF",
+      "name": "MSC Income Fund, Inc.",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 39,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "IDR",
+      "name": "Idaho Strategic Resources, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-06-11"
+    },
+    {
+      "ticker": "VITL",
+      "name": "Vital Farms, Inc. Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "rights_modification": 1,
+        "mna": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-06-16"
+    },
+    {
+      "ticker": "AMCX",
+      "name": "AMC Global Media Inc. Class A Common Stock",
+      "counts": {
+        "delisting_risk": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "BSRR",
+      "name": "Sierra Bancorp",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "KELYA",
+      "name": "Kelly Services Inc",
+      "counts": {
+        "rights_modification": 2,
+        "control_change": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-05-13"
+    },
+    {
+      "ticker": "ACIC",
+      "name": "American Coastal Insurance Corporation Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "PAYS",
+      "name": "Paysign, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "WEAV",
+      "name": "Weave Communications, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-06-10"
+    },
+    {
+      "ticker": "ARVN",
+      "name": "Arvinas, Inc",
+      "counts": {
+        "restructuring": 2
+      },
+      "n_8k": 38,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "NRGV",
+      "name": "Energy Vault Holdings, Inc.",
+      "counts": {
+        "dilution": 7,
+        "delisting_risk": 2
+      },
+      "n_8k": 39,
+      "latest_8k": "2026-07-17"
+    },
+    {
+      "ticker": "BDN",
+      "name": "Brandywine Realty Trust",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "TECX",
+      "name": "Tectonic Therapeutic, Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-06-10"
+    },
+    {
+      "ticker": "AIOT",
+      "name": "PowerFleet, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 2,
+        "delisting_risk": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "KIDS",
+      "name": "OrthoPediatrics Corp. Common Stock",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "CRD-B",
+      "name": "Crawford & Company Class B",
+      "counts": {
+        "auditor_change": 2
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "MLAB",
+      "name": "Mesa Laboratories Inc",
+      "counts": {
+        "auditor_change": 2
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "RWT",
+      "name": "Redwood Trust, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 37,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "MBUU",
+      "name": "Malibu Boats, Inc. Class A",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "DDD",
+      "name": "3D Systems Corporation",
+      "counts": {
+        "dilution": 3,
+        "restructuring": 2,
+        "mna": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "PKOH",
+      "name": "Park-Ohio Holdings Corp",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "NRIM",
+      "name": "Northrim BanCorp Inc",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "GOGO",
+      "name": "Gogo Inc.",
+      "counts": {
+        "mna": 1,
+        "dilution": 2
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-17"
+    },
+    {
+      "ticker": "TLRY",
+      "name": "Tilray Brands, Inc. Common Stock",
+      "counts": {
+        "dilution": 8,
+        "mna": 1,
+        "rights_modification": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 34,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "CTGO",
+      "name": "Contango Silver & Gold Inc.",
+      "counts": {
+        "auditor_change": 2,
+        "mna": 1,
+        "dilution": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 51,
+      "latest_8k": "2026-07-17"
+    },
+    {
+      "ticker": "MCFT",
+      "name": "MasterCraft Boat Holdings, Inc. Common Stock",
+      "counts": {
+        "mna": 3
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "NCDL",
+      "name": "Nuveen Churchill Direct Lending Corp",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-10"
+    },
+    {
+      "ticker": "CMCO",
+      "name": "Columbus McKinnon Corp/NY",
+      "counts": {
+        "mna": 2,
+        "dilution": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 39,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "ZVRA",
+      "name": "Zevra Therapeutics, Inc. Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CLDT",
+      "name": "CHATHAM LODGING TRUST",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "UWMC",
+      "name": "UWM Holdings Corporation",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-06-03"
+    },
+    {
+      "ticker": "KLC",
+      "name": "KinderCare Learning Companies, Inc.",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "FBRT",
+      "name": "Franklin BSP Realty Trust, Inc.",
+      "counts": {
+        "rights_modification": 2,
+        "mna": 1,
+        "dilution": 2
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "CRD-A",
+      "name": "Crawford & Company Class A",
+      "counts": {
+        "auditor_change": 2
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "BRSP",
+      "name": "BrightSpire Capital, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "FTH",
+      "name": "Faeth Therapeutics, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 1,
+        "delisting_risk": 2
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "IIIN",
+      "name": "Insteel Industries, Inc.",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "KE",
+      "name": "Kimball Electronics, Inc.",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-01"
+    },
+    {
+      "ticker": "ADTN",
+      "name": "ADTRAN Holdings, Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "restatement": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "CNNE",
+      "name": "Cannae Holdings, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "ALOY",
+      "name": "REalloys Inc. Common Stock",
+      "counts": {
+        "dilution": 6,
+        "auditor_change": 2,
+        "mna": 1,
+        "rights_modification": 2,
+        "control_change": 1,
+        "delisting_risk": 2
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "CARS",
+      "name": "Cars.com Inc. Common Stock",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-06-05"
+    },
+    {
+      "ticker": "ACNB",
+      "name": "ACNB Corp",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 34,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "TIPT",
+      "name": "Tiptree Inc. Common Stock",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "AROW",
+      "name": "Arrow Financial Corp",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "AGNT",
+      "name": "AGNT, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 1,
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "BHB",
+      "name": "Bar Harbor Bankshares",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "GTN-A",
+      "name": "Gray Media, Inc. Class A",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 43,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "BALY",
+      "name": "Bally's Corporation",
+      "counts": {
+        "mna": 2,
+        "dilution": 1,
+        "rights_modification": 1,
+        "control_change": 1
+      },
+      "n_8k": 37,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "NMFC",
+      "name": "NEW MOUNTAIN FINANCE CORPORATION",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "GYRE",
+      "name": "Gyre Therapeutics, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "LXU",
+      "name": "LSB INDUSTRIES INC",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "CWBC",
+      "name": "Community West Bancshares Common Stock",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 36,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "HYLN",
+      "name": "Hyliion Holdings Corp.",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "PHR",
+      "name": "Phreesia, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-06-24"
+    },
+    {
+      "ticker": "CGBD",
+      "name": "Carlyle Secured Lending, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-07-15"
+    },
+    {
+      "ticker": "INDI",
+      "name": "indie Semiconductor, Inc. Class A Common Stock",
+      "counts": {
+        "dilution": 3
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-06-22"
+    },
+    {
+      "ticker": "REPX",
+      "name": "Riley Exploration Permian, Inc.",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "HY",
+      "name": "Hyster-Yale, Inc.",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "PAR",
+      "name": "PAR Technology Corp.",
+      "counts": {
+        "dilution": 6,
+        "rights_modification": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-06-03"
+    },
+    {
+      "ticker": "CTMX",
+      "name": "CytomX Therapeutics, Inc.",
+      "counts": {
+        "delisting_risk": 1,
+        "restructuring": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "NB",
+      "name": "NioCorp Developments Ltd. Common Stock",
+      "counts": {
+        "rights_modification": 2,
+        "mna": 3,
+        "delisting_risk": 1
+      },
+      "n_8k": 34,
+      "latest_8k": "2026-07-08"
+    },
+    {
+      "ticker": "LPTH",
+      "name": "Lightpath Technologies Inc",
+      "counts": {
+        "mna": 2,
+        "dilution": 4,
+        "rights_modification": 2,
+        "auditor_change": 2
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "RIGL",
+      "name": "Rigel Pharmaceuticals Inc. (New)",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "CADL",
+      "name": "Candel Therapeutics, Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-06-24"
+    },
+    {
+      "ticker": "CYRX",
+      "name": "CryoPort, Inc. Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-06-09"
+    },
+    {
+      "ticker": "SSII",
+      "name": "SS Innovations International Inc. Common Stock",
+      "counts": {
+        "dilution": 2,
+        "restatement": 1
+      },
+      "n_8k": 63,
+      "latest_8k": "2026-07-17"
+    },
+    {
+      "ticker": "MITK",
+      "name": "Mitek Systems, Inc.",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-05-07"
+    },
+    {
+      "ticker": "KELYB",
+      "name": "Kelly Services Inc",
+      "counts": {
+        "rights_modification": 2,
+        "control_change": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-05-13"
+    },
+    {
+      "ticker": "SCHL",
+      "name": "Scholastic Corp",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "TDUP",
+      "name": "ThredUp Inc. Class A Common Stock",
+      "counts": {
+        "mna": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "HPP",
+      "name": "Hudson Pacific Properties, Inc.",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "SHBI",
+      "name": "Shore Bancshares Inc",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "CODI",
+      "name": "Compass Diversified",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1,
+        "delisting_risk": 1,
+        "restatement": 2,
+        "rights_modification": 3
+      },
+      "n_8k": 56,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "SXC",
+      "name": "SUNCOKE ENERGY INC",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "CTO",
+      "name": "CTO Realty Growth, Inc.",
+      "counts": {
+        "dilution": 1,
+        "mna": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "ONT",
+      "name": "Onterris, Inc.",
+      "counts": {
+        "rights_modification": 1,
+        "debt_default": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "OPFI",
+      "name": "OppFi Inc.",
+      "counts": {
+        "dilution": 1,
+        "debt_default": 2
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-06-16"
+    },
+    {
+      "ticker": "DBVT",
+      "name": "DBV Technologies S.A.",
+      "counts": {
+        "dilution": 1,
+        "delisting_risk": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "ALRS",
+      "name": "Alerus Financial Corporation Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "ESRT",
+      "name": "EMPIRE STATE REALTY TRUST, INC.",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "KRT",
+      "name": "Karat Packaging Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "HPK",
+      "name": "HighPeak Energy, Inc. Common Stock",
+      "counts": {
+        "control_change": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "MAMA",
+      "name": "Mama's Creations, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-07-07"
+    },
+    {
+      "ticker": "NAVI",
+      "name": "Navient Corporation",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-02"
+    },
+    {
+      "ticker": "MATW",
+      "name": "Matthews International Corp",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 41,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "FLOC",
+      "name": "Flowco Holdings Inc.",
+      "counts": {
+        "dilution": 3
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "ARI",
+      "name": "APOLLO COMMERCIAL REAL ESTATE FINANCE, INC.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "TBPH",
+      "name": "Theravance Biopharma, Inc.",
+      "counts": {
+        "restructuring": 1,
+        "mna": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-06-29"
+    },
+    {
+      "ticker": "TRNS",
+      "name": "Transcat Inc",
+      "counts": {
+        "mna": 2,
+        "auditor_change": 1,
+        "dilution": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "SMP",
+      "name": "Standard Motor Products",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "ACRS",
+      "name": "Aclaris Therapeutics, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "SOC",
+      "name": "Sable Offshore Corp.",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 1
+      },
+      "n_8k": 46,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "QNST",
+      "name": "QuinStreet, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-05-07"
+    },
+    {
+      "ticker": "APOG",
+      "name": "Apogee Enterprises Inc",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "DEC",
+      "name": "Diversified Energy Company",
+      "counts": {
+        "mna": 3,
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "SMBK",
+      "name": "SmartFinancial, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-20"
+    },
+    {
+      "ticker": "LYTS",
+      "name": "LSI Industries Inc",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-04-23"
+    },
+    {
+      "ticker": "CSTL",
+      "name": "Castle Biosciences, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "BZH",
+      "name": "Beazer Homes USA, Inc. New",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-06-23"
+    },
+    {
+      "ticker": "TROX",
+      "name": "TRONOX LIMITED CL A ORDINARY SHARES",
+      "counts": {
+        "restructuring": 1,
+        "impairment": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "ENVX",
+      "name": "Enovix Corporation Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-07-09"
+    },
+    {
+      "ticker": "GLIBK",
+      "name": "Liberty Capital Corporation Series C GCI Group Common Stock",
+      "counts": {
+        "rights_modification": 2,
+        "dilution": 1,
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-15"
+    },
+    {
+      "ticker": "NABL",
+      "name": "N-able, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "FMNB",
+      "name": "Farmers National Banc Corp",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "UAMY",
+      "name": "United States Antimony Corporation",
+      "counts": {
+        "auditor_change": 1,
+        "delisting_risk": 1,
+        "rights_modification": 2
+      },
+      "n_8k": 62,
+      "latest_8k": "2026-06-16"
+    },
+    {
+      "ticker": "MRVI",
+      "name": "Maravai LifeSciences Holdings, Inc. Class A Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "auditor_change": 1,
+        "restatement": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-06-03"
+    },
+    {
+      "ticker": "NX",
+      "name": "Quanex Building Products Corporation",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "ABR",
+      "name": "Arbor Realty Trust, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "GLIBA",
+      "name": "Liberty Capital Corporation Series A GCI Group Common Stock",
+      "counts": {
+        "rights_modification": 2,
+        "dilution": 1,
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-15"
+    },
+    {
+      "ticker": "KODK",
+      "name": "EASTMAN KODAK COMPANY",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "HTLD",
+      "name": "Heartland Express Inc",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "AOSL",
+      "name": "Alpha and Omega Semiconductor Limited",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-10"
+    },
+    {
+      "ticker": "SBSI",
+      "name": "Southside Bancshares, Inc.",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "GO",
+      "name": "Grocery Outlet Holding Corp. Common Stock",
+      "counts": {
+        "restructuring": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-06-09"
+    },
+    {
+      "ticker": "RPC",
+      "name": "Ridgepost Capital, Inc.",
+      "counts": {
+        "mna": 2,
+        "dilution": 4
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "THFF",
+      "name": "First Financial Corporation Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "KOP",
+      "name": "Koppers Holdings, Inc.",
+      "counts": {
+        "restructuring": 3
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-05-11"
+    },
+    {
+      "ticker": "APEI",
+      "name": "American Public Education, Inc.",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CIM",
+      "name": "Chimera Investment Corp.",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 42,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "PCRX",
+      "name": "Pacira BioSciences, Inc. Common Stock",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "AVTX",
+      "name": "Avalo Therapeutics, Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 37,
+      "latest_8k": "2026-06-23"
+    },
+    {
+      "ticker": "CAC",
+      "name": "Camden National Corporation",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "OPK",
+      "name": "Opko Health Inc.",
+      "counts": {
+        "dilution": 2,
+        "mna": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "ACEL",
+      "name": "Accel Entertainment, Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "RJET",
+      "name": "Republic Airways Holdings Inc. Common Stock",
+      "counts": {
+        "dilution": 2,
+        "mna": 1,
+        "rights_modification": 1,
+        "auditor_change": 2,
+        "control_change": 1,
+        "delisting_risk": 4
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "ABX",
+      "name": "Abacus Global Management, Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "delisting_risk": 2,
+        "rights_modification": 2,
+        "mna": 2,
+        "dilution": 2
+      },
+      "n_8k": 42,
+      "latest_8k": "2026-07-02"
+    },
+    {
+      "ticker": "AEBI",
+      "name": "Aebi Schmidt Holding AG Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "BLMN",
+      "name": "Bloomin' Brands, Inc. Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "SVC",
+      "name": "Service Properties Trust Common Stock",
+      "counts": {
+        "mna": 15
+      },
+      "n_8k": 39,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "BKSY",
+      "name": "BlackSky Technology Inc.",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-05-22"
+    },
+    {
+      "ticker": "BVS",
+      "name": "Bioventus Inc. Class A Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "ASTE",
+      "name": "Astec Industries Inc",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "BFST",
+      "name": "Business First Bancshares, Inc. Common Stock",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "GERN",
+      "name": "Geron Corp",
+      "counts": {
+        "restructuring": 1,
+        "mna": 2
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-05-27"
+    },
+    {
+      "ticker": "CCNE",
+      "name": "CNB Financial Corp/PA",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 42,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "PLOW",
+      "name": "DOUGLAS DYNAMICS, INC.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "DAKT",
+      "name": "Daktronics Inc",
+      "counts": {
+        "rights_modification": 3
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-07-17"
+    },
+    {
+      "ticker": "EQBK",
+      "name": "Equity Bancshares, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 36,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "AVO",
+      "name": "Mission Produce, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-07-10"
+    },
+    {
+      "ticker": "EVLV",
+      "name": "Evolv Technologies Holdings, Inc. Class A Common Stock",
+      "counts": {
+        "delisting_risk": 2,
+        "restructuring": 1,
+        "restatement": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-22"
+    },
+    {
+      "ticker": "GTM",
+      "name": "ZoomInfo Technologies Inc Common Stock",
+      "counts": {
+        "restructuring": 2
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "MSEX",
+      "name": "Middlesex Water Co",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "VRTS",
+      "name": "Virtus Investment Partners, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "NUTX",
+      "name": "Nutex Health Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 2,
+        "restatement": 1,
+        "auditor_change": 2
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "PSEC",
+      "name": "Prospect Capital Corporation",
+      "counts": {
+        "rights_modification": 3
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-07"
+    },
+    {
+      "ticker": "LXRX",
+      "name": "Lexicon Pharmaceuticals, Inc.",
+      "counts": {
+        "dilution": 3,
+        "rights_modification": 1,
+        "delisting_risk": 1,
+        "restructuring": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-05-07"
+    },
+    {
+      "ticker": "XIFR",
+      "name": "XPLR Infrastructure, LP",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "ANRO",
+      "name": "Alto Neuroscience Inc.",
+      "counts": {
+        "dilution": 4
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-14"
+    },
+    {
+      "ticker": "GDRX",
+      "name": "GoodRx Holdings, Inc. Class A Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "GNK",
+      "name": "GENCO SHIPPING & TRADING LTD",
+      "counts": {
+        "rights_modification": 4
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "RHLD",
+      "name": "Resolute Holdings Management, Inc.",
+      "counts": {
+        "rights_modification": 1,
+        "mna": 1,
+        "auditor_change": 1,
+        "delisting_risk": 1,
+        "control_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-06-12"
+    },
+    {
+      "ticker": "OI",
+      "name": "O-I Glass, Inc.",
+      "counts": {
+        "restructuring": 3,
+        "impairment": 2
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "NPKI",
+      "name": "NPK International Inc.",
+      "counts": {
+        "mna": 2,
+        "impairment": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "GPRE",
+      "name": "Green Plains, Inc.",
+      "counts": {
+        "dilution": 1,
+        "mna": 2
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-06-11"
+    },
+    {
+      "ticker": "COLL",
+      "name": "Collegium Pharmaceutical, Inc. Common Stock",
+      "counts": {
+        "mna": 2,
+        "dilution": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-05-15"
+    },
+    {
+      "ticker": "DEA",
+      "name": "Easterly Government Properties, Inc.",
+      "counts": {
+        "control_change": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "NBR",
+      "name": "Nabors Industries Ltd.",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "SCSC",
+      "name": "Scansource Inc",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-05-29"
+    },
+    {
+      "ticker": "MBC",
+      "name": "MasterBrand, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "AVNS",
+      "name": "AVANOS MEDICAL, INC.",
+      "counts": {
+        "mna": 1,
+        "delisting_risk": 1,
+        "rights_modification": 1,
+        "control_change": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "UPBD",
+      "name": "Upbound Group, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1,
+        "dilution": 2
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "MUX",
+      "name": "McEwen Inc.",
+      "counts": {
+        "dilution": 5,
+        "mna": 1
+      },
+      "n_8k": 38,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "USPH",
+      "name": "US Physical Therapy Inc",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 39,
+      "latest_8k": "2026-07-06"
+    },
+    {
+      "ticker": "UPWK",
+      "name": "Upwork Inc. Common Stock",
+      "counts": {
+        "restructuring": 2
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "QDEL",
+      "name": "QuidelOrtho Corporation Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-06-23"
+    },
+    {
+      "ticker": "NWPX",
+      "name": "NWPX Infrastructure, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "DLX",
+      "name": "Deluxe Corporation",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "GHM",
+      "name": "Graham Corporation",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-06-18"
+    },
+    {
+      "ticker": "EE",
+      "name": "Excelerate Energy, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "INBX",
+      "name": "Inhibrx Biosciences, Inc. Common Stock",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "ECVT",
+      "name": "Ecovyst Inc.",
+      "counts": {
+        "mna": 1,
+        "debt_default": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "WBTN",
+      "name": "WEBTOON Entertainment Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "GOLD",
+      "name": "Gold.com, Inc.",
+      "counts": {
+        "delisting_risk": 1,
+        "mna": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-05-07"
+    },
+    {
+      "ticker": "ETON",
+      "name": "Eton Pharmaceutcials, Inc. Common Stock",
+      "counts": {
+        "mna": 5,
+        "auditor_change": 1
+      },
+      "n_8k": 41,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "JCAP",
+      "name": "Jefferson Capital, Inc. Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 10,
+      "latest_8k": "2026-06-08"
+    },
+    {
+      "ticker": "CMP",
+      "name": "Compass Minerals International, Inc.",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "AORT",
+      "name": "Artivion, Inc.",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-05-18"
+    },
+    {
+      "ticker": "TDAY",
+      "name": "USA TODAY Co., Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-06-01"
+    },
+    {
+      "ticker": "THRM",
+      "name": "Gentherm Inc",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "UMH",
+      "name": "UMH Properties, Inc.",
+      "counts": {
+        "rights_modification": 2
+      },
+      "n_8k": 49,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "EFOR",
+      "name": "Everforth, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "UVV",
+      "name": "Universal Corporation",
+      "counts": {
+        "debt_default": 3,
+        "delisting_risk": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "HLIT",
+      "name": "Harmonic Inc",
+      "counts": {
+        "mna": 1,
+        "control_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-06-17"
+    },
+    {
+      "ticker": "RCAT",
+      "name": "Red Cat Holdings, Inc. Common Stock",
+      "counts": {
+        "mna": 2,
+        "dilution": 5,
+        "auditor_change": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "IAUX",
+      "name": "i-80 Gold Corp.",
+      "counts": {
+        "dilution": 5
+      },
+      "n_8k": 41,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "FTK",
+      "name": "Flotek Industries, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "VYX",
+      "name": "NCR Voyix Corporation",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CBRL",
+      "name": "Cracker Barrel Old Country Store, Inc,.",
+      "counts": {
+        "restructuring": 1,
+        "impairment": 1,
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "AESI",
+      "name": "Atlas Energy Solutions Inc.",
+      "counts": {
+        "dilution": 3,
+        "mna": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "SBET",
+      "name": "Sharplink, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 1,
+        "delisting_risk": 3
+      },
+      "n_8k": 51,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "ORIC",
+      "name": "Oric Pharmaceuticals, Inc. Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "dilution": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "TNDM",
+      "name": "Tandem Diabetes Care, Inc.",
+      "counts": {
+        "rights_modification": 1,
+        "dilution": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-05-21"
+    },
+    {
+      "ticker": "DFH",
+      "name": "Dream Finders Homes, Inc.",
+      "counts": {
+        "rights_modification": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "EPC",
+      "name": "Edgewell Personal Care Company",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "PNTG",
+      "name": "The Pennant Group, Inc. Common Stock",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "FMC",
+      "name": "FMC Corporation",
+      "counts": {
+        "dilution": 1,
+        "restructuring": 1,
+        "impairment": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "PUMP",
+      "name": "ProPetro Holding Corp.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "AMRC",
+      "name": "Ameresco, Inc.",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "LINC",
+      "name": "Lincoln Educational Services",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-07-10"
+    },
+    {
+      "ticker": "PRSU",
+      "name": "Pursuit Attractions and Hospitality, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "PCT",
+      "name": "PureCycle Technologies, Inc. Common stock",
+      "counts": {
+        "rights_modification": 7,
+        "dilution": 3
+      },
+      "n_8k": 34,
+      "latest_8k": "2026-06-15"
+    },
+    {
+      "ticker": "XPEL",
+      "name": "XPEL, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "rights_modification": 2
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "LZ",
+      "name": "LegalZoom.com, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 1,
+        "restructuring": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "FMBH",
+      "name": "First Mid Bancshares, Inc. Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "KOS",
+      "name": "Kosmos Energy Ltd.",
+      "counts": {
+        "mna": 3
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "LEG",
+      "name": "Leggett & Platt, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "XERS",
+      "name": "Xeris Biopharma Holdings, Inc. Common Stock",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-17"
+    },
+    {
+      "ticker": "DMC",
+      "name": "Del Monte Corporation",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "AAT",
+      "name": "AMERICAN ASSETS TRUST, INC.",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "DCH",
+      "name": "Dauch Corporation",
+      "counts": {
+        "mna": 1,
+        "dilution": 2
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-06-15"
+    },
+    {
+      "ticker": "LGIH",
+      "name": "LGI Homes, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "CTBI",
+      "name": "Community Trust Bancorp Inc",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "RYZ",
+      "name": "Ryerson Holding Corporation",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "BJRI",
+      "name": "BJ's Restaurants, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "BBAI",
+      "name": "BigBear.ai Holdings, Inc.",
+      "counts": {
+        "dilution": 4,
+        "restatement": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "SCL",
+      "name": "Stepan Co.",
+      "counts": {
+        "restructuring": 2,
+        "mna": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "PAHC",
+      "name": "Phibro Animal Health Corporation Class A",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "SHLS",
+      "name": "Shoals Technologies Group, Inc. Class A Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "AZTA",
+      "name": "Azenta, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "CRI",
+      "name": "Carter's Inc.",
+      "counts": {
+        "restructuring": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "TRS",
+      "name": "Trimas Corporation",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "HROW",
+      "name": "Harrow, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-06-22"
+    },
+    {
+      "ticker": "KMTS",
+      "name": "Kestra Medical Technologies, Ltd. Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-07-14"
+    },
+    {
+      "ticker": "BAND",
+      "name": "Bandwidth Inc. Class A Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "XNCR",
+      "name": "Xencor, Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "restatement": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "ATEC",
+      "name": "Alphatec Holdings, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "TE",
+      "name": "T1 Energy Inc.",
+      "counts": {
+        "dilution": 5,
+        "mna": 2,
+        "auditor_change": 1,
+        "restatement": 1
+      },
+      "n_8k": 57,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "SLVM",
+      "name": "Sylvamo Corporation",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-05-18"
+    },
+    {
+      "ticker": "TRIN",
+      "name": "Trinity Capital Inc.",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "FBRX",
+      "name": "Forte Biosciences, Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "CXM",
+      "name": "Sprinklr, Inc.",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-01"
+    },
+    {
+      "ticker": "WBI",
+      "name": "WaterBridge Infrastructure LLC",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "JJSF",
+      "name": "J&J Snack Foods Corp",
+      "counts": {
+        "restructuring": 1,
+        "impairment": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CNXC",
+      "name": "Concentrix Corporation Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "APPS",
+      "name": "Digital Turbine, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "AMSC",
+      "name": "American Superconductor Corp",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "TRLV",
+      "name": "Trulieve Cannabis Corp.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "ROCK",
+      "name": "Gibraltar Industries, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "TRIP",
+      "name": "TripAdvisor, Inc.",
+      "counts": {
+        "restructuring": 1,
+        "mna": 1,
+        "control_change": 1,
+        "dilution": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "BLFS",
+      "name": "BioLife Solutions Inc.",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "LILAK",
+      "name": "Liberty Latin America Ltd. Class C Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 56,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "IMKTA",
+      "name": "Ingles Markets Inc",
+      "counts": {
+        "delisting_risk": 1,
+        "impairment": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "TPB",
+      "name": "Turning Point Brands, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics,, Inc. Common Stock",
+      "counts": {
+        "dilution": 2,
+        "restructuring": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "RXRX",
+      "name": "Recursion Pharmaceuticals, Inc. Class A Common Stock",
+      "counts": {
+        "dilution": 2,
+        "restructuring": 1,
+        "mna": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "LILA",
+      "name": "Liberty Latin America Ltd. Class A Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 56,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "FCEL",
+      "name": "FuelCell Energy Inc  NEW (DE)",
+      "counts": {
+        "dilution": 1,
+        "restructuring": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "OMCL",
+      "name": "Omnicell Inc",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "IIPR",
+      "name": "Innovative Industrial Properties, Inc. Common stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 36,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "NEXT",
+      "name": "NextDecade Corporation Common Stock",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-02"
+    },
+    {
+      "ticker": "GCT",
+      "name": "GigaCloud Technology Inc Class A Ordinary Shares",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "OCFC",
+      "name": "OceanFirst Financial Corp",
+      "counts": {
+        "mna": 1,
+        "dilution": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "BFC",
+      "name": "Bank First Corporation Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "PRGS",
+      "name": "Progress Software Corp (DE)",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "AIN",
+      "name": "Albany International Corp Class A",
+      "counts": {
+        "restructuring": 2
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "CBL",
+      "name": "CBL & Associates Properties, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-05-26"
+    },
+    {
+      "ticker": "ASTH",
+      "name": "Astrana Health Inc. Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "AGL",
+      "name": "agilon health, inc.",
+      "counts": {
+        "rights_modification": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "TIC",
+      "name": "TIC Solutions, Inc",
+      "counts": {
+        "dilution": 1,
+        "mna": 1,
+        "delisting_risk": 1,
+        "restatement": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-01"
+    },
+    {
+      "ticker": "FTRE",
+      "name": "Fortrea Holdings Inc. Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "CNOB",
+      "name": "Center Bancorp Inc",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "ANIP",
+      "name": "ANI Pharmaceuticals, Inc.",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 2,
+        "rights_modification": 1,
+        "mna": 1
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-05-21"
+    },
+    {
+      "ticker": "PGY",
+      "name": "Pagaya Technologies Ltd. Class A Ordinary Shares",
+      "counts": {
+        "dilution": 3
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "GNL",
+      "name": "Global Net Lease, Inc.",
+      "counts": {
+        "dilution": 1,
+        "mna": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 79,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "PRG",
+      "name": "PROG Holdings, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "ULCC",
+      "name": "Frontier Group Holdings, Inc. Common Stock",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "PRGO",
+      "name": "PERRIGO COMPANY PLC",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CPRI",
+      "name": "Capri Holdings Limited",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "WMK",
+      "name": "Weis Markets, Inc.",
+      "counts": {
+        "restatement": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "AGM-A",
+      "name": "Federal Agricultural Mortgage Corporation Class A Voting",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 52,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "TFIN",
+      "name": "Triumph Financial, Inc.",
+      "counts": {
+        "delisting_risk": 1,
+        "dilution": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "SMA",
+      "name": "SmartStop Self Storage REIT, Inc.",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 69,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CASH",
+      "name": "Pathward Financial, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "delisting_risk": 2,
+        "restatement": 1,
+        "mna": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "SONO",
+      "name": "Sonos, Inc. Common Stock",
+      "counts": {
+        "restructuring": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "FLNC",
+      "name": "Fluence Energy, Inc. Class A Common Stock",
+      "counts": {
+        "dilution": 3
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "STRA",
+      "name": "Strategic Education, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 10,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "VERX",
+      "name": "Vertex, Inc. Class A Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "dilution": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "GABC",
+      "name": "German American Bancorp, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "NBHC",
+      "name": "NATIONAL BANK HOLDINGS CORP.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "WS",
+      "name": "Worthington Steel, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-15"
+    },
+    {
+      "ticker": "ZD",
+      "name": "Ziff Davis, Inc. Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-06-17"
+    },
+    {
+      "ticker": "NSP",
+      "name": "Insperity, Inc",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "LTC",
+      "name": "LTC Properties, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "GT",
+      "name": "Goodyear Tire & Rubber",
+      "counts": {
+        "restructuring": 4,
+        "mna": 2
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "QUBT",
+      "name": "Quantum Computing Inc. Common",
+      "counts": {
+        "rights_modification": 1,
+        "mna": 2,
+        "dilution": 6,
+        "delisting_risk": 1,
+        "restatement": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "SGRY",
+      "name": "Surgery Partners, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "ZBIO",
+      "name": "Zenas BioPharma, Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "mna": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-05-13"
+    },
+    {
+      "ticker": "ALKT",
+      "name": "Alkami Technology, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "NEO",
+      "name": "NeoGenomics, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "LOB",
+      "name": "Live Oak Bancshares, Inc.",
+      "counts": {
+        "restatement": 1,
+        "rights_modification": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "AVAH",
+      "name": "Aveanna Healthcare Holdings Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 34,
+      "latest_8k": "2026-06-02"
+    },
+    {
+      "ticker": "TILE",
+      "name": "Interface Inc",
+      "counts": {
+        "debt_default": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "SEDG",
+      "name": "SolarEdge Technologies, Inc.",
+      "counts": {
+        "restructuring": 2
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "PDFS",
+      "name": "PDF Solutions Inc",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-06-18"
+    },
+    {
+      "ticker": "WGS",
+      "name": "GeneDx Holdings Corp. Class A Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "BLKB",
+      "name": "Blackbaud, Inc.",
+      "counts": {
+        "impairment": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "EVCM",
+      "name": "EverCommerce Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "LB",
+      "name": "LandBridge Company LLC",
+      "counts": {
+        "dilution": 2,
+        "mna": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "TGLS",
+      "name": "Tecnoglass Holdings Inc.",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-07"
+    },
+    {
+      "ticker": "INVX",
+      "name": "Innovex International, Inc.",
+      "counts": {
+        "dilution": 3,
+        "mna": 2,
+        "auditor_change": 1,
+        "rights_modification": 1,
+        "control_change": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "ADMA",
+      "name": "ADMA Biologics, Inc.",
+      "counts": {
+        "auditor_change": 2
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "NOG",
+      "name": "Northern Oil and Gas, Inc.",
+      "counts": {
+        "dilution": 3,
+        "mna": 2
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "PEB",
+      "name": "Pebblebrook Hotel Trust",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 41,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "PRLB",
+      "name": "PROTO LABS, INC.",
+      "counts": {
+        "restructuring": 1,
+        "impairment": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "STGW",
+      "name": "Stagwell Inc. Class A Common Stock",
+      "counts": {
+        "dilution": 5
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "HE",
+      "name": "Hawaiian Electric Industries, Inc.",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "ADUS",
+      "name": "Addus HomeCare Corp.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "ATEN",
+      "name": "A10 NETWORKS INC",
+      "counts": {
+        "dilution": 3
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "KSS",
+      "name": "Kohls Corporation",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "MH",
+      "name": "McGraw Hill, Inc.",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 11,
+      "latest_8k": "2026-06-11"
+    },
+    {
+      "ticker": "CTRI",
+      "name": "Centuri Holdings, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "FIVN",
+      "name": "FIVE9, INC.",
+      "counts": {
+        "restructuring": 2
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-06-22"
+    },
+    {
+      "ticker": "HTH",
+      "name": "HILLTOP HOLDINGS INC.",
+      "counts": {
+        "debt_default": 2
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-07-24"
+    },
+    {
+      "ticker": "HYMC",
+      "name": "Hycroft Mining Holding Corporation Class A Common Stock",
+      "counts": {
+        "dilution": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 47,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "RAMP",
+      "name": "LiveRamp Holdings, Inc. Common Stock",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "FLYW",
+      "name": "Flywire Corporation Voting Common Stock",
+      "counts": {
+        "mna": 1,
+        "restructuring": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "SLS",
+      "name": "SELLAS Life Sciences Group, Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "UNIT",
+      "name": "Uniti Group Inc. Common Stock",
+      "counts": {
+        "debt_default": 1
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "CDNA",
+      "name": "CareDx, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "HAPN",
+      "name": "Happen, Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "ROG",
+      "name": "Rogers Corporation",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "TALO",
+      "name": "Talos Energy, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 2
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "ANDE",
+      "name": "Andersons Inc/The",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "KEEL",
+      "name": "Keel Infrastructure Corp. Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 2,
+        "rights_modification": 1,
+        "control_change": 1
+      },
+      "n_8k": 8,
+      "latest_8k": "2026-07-06"
+    },
+    {
+      "ticker": "JBLU",
+      "name": "JetBlue Airways Corp",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "PAYO",
+      "name": "Payoneer Global Inc. Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-06-15"
+    },
+    {
+      "ticker": "DRVN",
+      "name": "Driven Brands Holdings Inc. Common Stock",
+      "counts": {
+        "delisting_risk": 2,
+        "restatement": 1,
+        "mna": 2
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "SLDE",
+      "name": "Slide Insurance Holdings, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "BLBD",
+      "name": "Blue Bird Corporation Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "COHU",
+      "name": "Cohu Inc",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "PGEN",
+      "name": "Precigen, Inc. Common Stock",
+      "counts": {
+        "dilution": 2,
+        "rights_modification": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "PLUS",
+      "name": "ePlus Inc",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "COTY",
+      "name": "COTY INC",
+      "counts": {
+        "impairment": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-07"
+    },
+    {
+      "ticker": "PBH",
+      "name": "Prestige Consumer Healthcare Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-07-15"
+    },
+    {
+      "ticker": "BKV",
+      "name": "BKV Corporation",
+      "counts": {
+        "mna": 2,
+        "dilution": 4,
+        "rights_modification": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-06-12"
+    },
+    {
+      "ticker": "MBIN",
+      "name": "Merchants Bancorp Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "RDW",
+      "name": "Redwire Corporation",
+      "counts": {
+        "mna": 1,
+        "dilution": 3
+      },
+      "n_8k": 44,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "GRDN",
+      "name": "Guardian Pharmacy Services, Inc.",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-06-22"
+    },
+    {
+      "ticker": "AGM",
+      "name": "Federal Agricultural Mortgage Corporation",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 52,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "HTO",
+      "name": "H2O America Common Stock",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "SDRL",
+      "name": "Seadrill Limited",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "DNOW",
+      "name": "DNOW Inc.",
+      "counts": {
+        "mna": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-05-20"
+    },
+    {
+      "ticker": "LCII",
+      "name": "LCI Industries",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 60,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "BUSE",
+      "name": "First Busey Corporation Class A Common Stock",
+      "counts": {
+        "rights_modification": 2,
+        "mna": 1
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "IVT",
+      "name": "InvenTrust Properties Corp.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "NWL",
+      "name": "Newell Brands Inc.",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "SYBT",
+      "name": "Stock Yards Bancorp, Inc.",
+      "counts": {
+        "auditor_change": 2
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "LCID",
+      "name": "Lucid Group, Inc. Common Stock",
+      "counts": {
+        "restructuring": 2,
+        "dilution": 7,
+        "rights_modification": 4
+      },
+      "n_8k": 45,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "TMDX",
+      "name": "TransMedics Group, Inc. Common Stock",
+      "counts": {
+        "mna": 5
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "TARS",
+      "name": "Tarsus Pharmaceuticals, Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "BBT",
+      "name": "Beacon Financial Corporation",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1,
+        "delisting_risk": 1,
+        "dilution": 2
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "FBNC",
+      "name": "First Bancorp/NC",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "ESTA",
+      "name": "Establishment Labs Holdings Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-29"
+    },
+    {
+      "ticker": "OSW",
+      "name": "OneSpaWorld Holdings Limited Common Shares",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "DRH",
+      "name": "Diamondrock Hospitality Company Common Stock",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "SUPN",
+      "name": "Supernus Pharmaceuticals, Inc.",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 39,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "SPNT",
+      "name": "SiriusPoint Ltd.",
+      "counts": {
+        "control_change": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "WLYB",
+      "name": "John Wiley & Sons, Inc. Class B",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-09"
+    },
+    {
+      "ticker": "HOG",
+      "name": "Harley-Davidson, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "DJT",
+      "name": "Trump Media & Technology Group Corp. Common Stock",
+      "counts": {
+        "dilution": 4,
+        "mna": 1
+      },
+      "n_8k": 75,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "WLY",
+      "name": "John Wiley & Sons, Inc. Class A",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-09"
+    },
+    {
+      "ticker": "NMRK",
+      "name": "Newmark Group, Inc. Class A Common Stock",
+      "counts": {
+        "control_change": 2,
+        "dilution": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "NBTB",
+      "name": "NBT Bancorp Inc",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "IMAX",
+      "name": "Imax Corp",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "EEFT",
+      "name": "Euronet Worldwide Inc",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "BWIN",
+      "name": "The Baldwin Insurance Group, Inc. Class A Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 2
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "MPT",
+      "name": "Medical Properties Trust, Inc.",
+      "counts": {
+        "impairment": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-06-01"
+    },
+    {
+      "ticker": "ALGT",
+      "name": "Allegiant Travel Company",
+      "counts": {
+        "mna": 2,
+        "impairment": 1
+      },
+      "n_8k": 36,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "SOUN",
+      "name": "SoundHound AI, Inc. Class A Common Stock",
+      "counts": {
+        "dilution": 2,
+        "mna": 2
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "PHIN",
+      "name": "PHINIA Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "UA",
+      "name": "Under Armour, Inc. Class C Common Stock, $0.0003 1/3 par value",
+      "counts": {
+        "restructuring": 3
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-05-12"
+    },
+    {
+      "ticker": "HWKN",
+      "name": "Hawkins Inc",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "ALHC",
+      "name": "Alignment Healthcare, Inc. Common Stock",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "PENG",
+      "name": "Penguin Solutions, Inc. Ordinary Shares",
+      "counts": {
+        "dilution": 4,
+        "rights_modification": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-17"
+    },
+    {
+      "ticker": "WOR",
+      "name": "Worthington Enterprises, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-26"
+    },
+    {
+      "ticker": "UAA",
+      "name": "Under Armour, Inc.",
+      "counts": {
+        "restructuring": 3
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-05-12"
+    },
+    {
+      "ticker": "IMNM",
+      "name": "Immunome, Inc.",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-06-12"
+    },
+    {
+      "ticker": "DCO",
+      "name": "Ducommun Incorporated",
+      "counts": {
+        "restatement": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-05-12"
+    },
+    {
+      "ticker": "HUBG",
+      "name": "HUB Group Inc",
+      "counts": {
+        "delisting_risk": 2,
+        "restatement": 2
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-06-02"
+    },
+    {
+      "ticker": "PLUG",
+      "name": "Plug Power Inc.",
+      "counts": {
+        "dilution": 5
+      },
+      "n_8k": 51,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "DBRG",
+      "name": "DigitalBridge Group, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "WHR",
+      "name": "Whirlpool Corp.",
+      "counts": {
+        "restructuring": 1,
+        "rights_modification": 2
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "ASO",
+      "name": "Academy Sports and Outdoors, Inc.",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-06-09"
+    },
+    {
+      "ticker": "CBZ",
+      "name": "CBIZ, Inc.",
+      "counts": {
+        "mna": 1,
+        "dilution": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "NTCT",
+      "name": "Netscout Systems Inc",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 11,
+      "latest_8k": "2026-06-03"
+    },
+    {
+      "ticker": "TBBK",
+      "name": "The Bancorp Inc.",
+      "counts": {
+        "delisting_risk": 1,
+        "restatement": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "SHAK",
+      "name": "Shake Shack Inc.",
+      "counts": {
+        "restructuring": 1,
+        "impairment": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "DAN",
+      "name": "Dana Incorporated",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-07-10"
+    },
+    {
+      "ticker": "FIZZ",
+      "name": "National Beverage Corp.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 12,
+      "latest_8k": "2026-07-02"
+    },
+    {
+      "ticker": "NG",
+      "name": "NovaGold Resources Inc.",
+      "counts": {
+        "dilution": 3,
+        "mna": 1
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "IRON",
+      "name": "Disc Medicine, Inc. Common Stock",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "OUST",
+      "name": "Ouster, Inc.",
+      "counts": {
+        "delisting_risk": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-06"
+    },
+    {
+      "ticker": "KD",
+      "name": "Kyndryl Holdings, Inc.",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "FBK",
+      "name": "FB Financial Corporation",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "CXW",
+      "name": "CoreCivic, Inc.",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "FSK",
+      "name": "FS KKR Capital Corp. Common Stock",
+      "counts": {
+        "rights_modification": 1,
+        "dilution": 1
+      },
+      "n_8k": 55,
+      "latest_8k": "2026-07-09"
+    },
+    {
+      "ticker": "UUUU",
+      "name": "Energy Fuels Inc.",
+      "counts": {
+        "dilution": 4,
+        "mna": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "AGYS",
+      "name": "Agilysys, Inc. Common Stock (DE)",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "HTGC",
+      "name": "Hercules Capital, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "GRBK",
+      "name": "Green Brick Partners, Inc",
+      "counts": {
+        "mna": 1,
+        "restatement": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "GRND",
+      "name": "Grindr Inc.",
+      "counts": {
+        "control_change": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-25"
+    },
+    {
+      "ticker": "ATKR",
+      "name": "Atkore Inc.",
+      "counts": {
+        "restructuring": 1,
+        "impairment": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "LBRT",
+      "name": "Liberty Energy Inc.",
+      "counts": {
+        "dilution": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "ARCB",
+      "name": "ArcBest Corporation",
+      "counts": {
+        "restructuring": 1,
+        "impairment": 1,
+        "rights_modification": 1,
+        "auditor_change": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 42,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "DX",
+      "name": "Dynex Capital, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "BATRK",
+      "name": "Atlanta Braves Holdings, Inc. Series C Common Stock",
+      "counts": {
+        "control_change": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "NVTS",
+      "name": "Navitas Semiconductor Corporation Common Stock",
+      "counts": {
+        "dilution": 1,
+        "auditor_change": 1
+      },
+      "n_8k": 38,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "VECO",
+      "name": "Veeco Instruments Inc",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "AVA",
+      "name": "Avista Corporation",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "PPLI",
+      "name": "People Incorporated Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "mna": 1
+      },
+      "n_8k": 43,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "CARG",
+      "name": "CarGurus, Inc. Class A Common Stock",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 11,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "MMS",
+      "name": "MAXIMUS, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-05-28"
+    },
+    {
+      "ticker": "HP",
+      "name": "Helmerich & Payne, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "AWR",
+      "name": "American States Water Company",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "WT",
+      "name": "WisdomTree, Inc.",
+      "counts": {
+        "mna": 2,
+        "dilution": 3,
+        "rights_modification": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "KN",
+      "name": "KNOWLES CORPORATION",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "BATRA",
+      "name": "Atlanta Braves Holdings, Inc. Series A Common Stock",
+      "counts": {
+        "control_change": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "SBCF",
+      "name": "Seacoast Banking Corp of Florida",
+      "counts": {
+        "mna": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "CHRN",
+      "name": "ChronoScale Holdings Corporation Common Stock",
+      "counts": {
+        "restructuring": 1,
+        "dilution": 5,
+        "rights_modification": 3,
+        "control_change": 1,
+        "delisting_risk": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "BELFA",
+      "name": "Bel Fuse Inc",
+      "counts": {
+        "auditor_change": 1,
+        "impairment": 1,
+        "mna": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "SEI",
+      "name": "Solaris Energy Infrastructure, Inc.",
+      "counts": {
+        "dilution": 4,
+        "mna": 2
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CALY",
+      "name": "Callaway Golf Company",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "NIQ",
+      "name": "NIQ Global Intelligence plc",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 7,
+      "latest_8k": "2026-05-26"
+    },
+    {
+      "ticker": "CURB",
+      "name": "Curbline Properties Corp.",
+      "counts": {
+        "mna": 1,
+        "dilution": 1,
+        "control_change": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "NHC",
+      "name": "National Healthcare Corp.",
+      "counts": {
+        "mna": 2,
+        "auditor_change": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-07-01"
+    },
+    {
+      "ticker": "CLSK",
+      "name": "CLEANSPARK INC",
+      "counts": {
+        "rights_modification": 2,
+        "dilution": 2
+      },
+      "n_8k": 37,
+      "latest_8k": "2026-07-14"
+    },
+    {
+      "ticker": "SFNC",
+      "name": "Simmons First National Corp",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-16"
+    },
+    {
+      "ticker": "HNI",
+      "name": "HNI Corporation",
+      "counts": {
+        "restructuring": 1,
+        "impairment": 1,
+        "mna": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "LBTYK",
+      "name": "Liberty Global Ltd. Class C Common Shares",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 57,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "LRN",
+      "name": "Stride, Inc.",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "GPK",
+      "name": "Graphic Packaging Holding Company",
+      "counts": {
+        "rights_modification": 2
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "FA",
+      "name": "First Advantage Corporation Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-06-08"
+    },
+    {
+      "ticker": "LXP",
+      "name": "LXP Industrial Trust",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "SHOO",
+      "name": "Steven Madden Ltd",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "AAP",
+      "name": "ADVANCE AUTO PARTS INC",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-06-26"
+    },
+    {
+      "ticker": "LBTYA",
+      "name": "Liberty Global Ltd. Class A Common Shares",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 57,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "FFBC",
+      "name": "First Financial Bancorp",
+      "counts": {
+        "mna": 1,
+        "dilution": 2
+      },
+      "n_8k": 28,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "CRGY",
+      "name": "Crescent Energy Company",
+      "counts": {
+        "dilution": 3,
+        "mna": 2
+      },
+      "n_8k": 40,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "FIBK",
+      "name": "First Interstate BancSystem, Inc. Common Stock (DE)",
+      "counts": {
+        "impairment": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "UCTT",
+      "name": "Ultra Clean Holdings, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "NHI",
+      "name": "National Health Investors",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 46,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "NIC",
+      "name": "Nicolet Bankshares,Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-21"
+    },
+    {
+      "ticker": "OPEN",
+      "name": "Opendoor Technologies Inc Common Stock",
+      "counts": {
+        "dilution": 3,
+        "delisting_risk": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "DK",
+      "name": "Delek US Holdings, Inc.",
+      "counts": {
+        "mna": 2,
+        "dilution": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "MCHB",
+      "name": "Mechanics Bancorp Class A Common Stock",
+      "counts": {
+        "mna": 2,
+        "dilution": 1,
+        "rights_modification": 1,
+        "control_change": 1
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "LEU",
+      "name": "Centrus Energy Corp.",
+      "counts": {
+        "rights_modification": 1,
+        "delisting_risk": 1,
+        "dilution": 2,
+        "debt_default": 1
+      },
+      "n_8k": 44,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "SIG",
+      "name": "Signet Jewelers Limited",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-02"
+    },
+    {
+      "ticker": "PRK",
+      "name": "Park National Corporation",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "HAE",
+      "name": "Haemonetics Corporation",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "CCC",
+      "name": "CCC Intelligent Solutions Holdings Inc. Common Stock",
+      "counts": {
+        "dilution": 2,
+        "control_change": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "ATRO",
+      "name": "Astronics Corp",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-06-01"
+    },
+    {
+      "ticker": "MIR",
+      "name": "Mirion Technologies, Inc.",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "KNF",
+      "name": "Knife River Corporation",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "OSIS",
+      "name": "OSI Systems Inc",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-05-04"
+    },
+    {
+      "ticker": "SLG",
+      "name": "SL Green Realty Corp.",
+      "counts": {
+        "dilution": 3
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "SYNA",
+      "name": "Synaptics Inc",
+      "counts": {
+        "dilution": 2
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-06-25"
+    },
+    {
+      "ticker": "ADPT",
+      "name": "Adaptive Biotechnologies Corporation Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "HHH",
+      "name": "Howard Hughes Holdings Inc.",
+      "counts": {
+        "mna": 1,
+        "dilution": 4,
+        "rights_modification": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "DIOD",
+      "name": "Diodes Inc",
+      "counts": {
+        "auditor_change": 2,
+        "mna": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "ABG",
+      "name": "Asbury Automotive Group, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "FRMI",
+      "name": "Fermi Inc. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "IPAR",
+      "name": "Interparfums, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 30,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "SXI",
+      "name": "Standex International Corporation",
+      "counts": {
+        "mna": 2,
+        "dilution": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "ACHR",
+      "name": "Archer Aviation Inc.",
+      "counts": {
+        "rights_modification": 2,
+        "dilution": 2
+      },
+      "n_8k": 37,
+      "latest_8k": "2026-06-30"
+    },
+    {
+      "ticker": "REZI",
+      "name": "Resideo Technologies, Inc. Common Stock",
+      "counts": {
+        "mna": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "COLD",
+      "name": "Americold Realty Trust, Inc.",
+      "counts": {
+        "impairment": 1
+      },
+      "n_8k": 31,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "CALM",
+      "name": "Cal-Maine Foods Inc",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 2,
+        "control_change": 2
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "CVBF",
+      "name": "CVB Financial Corp",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 32,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "RNST",
+      "name": "Renasant Corporation",
+      "counts": {
+        "auditor_change": 1,
+        "mna": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "CECO",
+      "name": "Ceco Environmental Corp",
+      "counts": {
+        "mna": 3,
+        "auditor_change": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-06-09"
+    },
+    {
+      "ticker": "POST",
+      "name": "POST HOLDINGS, INC.",
+      "counts": {
+        "rights_modification": 1,
+        "restructuring": 1
+      },
+      "n_8k": 36,
+      "latest_8k": "2026-05-07"
+    },
+    {
+      "ticker": "FSLY",
+      "name": "Fastly, Inc. Class A Common Stock",
+      "counts": {
+        "auditor_change": 1,
+        "dilution": 3,
+        "delisting_risk": 1,
+        "restructuring": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "INDB",
+      "name": "Independent Bank Corp/MA",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 42,
+      "latest_8k": "2026-07-27"
+    },
+    {
+      "ticker": "IRTC",
+      "name": "iRhythm Holdings, Inc. Common Stock",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-06-15"
+    },
+    {
+      "ticker": "PII",
+      "name": "Polaris Inc.",
+      "counts": {
+        "impairment": 1
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "LBTYB",
+      "name": "Liberty Global Ltd. Class B Common Shares",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 57,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "MDU",
+      "name": "MDU Resources Group, Inc.",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-05-13"
+    },
+    {
+      "ticker": "GEO",
+      "name": "The GEO Group, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-05-06"
+    },
+    {
+      "ticker": "CNR",
+      "name": "Core Natural Resources, Inc.",
+      "counts": {
+        "mna": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-06-04"
+    },
+    {
+      "ticker": "FCN",
+      "name": "FTI Consulting, Inc.",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "WSFS",
+      "name": "WSFS Financial Corp",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "GEF-B",
+      "name": "Greif, Inc. Class B",
+      "counts": {
+        "debt_default": 2,
+        "mna": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-07-31"
+    },
+    {
+      "ticker": "FOUR",
+      "name": "Shift4 Payments, Inc.",
+      "counts": {
+        "mna": 2,
+        "rights_modification": 1
+      },
+      "n_8k": 33,
+      "latest_8k": "2026-07-13"
+    },
+    {
+      "ticker": "BELFB",
+      "name": "Bel Fuse Inc",
+      "counts": {
+        "auditor_change": 1,
+        "impairment": 1,
+        "mna": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "KFY",
+      "name": "Korn Ferry",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 21,
+      "latest_8k": "2026-08-03"
+    },
+    {
+      "ticker": "ITGR",
+      "name": "Integer Holdings Corporation",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 27,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "LAZ",
+      "name": "Lazard, Inc.",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "MARA",
+      "name": "MARA Holdings, Inc. Common Stock",
+      "counts": {
+        "mna": 1,
+        "dilution": 5,
+        "auditor_change": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 39,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "CNK",
+      "name": "Cinemark Holdings, Inc.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 22,
+      "latest_8k": "2026-07-30"
+    },
+    {
+      "ticker": "GPGI",
+      "name": "GPGI, Inc.",
+      "counts": {
+        "rights_modification": 1,
+        "mna": 2,
+        "dilution": 2,
+        "auditor_change": 1,
+        "delisting_risk": 1,
+        "control_change": 2
+      },
+      "n_8k": 42,
+      "latest_8k": "2026-06-12"
+    },
+    {
+      "ticker": "CHEF",
+      "name": "The Chef's Warehouse Inc",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "FBP",
+      "name": "First BanCorp.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 14,
+      "latest_8k": "2026-07-22"
+    },
+    {
+      "ticker": "MIAX",
+      "name": "Miami International Holdings, Inc.",
+      "counts": {
+        "dilution": 6
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "WAY",
+      "name": "Waystar Holding Corp. Common Stock",
+      "counts": {
+        "dilution": 1,
+        "rights_modification": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "INSW",
+      "name": "International Seaways, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-06-12"
+    },
+    {
+      "ticker": "PRIM",
+      "name": "Primoris Services Corporation",
+      "counts": {
+        "auditor_change": 1
+      },
+      "n_8k": 15,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "CELC",
+      "name": "Celcuity Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 25,
+      "latest_8k": "2026-07-15"
+    },
+    {
+      "ticker": "BFH",
+      "name": "Bread Financial Holdings, Inc.",
+      "counts": {
+        "rights_modification": 2,
+        "debt_default": 1
+      },
+      "n_8k": 59,
+      "latest_8k": "2026-07-23"
+    },
+    {
+      "ticker": "CRC",
+      "name": "California Resources Corporation",
+      "counts": {
+        "mna": 2
+      },
+      "n_8k": 29,
+      "latest_8k": "2026-07-14"
+    },
+    {
+      "ticker": "ITRI",
+      "name": "Itron Inc",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 20,
+      "latest_8k": "2026-07-28"
+    },
+    {
+      "ticker": "KTB",
+      "name": "Kontoor Brands, Inc. Common Stock",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CENX",
+      "name": "Century Aluminum Co",
+      "counts": {
+        "restatement": 1,
+        "mna": 2
+      },
+      "n_8k": 17,
+      "latest_8k": "2026-06-17"
+    },
+    {
+      "ticker": "CAI",
+      "name": "Caris Life Sciences, Inc. Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 10,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "EPR",
+      "name": "EPR Properties",
+      "counts": {
+        "rights_modification": 2
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-07-29"
+    },
+    {
+      "ticker": "GFF",
+      "name": "Griffon Corp",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 13,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CE",
+      "name": "Celanese Corporation Common Stock",
+      "counts": {
+        "restructuring": 1
+      },
+      "n_8k": 43,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "SR",
+      "name": "Spire Inc.",
+      "counts": {
+        "mna": 5
+      },
+      "n_8k": 41,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "BILL",
+      "name": "BILL Holdings, Inc.",
+      "counts": {
+        "restructuring": 1,
+        "dilution": 1
+      },
+      "n_8k": 23,
+      "latest_8k": "2026-05-26"
+    },
+    {
+      "ticker": "OTF",
+      "name": "Blue Owl Technology Finance Corp.",
+      "counts": {
+        "mna": 1
+      },
+      "n_8k": 35,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "CWEN",
+      "name": "Clearway Energy, Inc. Class C Common Stock",
+      "counts": {
+        "rights_modification": 1
+      },
+      "n_8k": 24,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "KLIC",
+      "name": "Kulicke & Soffa Industries Inc",
+      "counts": {
+        "restructuring": 1,
+        "impairment": 1
+      },
+      "n_8k": 18,
+      "latest_8k": "2026-08-05"
+    },
+    {
+      "ticker": "GBTG",
+      "name": "Global Business Travel Group, Inc.",
+      "counts": {
+        "mna": 2,
+        "dilution": 1
+      },
+      "n_8k": 26,
+      "latest_8k": "2026-08-04"
+    },
+    {
+      "ticker": "LIF",
+      "name": "Life360, Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 16,
+      "latest_8k": "2026-05-29"
+    },
+    {
+      "ticker": "PI",
+      "name": "Impinj, Inc. Common Stock",
+      "counts": {
+        "dilution": 1
+      },
+      "n_8k": 19,
+      "latest_8k": "2026-07-29"
+    }
+  ]
+}

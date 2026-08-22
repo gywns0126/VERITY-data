@@ -1,0 +1,601 @@
+{
+  "ok": true,
+  "source": "snapshot",
+  "endpoint": "https://hub.snapshot.org/graphql",
+  "state_filter": "active",
+  "count": 25,
+  "proposals": [
+    {
+      "id": "0xc68c5fa7cc8d29b047eeef5b18237726c15e05baf0e30aca37a2825638153b63",
+      "title": "#15 Proposal to Update the CBT Fee Allocation Mechanism / 关于 CBT 手续费分配机制的提案",
+      "space_id": "ibs.eth",
+      "space_name": "PotsMoneyDao",
+      "state": "active",
+      "start": 1787313600,
+      "end": 1787486400,
+      "scores_total": 10113421851244.94,
+      "votes": 35,
+      "choices": [
+        "Yes/同意",
+        "No/反对",
+        "Abstain/弃权"
+      ],
+      "scores": [
+        8045091994900.712,
+        2068329856344.226,
+        0
+      ],
+      "link": "https://snapshot.org/#/ibs.eth/proposal/0xc68c5fa7cc8d29b047eeef5b18237726c15e05baf0e30aca37a2825638153b63"
+    },
+    {
+      "id": "0x0e07bc4fe798c237cf21b9335250732e90f5c1ba98fa91630660d21ebb5a63f8",
+      "title": "#14 Proposal to Introduce New CBT Unlocking Options and Fee Structure / 关于 CBT 解锁手续费新选项制度的提案",
+      "space_id": "ibs.eth",
+      "space_name": "PotsMoneyDao",
+      "state": "active",
+      "start": 1787313600,
+      "end": 1787486400,
+      "scores_total": 8492943646564.183,
+      "votes": 35,
+      "choices": [
+        "Yes/同意",
+        "No/反对",
+        "Abstain/弃权"
+      ],
+      "scores": [
+        8492943646564.183,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/ibs.eth/proposal/0x0e07bc4fe798c237cf21b9335250732e90f5c1ba98fa91630660d21ebb5a63f8"
+    },
+    {
+      "id": "0xddc27d17355c5a355bd4be6fac9466f9c9388fec416efb1bdf730bf1cc5d0438",
+      "title": "Shiba ecosystem direction proposal",
+      "space_id": "shibdao.eth",
+      "space_name": "Shiba DAO",
+      "state": "active",
+      "start": 1787112000,
+      "end": 1787716800,
+      "scores_total": 4004683691.14593,
+      "votes": 6,
+      "choices": [
+        "A",
+        "B",
+        "Abstain"
+      ],
+      "scores": [
+        0,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/shibdao.eth/proposal/0xddc27d17355c5a355bd4be6fac9466f9c9388fec416efb1bdf730bf1cc5d0438"
+    },
+    {
+      "id": "0x86dc1222b634fcdc5c92991001a31c96fa4c7b8af065c8d465ae2a250f0b41f6",
+      "title": "Proposal: Continue TT on Binance Smart Chain and Begin an Orderly Wind-Down of ThunderCore Mainnet",
+      "space_id": "thundercorelabs.eth",
+      "space_name": "ThunderCore Mainnet",
+      "state": "active",
+      "start": 1787284800,
+      "end": 1787544000,
+      "scores_total": 327299091.2668632,
+      "votes": 53,
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "scores": [
+        239876772.73234168,
+        87422318.53452155
+      ],
+      "link": "https://snapshot.org/#/thundercorelabs.eth/proposal/0x86dc1222b634fcdc5c92991001a31c96fa4c7b8af065c8d465ae2a250f0b41f6"
+    },
+    {
+      "id": "0xb35a524da0da215ee62c17129e6a7002a60b4cec132ee950d80fccb3122e4fce",
+      "title": "DIP-12: The Protocol Direction",
+      "space_id": "dimo.eth",
+      "space_name": "DIMO",
+      "state": "active",
+      "start": 1786997375,
+      "end": 1787602175,
+      "scores_total": 46502171.96483913,
+      "votes": 4,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        46502171.96483913,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/dimo.eth/proposal/0xb35a524da0da215ee62c17129e6a7002a60b4cec132ee950d80fccb3122e4fce"
+    },
+    {
+      "id": "0x0166056127fca4b0be67f12265e688247ef770bb608d9dcffed64feba121c380",
+      "title": "DIP 13: Foundation Treasury Reform",
+      "space_id": "dimo.eth",
+      "space_name": "DIMO",
+      "state": "active",
+      "start": 1786997512,
+      "end": 1787602312,
+      "scores_total": 46497543.79959579,
+      "votes": 3,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        46497543.79959579,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/dimo.eth/proposal/0x0166056127fca4b0be67f12265e688247ef770bb608d9dcffed64feba121c380"
+    },
+    {
+      "id": "0x1182c625db8c51986f9c9b53953260b4aca94737b1dfe2ae6af393ec8eda05f1",
+      "title": "Pawthereum Migration Framework",
+      "space_id": "pawthereum.eth",
+      "space_name": "Pawthereum",
+      "state": "active",
+      "start": 1785184993,
+      "end": 1788127200,
+      "scores_total": 30518033.11603878,
+      "votes": 9,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        30518033.11603878,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/pawthereum.eth/proposal/0x1182c625db8c51986f9c9b53953260b4aca94737b1dfe2ae6af393ec8eda05f1"
+    },
+    {
+      "id": "0x8899a12eb0b52eaeef339653551cb145d7e750d1007956c226070b3d9cfa0579",
+      "title": "BOT-14: Strategic Allocation in Atoms",
+      "space_id": "xmaquina.eth",
+      "space_name": "XMAQUINA",
+      "state": "active",
+      "start": 1787310909,
+      "end": 1787570109,
+      "scores_total": 24172607.18139772,
+      "votes": 83,
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "scores": [
+        22892831.35299187,
+        1279775.828405852
+      ],
+      "link": "https://snapshot.org/#/xmaquina.eth/proposal/0x8899a12eb0b52eaeef339653551cb145d7e750d1007956c226070b3d9cfa0579"
+    },
+    {
+      "id": "0xebb9bcbf97c47b5126744d2c1afeba9c7b7d9cecf21edb9c14ba1251a716d5da",
+      "title": "Gauge Proposal [23 Gauges] 2026-08-22 02:00 GMT+2 to 2026-09-04 17:27 GMT+2",
+      "space_id": "puffer-gauge.eth",
+      "space_name": "Puffer Gauge",
+      "state": "active",
+      "start": 1787356800,
+      "end": 1788535679,
+      "scores_total": 20511898.883182008,
+      "votes": 4,
+      "choices": [
+        "0xCDf927C0F7b81b146C0C9e9323eb5A28D1BFA183",
+        "0xEEda34A377dD0ca676b9511EE1324974fA8d980D",
+        "0x39F5b252dE249790fAEd0C2F05aBead56D2088e1",
+        "0x1f2aa9680910aC5a4527FA72001dC249943f60b4",
+        "0x2B8D093f22f7B6f53D02AcA106DE3eabC0937D45",
+        "0xD9A442856C234a39a81a089C06451EBAa4306a72",
+        "0xc5c9a9AB6403CDBa9722463000146C18b504F0bA",
+        "0x196ead472583Bc1e9aF7A05F860D9857e1Bd3dCc",
+        "0xBDB04e915B94FbFD6e8552ff7860E59Db7d4499a",
+        "0xa56600e670724b42F38d3A6e4B25e8D786B4F5f9",
+        "0xf00032d0F95e8f43E750C51d0188DCa33cC5a8eA",
+        "0x170D847A8320F3B6A77eE15B0CAE430e3eC933a0",
+        "0x82c40e07277eBb92935f79cE92268F80dDc7caB4",
+        "0x48e8dE138C246c14248C94d2D616a2F9eb4590D2",
+        "0x9346A5043C590133FE900aec643D9622EDddBA57",
+        "0x03F83FdFb168E7A2A621691E4B15297B1917ab91",
+        "0xDA7630A141dBB6382DDb6409AeA7331da543B0Bb",
+        "0x85AB69d50Add7Daa0934B5224889Af0a882f2e3B",
+        "0xCD30dE9aF40724742C8E3030EA7A84A668187C90",
+        "0x1e168460EA0cF3F126dDd3183dc2e376515a5e91",
+        "0xA17581A9E3356d9A858b789D68B4d866e593aE94",
+        "0x0a35CCc9651634Efe92e266FCC2C691b106B1bbF",
+        "0x79A8b102dD39329AAFecC69499c0F6D07F2F959D"
+      ],
+      "scores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1375694.1367200003,
+        0,
+        11693400.16212,
+        0,
+        0,
+        7440599.224342009,
+        0,
+        0,
+        1102.68,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1102.68,
+        0,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/puffer-gauge.eth/proposal/0xebb9bcbf97c47b5126744d2c1afeba9c7b7d9cecf21edb9c14ba1251a716d5da"
+    },
+    {
+      "id": "0x3e34e28ca161242d07b6da2a403f4cc3927a8542f07f7227ec94aca53ecd521f",
+      "title": "CIP-44 With respect to the current reward standard, should we consider extending the deadline to September 30th 2026?",
+      "space_id": "cratos.eth",
+      "space_name": "Cratos",
+      "state": "active",
+      "start": 1786842502,
+      "end": 1787447302,
+      "scores_total": 18146640.33995095,
+      "votes": 101,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        18146640.33995095,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/cratos.eth/proposal/0x3e34e28ca161242d07b6da2a403f4cc3927a8542f07f7227ec94aca53ecd521f"
+    },
+    {
+      "id": "0x9118a38debda07cafdfae465148fa7b100a1bddfbc4fc3c1643030bfffedcff5",
+      "title": "YieldBasis yb-cbBTC (0x862CB4E988FB66E72f128d1183829f8c05B6c6A0), yb-tBTC (0x4F52C3a81E33521e5a9A47FD9D3BE475D2279c2e): set new pool fees (mid_fee=128000000, out_fee=328000000, fee_gamma=30000000000000000) and reserved_profit_fraction=3600000000 (36%), ...",
+      "space_id": "sdcrv-gov.eth",
+      "space_name": "sdCRV-Governance",
+      "state": "active",
+      "start": 1787399111,
+      "end": 1787658311,
+      "scores_total": 16821732.97207632,
+      "votes": 1,
+      "choices": [
+        "Yes",
+        "No"
+      ],
+      "scores": [
+        16821732.97207632,
+        0
+      ],
+      "link": "https://snapshot.org/#/sdcrv-gov.eth/proposal/0x9118a38debda07cafdfae465148fa7b100a1bddfbc4fc3c1643030bfffedcff5"
+    },
+    {
+      "id": "0x1d9fabee13cfe22586473e36d8d402e571bc759cd67087384b45fdb92d4ad5c8",
+      "title": "Season 7 - Campaign Selection Vote - Established Projects",
+      "space_id": "superfluid.eth",
+      "space_name": "Superfluid",
+      "state": "active",
+      "start": 1787037749,
+      "end": 1787642549,
+      "scores_total": 14348269.031104196,
+      "votes": 175,
+      "choices": [
+        "Degen Dogs",
+        "Gardens",
+        "GoodDollar",
+        "Markee",
+        "Streme",
+        "SuperBoring"
+      ],
+      "scores": [
+        1239759.9847923075,
+        1742152.4834781978,
+        2026272.993771504,
+        1793134.0362477794,
+        3811232.645631535,
+        3735716.8871828713
+      ],
+      "link": "https://snapshot.org/#/superfluid.eth/proposal/0x1d9fabee13cfe22586473e36d8d402e571bc759cd67087384b45fdb92d4ad5c8"
+    },
+    {
+      "id": "0xf84b544fab89ef98f50bac0f6376c4368f00765ff1d420b501927ce812b6ccad",
+      "title": "SCP-223: Change the rFOX 5% Burn to a 5% FOX Buyback",
+      "space_id": "shapeshiftdao.eth",
+      "space_name": "ShapeShift",
+      "state": "active",
+      "start": 1787313600,
+      "end": 1787745600,
+      "scores_total": 14242458.317531966,
+      "votes": 3,
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "scores": [
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/shapeshiftdao.eth/proposal/0xf84b544fab89ef98f50bac0f6376c4368f00765ff1d420b501927ce812b6ccad"
+    },
+    {
+      "id": "0x4ddefbf7a56e1100413927f9d8d508d49b2ff5570463157a8d9bb0c33761eb67",
+      "title": "SCP221 -Tokenomics Workstream Renewal (Sept 1 to Dec 31, 2026)",
+      "space_id": "shapeshiftdao.eth",
+      "space_name": "ShapeShift",
+      "state": "active",
+      "start": 1787223600,
+      "end": 1787742000,
+      "scores_total": 14175355.85845654,
+      "votes": 8,
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "scores": [
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/shapeshiftdao.eth/proposal/0x4ddefbf7a56e1100413927f9d8d508d49b2ff5570463157a8d9bb0c33761eb67"
+    },
+    {
+      "id": "0x666a31ac239818a8b90f9d5784adad5974009fe6254da9c3be7f39aed57391bc",
+      "title": "Arbitrum Security Program",
+      "space_id": "arbitrumfoundation.eth",
+      "space_name": "Arbitrum DAO",
+      "state": "active",
+      "start": 1787238000,
+      "end": 1787842800,
+      "scores_total": 12631768.634606449,
+      "votes": 639,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        12374238.734165303,
+        232128.5135732595,
+        25401.38686788608
+      ],
+      "link": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x666a31ac239818a8b90f9d5784adad5974009fe6254da9c3be7f39aed57391bc"
+    },
+    {
+      "id": "0x69ffc09601a4d62edc08a3abd84cc00dc683183eb9b3773e4180fc54ae9e3780",
+      "title": "[SCP-222] Operations Workstream Renewal",
+      "space_id": "shapeshiftdao.eth",
+      "space_name": "ShapeShift",
+      "state": "active",
+      "start": 1787263345,
+      "end": 1787734800,
+      "scores_total": 6187414.021577211,
+      "votes": 5,
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "scores": [
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/shapeshiftdao.eth/proposal/0x69ffc09601a4d62edc08a3abd84cc00dc683183eb9b3773e4180fc54ae9e3780"
+    },
+    {
+      "id": "0xf41c3c6def5d9088c9fa8aa7aab6b3d1b148df2875ed0785270de65b0428c0e0",
+      "title": "SUSHI Tokenomics Restructure: SUSHI Reserve, Revised xSUSHI Buybacks, and Protocol-Deployed Liquidity Deployment to Robinhood Chain [Signal]",
+      "space_id": "sushigov.eth",
+      "space_name": "Sushi",
+      "state": "active",
+      "start": 1787083200,
+      "end": 1787688000,
+      "scores_total": 5212985.995555902,
+      "votes": 6,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        5212985.995555902,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/sushigov.eth/proposal/0xf41c3c6def5d9088c9fa8aa7aab6b3d1b148df2875ed0785270de65b0428c0e0"
+    },
+    {
+      "id": "0xe6c789fc5c06e48e0e5716b1fc40ba160071ea1f00006a1dfc96e149c1e0cc3e",
+      "title": "Gitcoin DAO 2026 Budget Request: Second Tranche",
+      "space_id": "gitcoindao.eth",
+      "space_name": "Gitcoin",
+      "state": "active",
+      "start": 1786989179,
+      "end": 1787593979,
+      "scores_total": 2805691.9181436375,
+      "votes": 351,
+      "choices": [
+        "For",
+        "Against (no $$$)",
+        "Against (fund original budget)",
+        "Abstain"
+      ],
+      "scores": [
+        2804672.4999213405,
+        37.950881193640946,
+        20.73142543803977,
+        960.7359156654164
+      ],
+      "link": "https://snapshot.org/#/gitcoindao.eth/proposal/0xe6c789fc5c06e48e0e5716b1fc40ba160071ea1f00006a1dfc96e149c1e0cc3e"
+    },
+    {
+      "id": "0x0502452cbad7c84ce4136b1b2f31071d9601042cc044936a4c5a37e923844f72",
+      "title": "CIP-87: Penalty Cap Redesign",
+      "space_id": "cow.eth",
+      "space_name": "CoW DAO",
+      "state": "active",
+      "start": 1787070169,
+      "end": 1787674969,
+      "scores_total": 2497161.727107409,
+      "votes": 17,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        2497161.727107409,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/cow.eth/proposal/0x0502452cbad7c84ce4136b1b2f31071d9601042cc044936a4c5a37e923844f72"
+    },
+    {
+      "id": "0x45ae5193bcc218556da9898bb3b703df1b2887f2deaaaf481a92e6d673358430",
+      "title": "[ARFC] Aave Governance Emergency Guardian: Signer Rotation",
+      "space_id": "aavedao.eth",
+      "space_name": "Aave DAO",
+      "state": "active",
+      "start": 1787245613,
+      "end": 1787504813,
+      "scores_total": 352148.4589436156,
+      "votes": 74,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        352147.4589436156,
+        0,
+        1
+      ],
+      "link": "https://snapshot.org/#/aavedao.eth/proposal/0x45ae5193bcc218556da9898bb3b703df1b2887f2deaaaf481a92e6d673358430"
+    },
+    {
+      "id": "0xbc1c59336255d276088fa85f95ef7122d9d8a56940299093f3246b7db897b6a6",
+      "title": "[ARFC] Liquidation Protocol Fee Increase for WBTC, WETH, and wstETH on Aave V3 Ethereum Core",
+      "space_id": "aavedao.eth",
+      "space_name": "Aave DAO",
+      "state": "active",
+      "start": 1787252086,
+      "end": 1787511286,
+      "scores_total": 352147.4057907657,
+      "votes": 62,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        352147.4057907657,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/aavedao.eth/proposal/0xbc1c59336255d276088fa85f95ef7122d9d8a56940299093f3246b7db897b6a6"
+    },
+    {
+      "id": "0x65be5cb5922bc73d14ba16b13d4e7ee5eaae2c6d9518c27b7ab9721fd2f637b1",
+      "title": "[ARFC] Onboard PAXG to the Global Dollar Hub in Aave V4 Ethereum",
+      "space_id": "aavedao.eth",
+      "space_name": "Aave DAO",
+      "state": "active",
+      "start": 1787242396,
+      "end": 1787501596,
+      "scores_total": 352140.57024609577,
+      "votes": 61,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        352140.57024609577,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/aavedao.eth/proposal/0x65be5cb5922bc73d14ba16b13d4e7ee5eaae2c6d9518c27b7ab9721fd2f637b1"
+    },
+    {
+      "id": "0x13bb9264443aa9cdd1b420e9d46b56e5eafc3332d3aebfe320f6231209099f56",
+      "title": "[BIP-923](rerun) Next Phase Decision for Rescued Funds Distribution from Balancer v2 November 2025 Attacks",
+      "space_id": "sdbal.eth",
+      "space_name": "Stake DAO BAL",
+      "state": "active",
+      "start": 1787335200,
+      "end": 1787594400,
+      "scores_total": 205215.93544339543,
+      "votes": 1,
+      "choices": [
+        "Yes, let's do it",
+        "No, this is not the way",
+        "Abstain"
+      ],
+      "scores": [
+        205215.93544339543,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/sdbal.eth/proposal/0x13bb9264443aa9cdd1b420e9d46b56e5eafc3332d3aebfe320f6231209099f56"
+    },
+    {
+      "id": "0x2226b5f9fbae2e8f0e4c3fabba5d520e36a8208caafe8a3bddf34660b46099d9",
+      "title": "[BIP-925] Unwind Timeless ve8020 BAL Grant",
+      "space_id": "sdbal.eth",
+      "space_name": "Stake DAO BAL",
+      "state": "active",
+      "start": 1787335200,
+      "end": 1787594400,
+      "scores_total": 205215.80673424757,
+      "votes": 1,
+      "choices": [
+        "Yes, let's do it",
+        "No, this is not the way",
+        "Abstain"
+      ],
+      "scores": [
+        205215.8067342475,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/sdbal.eth/proposal/0x2226b5f9fbae2e8f0e4c3fabba5d520e36a8208caafe8a3bddf34660b46099d9"
+    },
+    {
+      "id": "0xceb0e6f126ffb550e68bc005ebb631c33bacfe2a14236371e0a41c7e306f0421",
+      "title": "[BIP-922](rerun) Recover unclaimed legacy LM MerkleRedeem funds to BizDev Safe",
+      "space_id": "sdbal.eth",
+      "space_name": "Stake DAO BAL",
+      "state": "active",
+      "start": 1787335200,
+      "end": 1787594400,
+      "scores_total": 205215.80673424757,
+      "votes": 1,
+      "choices": [
+        "Yes, let's do it",
+        "No, this is not the way",
+        "Abstain"
+      ],
+      "scores": [
+        205215.8067342475,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/sdbal.eth/proposal/0xceb0e6f126ffb550e68bc005ebb631c33bacfe2a14236371e0a41c7e306f0421"
+    }
+  ],
+  "collected_at": "2026-08-23T06:03:01+09:00",
+  "schema_version": "v0",
+  "diagnostics": {
+    "proposals": 25,
+    "used_prev_snapshot": false
+  }
+}
