@@ -1,0 +1,88 @@
+{
+  "collected_at": "2026-09-05T19:18:08.581063+00:00",
+  "schema_version": 1,
+  "severity": "GREEN",
+  "severity_reasons": [],
+  "n_verification_days": 25,
+  "n_milestones": {
+    "to_50": 25,
+    "to_100": 75
+  },
+  "n_trades": 33,
+  "trade_milestones": {
+    "to_50": 17,
+    "to_100": 67
+  },
+  "n_validation_samples": 62,
+  "sample_milestones": {
+    "to_50": 0,
+    "to_100": 38
+  },
+  "one_liner": "과열 (Euphoria) · 0 BUY / 57 WATCH / 13 CAUTION / 8 AVOID · VAMS 67% 현금 · 가설 N=25",
+  "ttd_recent_p50_minutes": null,
+  "days_clean": {
+    "kis": 0,
+    "fred": 1,
+    "telegram": 1,
+    "vercel": null
+  },
+  "open_p0_p1": [],
+  "operator_deadman": {
+    "days_git": 0.01,
+    "days_telegram": null,
+    "days_uaq": 67.59,
+    "trigger": "ok",
+    "maintenance": false,
+    "warn_days": 7.0
+  },
+  "pre_registration_pending": [],
+  "alert_volume_24h": {
+    "sent": 4,
+    "dedupe_skip": 1,
+    "quiet_skip": 3,
+    "fp_repeat_max": 3
+  },
+  "auto_action_blocked": [],
+  "_inputs_snapshot": {
+    "kis_lock_commits_24h": 1,
+    "fred_age_h": 0.22,
+    "fred_24h_failure_rate": 0.0,
+    "core_sources_ok": true,
+    "runtime_mode": "full_us",
+    "ramp_up_stage": 5000,
+    "brain_anomaly_24h": 0,
+    "vams_days_since_reset": 111,
+    "validation_sample": 62
+  },
+  "rule7_quota": {
+    "quarter": "2026Q3",
+    "start": "2026-07-01",
+    "end": "2026-09-30",
+    "count": 4,
+    "limit": 4,
+    "status": "AT_LIMIT",
+    "commits": [
+      {
+        "sha": "d052a02f",
+        "date": "2026-08-21",
+        "subject": "feat(audit): Q7 상태 검사 시행 + 헌법 설명 문자열 정정 (쿼터 0)"
+      },
+      {
+        "sha": "403bcac0",
+        "date": "2026-08-03",
+        "subject": "fix(scoring): 측정 정화 — placeholder 가 실측으로 위장하는 3경로 차단 (#259)"
+      },
+      {
+        "sha": "8b4844e1",
+        "date": "2026-08-02",
+        "subject": "fix(vams): Kelly 사이징 degeneracy 수정 — 검증연동 fractional Kelly (사전등록·PM 승인) (#231)"
+      },
+      {
+        "sha": "81057343",
+        "date": "2026-07-23",
+        "subject": "fix(brain): fact_score LLM 정성점수 정직화 4종 (RULE 7 사전등록)"
+      }
+    ],
+    "as_of": "2026-09-05T13:27:00+09:00"
+  }
+}

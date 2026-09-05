@@ -1,0 +1,39 @@
+{
+  "source": "okx",
+  "btc": {
+    "oi_okx_usd": 2149990030.4910445,
+    "oi_okx_coin": 26959.52830000006,
+    "oi_okx_contracts": 2695952.830000006,
+    "oi_okx_ts": "1788638532562",
+    "long_short_ratio_okx": 1.08,
+    "ls_ts_okx": "1788634800000",
+    "long_short_ratio": 1.08,
+    "oi_venues": [
+      "okx"
+    ],
+    "ok": true,
+    "as_of": "1788638532562"
+  },
+  "eth": {
+    "oi_okx_usd": 1446461033.1642444,
+    "oi_okx_coin": 583888.4560000018,
+    "oi_okx_contracts": 5838884.560000018,
+    "oi_okx_ts": "1788638533078",
+    "long_short_ratio_okx": 1.47,
+    "ls_ts_okx": "1788634800000",
+    "long_short_ratio": 1.47,
+    "oi_venues": [
+      "okx"
+    ],
+    "ok": true,
+    "as_of": "1788638533078"
+  },
+  "ok_count": 2,
+  "ok": true,
+  "collected_at": "2026-09-06T05:02:13+09:00",
+  "schema_version": "v0",
+  "diagnostics": {
+    "ok_count": 2,
+    "used_prev_snapshot": false
+  }
+}

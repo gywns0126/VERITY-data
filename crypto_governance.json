@@ -1,0 +1,563 @@
+{
+  "ok": true,
+  "source": "snapshot",
+  "endpoint": "https://hub.snapshot.org/graphql",
+  "state_filter": "active",
+  "count": 25,
+  "proposals": [
+    {
+      "id": "0xd2dfa614378c39fdd3bda9992bff8be4ac9b7ee58063369729f42f4cbdfd6a71",
+      "title": "UIP-19: 100% USUAL Burn & UT Management Mandate",
+      "space_id": "usualmoney.eth",
+      "space_name": "Usual",
+      "state": "active",
+      "start": 1788282000,
+      "end": 1788714000,
+      "scores_total": 60485918.619394615,
+      "votes": 51,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        54993798.04470523,
+        4339827.395190502,
+        1152293.1794988897
+      ],
+      "link": "https://snapshot.org/#/usualmoney.eth/proposal/0xd2dfa614378c39fdd3bda9992bff8be4ac9b7ee58063369729f42f4cbdfd6a71"
+    },
+    {
+      "id": "0x42092bbb7f7a65706b1694d0e796e8d19d8ea0b8be6d333b57b9bb38708a935e",
+      "title": "Übergabe der DAOcademy-Treasury-Verwaltung an das Treasury Team der Elite",
+      "space_id": "stake.reiss.eth",
+      "space_name": "DAOcademy",
+      "state": "active",
+      "start": 1788381814,
+      "end": 1788641014,
+      "scores_total": 21784760.517271608,
+      "votes": 19,
+      "choices": [
+        "Dafür",
+        "Dagegen",
+        "Enthaltung"
+      ],
+      "scores": [
+        21759705.99984987,
+        0,
+        25054.51742173913
+      ],
+      "link": "https://snapshot.org/#/stake.reiss.eth/proposal/0x42092bbb7f7a65706b1694d0e796e8d19d8ea0b8be6d333b57b9bb38708a935e"
+    },
+    {
+      "id": "0x364883a53a660b9ce7539e15f4421a1125fc61d1125963ac9fcec5984d81a3f5",
+      "title": "Test Proposal",
+      "space_id": "voterootai.eth",
+      "space_name": "rootAI",
+      "state": "active",
+      "start": 1787773004,
+      "end": 1788982604,
+      "scores_total": 11612277.490173645,
+      "votes": 6,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        11612277.490173643,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/voterootai.eth/proposal/0x364883a53a660b9ce7539e15f4421a1125fc61d1125963ac9fcec5984d81a3f5"
+    },
+    {
+      "id": "0xe332c0531e6815bc16b4defdcd7541098346d0d299af8ff12e7a0eaba0894711",
+      "title": "CP172: Exploring Token-to-Equity to Maximize Long-Term CFG Value",
+      "space_id": "centrifuge.eth",
+      "space_name": "Centrifuge",
+      "state": "active",
+      "start": 1788449895,
+      "end": 1789056000,
+      "scores_total": 11311420.482793268,
+      "votes": 18,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        10320307.032063711,
+        890462.4764451294,
+        100650.97428442728
+      ],
+      "link": "https://snapshot.org/#/centrifuge.eth/proposal/0xe332c0531e6815bc16b4defdcd7541098346d0d299af8ff12e7a0eaba0894711"
+    },
+    {
+      "id": "0x16e1f2c0083bde9a81896fb35d6d0a03f1781fc4d22e7c8df90f654b32d04988",
+      "title": "PIP-70 | AI Compute Pilot: From DeFi Incentives to Owned Infrastructure",
+      "space_id": "parallel-protocol.eth",
+      "space_name": "Parallel",
+      "state": "active",
+      "start": 1788616800,
+      "end": 1789394400,
+      "scores_total": 10331342.551575378,
+      "votes": 1,
+      "choices": [
+        "For the Compute Pilot",
+        "Against / Rework the Proposal",
+        "Abstain"
+      ],
+      "scores": [
+        10331342.551575378,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/parallel-protocol.eth/proposal/0x16e1f2c0083bde9a81896fb35d6d0a03f1781fc4d22e7c8df90f654b32d04988"
+    },
+    {
+      "id": "0xb1ad8eb07c8b2cb5f220f77157b01a7eaf308421626cb42443ed4912dcbf951f",
+      "title": "Access the Exclusive Magic DAO Discord Role & Practice Voting",
+      "space_id": "magicappstore.eth",
+      "space_name": "Magic Square",
+      "state": "active",
+      "start": 1726747676,
+      "end": 1789808400,
+      "scores_total": 5559530,
+      "votes": 1025,
+      "choices": [
+        "I am ready to join Magic DAO"
+      ],
+      "scores": [
+        0
+      ],
+      "link": "https://snapshot.org/#/magicappstore.eth/proposal/0xb1ad8eb07c8b2cb5f220f77157b01a7eaf308421626cb42443ed4912dcbf951f"
+    },
+    {
+      "id": "0xed6de36e41d4b3f8376b0905f1773f0b610c213344d93b73b50c9fa45e42e8ac",
+      "title": "New Proposal on Equilibria Wind Down",
+      "space_id": "equilibriafi.eth",
+      "space_name": "Equilibria Finance",
+      "state": "active",
+      "start": 1788181200,
+      "end": 1788786000,
+      "scores_total": 4942678.006393272,
+      "votes": 150,
+      "choices": [
+        "Option 1",
+        "Option 2"
+      ],
+      "scores": [
+        2550233.7405876885,
+        2392444.265805583
+      ],
+      "link": "https://snapshot.org/#/equilibriafi.eth/proposal/0xed6de36e41d4b3f8376b0905f1773f0b610c213344d93b73b50c9fa45e42e8ac"
+    },
+    {
+      "id": "0x74f92447407318bac7b27a2dedf3b7868d091c6fe40f0c4e7594a647dabd739c",
+      "title": "Bonding Curve Protocol Upgrade Proposal (DDD-9360v3)",
+      "space_id": "dynamicdao.eth",
+      "space_name": "Dynamic (DNA)",
+      "state": "active",
+      "start": 1788099658,
+      "end": 1788704458,
+      "scores_total": 531576.5288091722,
+      "votes": 144,
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "scores": [
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/dynamicdao.eth/proposal/0x74f92447407318bac7b27a2dedf3b7868d091c6fe40f0c4e7594a647dabd739c"
+    },
+    {
+      "id": "0xd6d9a07e3ae8e4b7d70744d3587969b936e62a16a500bd36e7f1cb3702a1e66b",
+      "title": "Synthetix Elections: Advisory Seat",
+      "space_id": "synthetix-elections.eth",
+      "space_name": "Synthetix Elections",
+      "state": "active",
+      "start": 1788521337,
+      "end": 1788948000,
+      "scores_total": 501262.53165200003,
+      "votes": 4,
+      "choices": [
+        "Kain | Infinex",
+        "Paul/Paf",
+        "Pstar",
+        "Kvasir"
+      ],
+      "scores": [
+        0,
+        134413.538818,
+        263746.056583,
+        103102.936251
+      ],
+      "link": "https://snapshot.org/#/synthetix-elections.eth/proposal/0xd6d9a07e3ae8e4b7d70744d3587969b936e62a16a500bd36e7f1cb3702a1e66b"
+    },
+    {
+      "id": "0x8241e592cb9a30f1f763337e3346a9bb0ab778a6739de62b3f79b5d607f0bf4d",
+      "title": "Synthetix Elections: Treasury Seat",
+      "space_id": "synthetix-elections.eth",
+      "space_name": "Synthetix Elections",
+      "state": "active",
+      "start": 1788521377,
+      "end": 1788948000,
+      "scores_total": 437963.588752,
+      "votes": 3,
+      "choices": [
+        "cokaiynne",
+        "abstain"
+      ],
+      "scores": [
+        366848.992834,
+        71114.595918
+      ],
+      "link": "https://snapshot.org/#/synthetix-elections.eth/proposal/0x8241e592cb9a30f1f763337e3346a9bb0ab778a6739de62b3f79b5d607f0bf4d"
+    },
+    {
+      "id": "0x12d0143db33efe0754cab4d89ba9ba7ae23e7e1b77817ba7fc79a35c382280ec",
+      "title": "[ARFC] Deploy Aave V4 on Arc",
+      "space_id": "aavedao.eth",
+      "space_name": "Aave DAO",
+      "state": "active",
+      "start": 1788435327,
+      "end": 1788694527,
+      "scores_total": 415764.0713705162,
+      "votes": 91,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        415764.0713705162,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/aavedao.eth/proposal/0x12d0143db33efe0754cab4d89ba9ba7ae23e7e1b77817ba7fc79a35c382280ec"
+    },
+    {
+      "id": "0xf736fa5f6dd1532d0e2825fe528262479949a923427989384e313490ca9d9f18",
+      "title": "[ARFC] Activate Aave Risk Stewards on Aave V4",
+      "space_id": "aavedao.eth",
+      "space_name": "Aave DAO",
+      "state": "active",
+      "start": 1788450371,
+      "end": 1788709571,
+      "scores_total": 372234.20871923765,
+      "votes": 88,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        372234.2087192377,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/aavedao.eth/proposal/0xf736fa5f6dd1532d0e2825fe528262479949a923427989384e313490ca9d9f18"
+    },
+    {
+      "id": "0xa2b1b3a7ce0122e1440488713b139cba5989a1e543b68b1d4037fd660bdcac2e",
+      "title": "PIP-5: Establishing the Pieverse Staking Program and Reward Model",
+      "space_id": "pieverse-snapshot.eth",
+      "space_name": "Pieverse Governance",
+      "state": "active",
+      "start": 1786147200,
+      "end": 1791417600,
+      "scores_total": 102593.57459679783,
+      "votes": 709,
+      "choices": [
+        "Token Rewards",
+        "Platform Revenue",
+        "Platform Perks",
+        "Governance Voting Power",
+        "Other (Suggest)"
+      ],
+      "scores": [
+        82098.6338311624,
+        53146.777007979865,
+        52384.666727979886,
+        56046.69217297987,
+        42991.1673189999
+      ],
+      "link": "https://snapshot.org/#/pieverse-snapshot.eth/proposal/0xa2b1b3a7ce0122e1440488713b139cba5989a1e543b68b1d4037fd660bdcac2e"
+    },
+    {
+      "id": "0x8e483b517456944828414137b5c3d77c84c79b1f55e4656e6cfb443df8b7716a",
+      "title": "S7-2 南塘DAO公共岗位改革",
+      "space_id": "ntdao.eth",
+      "space_name": "南塘DAO",
+      "state": "active",
+      "start": 1788611376,
+      "end": 1788870576,
+      "scores_total": 54291.01,
+      "votes": 1,
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "scores": [
+        54291.01,
+        0
+      ],
+      "link": "https://snapshot.org/#/ntdao.eth/proposal/0x8e483b517456944828414137b5c3d77c84c79b1f55e4656e6cfb443df8b7716a"
+    },
+    {
+      "id": "0xde20ea60435a78b03710a67f9c9dce2eb41e9fd03f0cf4ffaa89300eb1772285",
+      "title": "S7-3 济南农场共建项目",
+      "space_id": "ntdao.eth",
+      "space_name": "南塘DAO",
+      "state": "active",
+      "start": 1788611438,
+      "end": 1788870638,
+      "scores_total": 54291.01,
+      "votes": 1,
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "scores": [
+        54291.01,
+        0
+      ],
+      "link": "https://snapshot.org/#/ntdao.eth/proposal/0xde20ea60435a78b03710a67f9c9dce2eb41e9fd03f0cf4ffaa89300eb1772285"
+    },
+    {
+      "id": "0x7b5976e0ea88110f6b8fd78df04bd1f122910e56e33918567de77d0aae8fe322",
+      "title": "Coin Of The Month 2026 Round 9 -> Which Coin do you want to claim on Coin Roll Game during October 2026 ?",
+      "space_id": "spacetokendao.eth",
+      "space_name": "Space Token",
+      "state": "active",
+      "start": 1788220815,
+      "end": 1790812799,
+      "scores_total": 38742.92699044007,
+      "votes": 5,
+      "choices": [
+        "Avalanche (AVAX)",
+        "Bonk (BONK)",
+        "Cosmos (ATOM)",
+        "Ethereum Classic (ETC)",
+        "Iota (IOTA)",
+        "Kaia (KAIA)",
+        "Ravencoin (RVN)",
+        "Ripple (XRP)",
+        "Sui (SUI)",
+        "Zcash (ZEC)"
+      ],
+      "scores": [
+        0,
+        0,
+        12112.215417767624,
+        0,
+        0,
+        0,
+        0,
+        0.2785416587317127,
+        26630.433031013712,
+        0
+      ],
+      "link": "https://snapshot.org/#/spacetokendao.eth/proposal/0x7b5976e0ea88110f6b8fd78df04bd1f122910e56e33918567de77d0aae8fe322"
+    },
+    {
+      "id": "0xb57e5dc5e9ef3e2d2b5515ca18ac65eece30dbaeeb22a22030077a6bd0aff4c7",
+      "title": "Project Quiver — Phased Project Proposal: September to November 2026",
+      "space_id": "arrowair.eth",
+      "space_name": "Arrow Air",
+      "state": "active",
+      "start": 1788551967,
+      "end": 1789156767,
+      "scores_total": 37482.63391088971,
+      "votes": 1,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        0,
+        0,
+        37482.63391088971
+      ],
+      "link": "https://snapshot.org/#/arrowair.eth/proposal/0xb57e5dc5e9ef3e2d2b5515ca18ac65eece30dbaeeb22a22030077a6bd0aff4c7"
+    },
+    {
+      "id": "0x7b71bc795b5b57ae5071156fb432e29a7fec7783e0e86f77525ec03ad603262f",
+      "title": "FGP-2: Growth SBT Issuance. Mint with FANC or Not?",
+      "space_id": "fancdao.eth",
+      "space_name": "fanC DAO",
+      "state": "active",
+      "start": 1788343200,
+      "end": 1788861600,
+      "scores_total": 34707.3525805335,
+      "votes": 11,
+      "choices": [
+        "Use FANC",
+        "Hold FANC",
+        "Leave it to the team"
+      ],
+      "scores": [
+        14486.62542063943,
+        13980.943794074445,
+        6239.783365819625
+      ],
+      "link": "https://snapshot.org/#/fancdao.eth/proposal/0x7b71bc795b5b57ae5071156fb432e29a7fec7783e0e86f77525ec03ad603262f"
+    },
+    {
+      "id": "QmfKo4TnZfTDxavHVp1hVZz7iscTAeMLTqHtF9GorWS6iM",
+      "title": "SIP-0 How To Create Proposals & Vote",
+      "space_id": "shoppingio.eth",
+      "space_name": "SPI Governance",
+      "state": "active",
+      "start": 1615460400,
+      "end": 1793444400,
+      "scores_total": 3709.875693725839,
+      "votes": 73,
+      "choices": [
+        "Understandable",
+        "https://docs.snapshot.org"
+      ],
+      "scores": [
+        3709.875693725839,
+        0
+      ],
+      "link": "https://snapshot.org/#/shoppingio.eth/proposal/QmfKo4TnZfTDxavHVp1hVZz7iscTAeMLTqHtF9GorWS6iM"
+    },
+    {
+      "id": "0x5e036f2a5848ac5c3e1a966f526c3070c1d7b2963d2bc66b610c22dfe2df11d1",
+      "title": "Request to refund 37,875 USDC.e burned by self-disputing 86 poisoned requests",
+      "space_id": "uma.eth",
+      "space_name": "UMA Protocol",
+      "state": "active",
+      "start": 1788542418,
+      "end": 1788974418,
+      "scores_total": 1511.3433412155682,
+      "votes": 1,
+      "choices": [
+        "YES",
+        "NO",
+        "ABSTAIN"
+      ],
+      "scores": [
+        0,
+        1511.3433412155682,
+        0
+      ],
+      "link": "https://snapshot.org/#/uma.eth/proposal/0x5e036f2a5848ac5c3e1a966f526c3070c1d7b2963d2bc66b610c22dfe2df11d1"
+    },
+    {
+      "id": "0x3b169668e639d719430e1827eaf88fb7ec096f42eb245e4b0a6a01a38b5e4c28",
+      "title": "Complementary Proposal: Replace Pronk with Cammmy in Multisig Signers Update",
+      "space_id": "bgycsnapshot.eth",
+      "space_name": "Bored Gorilla Yacht Club",
+      "state": "active",
+      "start": 1788465235,
+      "end": 1789070035,
+      "scores_total": 51,
+      "votes": 4,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        51,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/bgycsnapshot.eth/proposal/0x3b169668e639d719430e1827eaf88fb7ec096f42eb245e4b0a6a01a38b5e4c28"
+    },
+    {
+      "id": "0x03a00f848a0d3dd8a5e114657929e816a80ab153dec9824f23ef196c7250da61",
+      "title": "Do you know 20girl?",
+      "space_id": "20girl.eth",
+      "space_name": "色即是空Color is emptiness",
+      "state": "active",
+      "start": 1679839447,
+      "end": 1790863440,
+      "scores_total": 10,
+      "votes": 10,
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "scores": [
+        9,
+        1
+      ],
+      "link": "https://snapshot.org/#/20girl.eth/proposal/0x03a00f848a0d3dd8a5e114657929e816a80ab153dec9824f23ef196c7250da61"
+    },
+    {
+      "id": "0xeb01121e6fa5110b171ad45be4993ce9ec2acc8b22be8426d5956d03427b8fe6",
+      "title": "Do you know Japanese girl?",
+      "space_id": "20girl.eth",
+      "space_name": "色即是空Color is emptiness",
+      "state": "active",
+      "start": 1679840267,
+      "end": 1790864220,
+      "scores_total": 10,
+      "votes": 10,
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "scores": [
+        8,
+        2
+      ],
+      "link": "https://snapshot.org/#/20girl.eth/proposal/0xeb01121e6fa5110b171ad45be4993ce9ec2acc8b22be8426d5956d03427b8fe6"
+    },
+    {
+      "id": "0x75bc2209ff3d59e218dcdaf831c5388cef5ad8a19e3acaeaff6c84e8eab25415",
+      "title": "Test proposal for bot",
+      "space_id": "samuv.eth",
+      "space_name": "SpaceDAO",
+      "state": "active",
+      "start": 1660203828,
+      "end": 1789803828,
+      "scores_total": 10,
+      "votes": 5,
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "scores": [
+        6,
+        4
+      ],
+      "link": "https://snapshot.org/#/samuv.eth/proposal/0x75bc2209ff3d59e218dcdaf831c5388cef5ad8a19e3acaeaff6c84e8eab25415"
+    },
+    {
+      "id": "0xfe509cc5cc17a531d491ade402f50991dc5131f9d26cad7172e39ee22cabbe8c",
+      "title": "LEARNING SPACE UPGRADES AND BLOCKCHAIN BUILDING",
+      "space_id": "students.web3academy.eth",
+      "space_name": "Global web3 academy",
+      "state": "active",
+      "start": 1785844183,
+      "end": 1790768880,
+      "scores_total": 9,
+      "votes": 9,
+      "choices": [
+        "OPTION A",
+        "OPTION B",
+        "No more learning space upgrades"
+      ],
+      "scores": [
+        2,
+        7,
+        0
+      ],
+      "link": "https://snapshot.org/#/students.web3academy.eth/proposal/0xfe509cc5cc17a531d491ade402f50991dc5131f9d26cad7172e39ee22cabbe8c"
+    }
+  ],
+  "collected_at": "2026-09-06T05:02:10+09:00",
+  "schema_version": "v0",
+  "diagnostics": {
+    "proposals": 25,
+    "used_prev_snapshot": false
+  }
+}
