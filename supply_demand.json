@@ -1,0 +1,11 @@
+{
+  "_meta": {
+    "generated_at": "2026-09-12T13:41:18.915540+09:00",
+    "track": "kr_supply_demand",
+    "count": 0,
+    "source": "KIS 종목별 스냅샷 (공매도 FHPST04830000 · 신용잔고 FHPST04760000 · 투자자별). portfolio.json 추출, KIS 호출 0.",
+    "disclaimer": "공매도 비중·신용잔고율·순매매 = 외부 사실(KRX/KIS). 자체 점수/판단 아님. 스냅샷 universe 한정.",
+    "rule": "RULE 7 (사실만) / RULE 6 (LLM 0) / RULE 1 무관(로컬 읽기)"
+  },
+  "stocks": {}
+}

@@ -1,0 +1,91 @@
+{
+  "collected_at": "2026-09-13T00:55:56.938296+00:00",
+  "schema_version": 1,
+  "severity": "GREEN",
+  "severity_reasons": [],
+  "n_verification_days": 28,
+  "n_milestones": {
+    "to_50": 22,
+    "to_100": 72
+  },
+  "n_trades": 33,
+  "trade_milestones": {
+    "to_50": 17,
+    "to_100": 67
+  },
+  "n_validation_samples": 46,
+  "sample_milestones": {
+    "to_50": 4,
+    "to_100": 54
+  },
+  "one_liner": "과열 (Euphoria) · 0 BUY / 72 WATCH / 14 CAUTION / 12 AVOID · VAMS 68% 현금 · 가설 N=28",
+  "ttd_recent_p50_minutes": null,
+  "days_clean": {
+    "kis": 0,
+    "fred": 1,
+    "telegram": 1,
+    "vercel": null
+  },
+  "open_p0_p1": [],
+  "operator_deadman": {
+    "days_git": 0.02,
+    "days_telegram": null,
+    "days_uaq": 74.6,
+    "trigger": "ok",
+    "maintenance": false,
+    "warn_days": 7.0
+  },
+  "pre_registration_pending": [],
+  "alert_volume_24h": {
+    "sent": 2,
+    "dedupe_skip": 0,
+    "quiet_skip": 1,
+    "fp_repeat_max": 1
+  },
+  "auto_action_blocked": [],
+  "_inputs_snapshot": {
+    "kis_lock_commits_24h": 1,
+    "fred_age_h": 0.53,
+    "fred_24h_failure_rate": 0.0,
+    "core_sources_ok": true,
+    "delivery_status": "green",
+    "publish_verify_ok": true,
+    "publish_verify_failed": 0,
+    "runtime_mode": "quick",
+    "ramp_up_stage": 0,
+    "brain_anomaly_24h": 0,
+    "vams_days_since_reset": 118,
+    "validation_sample": 46
+  },
+  "rule7_quota": {
+    "quarter": "2026Q3",
+    "start": "2026-07-01",
+    "end": "2026-09-30",
+    "count": 4,
+    "limit": 4,
+    "status": "AT_LIMIT",
+    "commits": [
+      {
+        "sha": "d052a02f",
+        "date": "2026-08-21",
+        "subject": "feat(audit): Q7 상태 검사 시행 + 헌법 설명 문자열 정정 (쿼터 0)"
+      },
+      {
+        "sha": "403bcac0",
+        "date": "2026-08-03",
+        "subject": "fix(scoring): 측정 정화 — placeholder 가 실측으로 위장하는 3경로 차단 (#259)"
+      },
+      {
+        "sha": "8b4844e1",
+        "date": "2026-08-02",
+        "subject": "fix(vams): Kelly 사이징 degeneracy 수정 — 검증연동 fractional Kelly (사전등록·PM 승인) (#231)"
+      },
+      {
+        "sha": "81057343",
+        "date": "2026-07-23",
+        "subject": "fix(brain): fact_score LLM 정성점수 정직화 4종 (RULE 7 사전등록)"
+      }
+    ],
+    "as_of": "2026-09-12T13:35:01+09:00"
+  }
+}
