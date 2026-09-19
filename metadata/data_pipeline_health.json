@@ -1,0 +1,237 @@
+{
+  "collected_at": "2026-09-20T03:32:46+09:00",
+  "overall_status": "warn",
+  "summary": {
+    "fresh": 14,
+    "stale": 1,
+    "missing": 0,
+    "total": 15
+  },
+  "items": [
+    {
+      "key": "wide_scan",
+      "label": "Phase 2-B Coarse Filter",
+      "path": "data/wide_scan_log.jsonl",
+      "type": "jsonl_run_summary",
+      "max_fresh_hours": 26.0,
+      "exists": true,
+      "ts_source": "mtime",
+      "last_update_kst": "2026-09-20T03:30:56.060601+09:00",
+      "age_hours": 0.03,
+      "status": "fresh",
+      "line_count": 585,
+      "last_entry": {
+        "ts": "2026-09-18T21:09:05.955383+09:00",
+        "step": "f_sector_diversified",
+        "mode": "SHADOW",
+        "input_n": 100,
+        "passed_n": 25
+      }
+    },
+    {
+      "key": "quarterly_history",
+      "label": "분기 시계열 (5,000 raw)",
+      "path": "data/stock_history/2026-Q3.jsonl",
+      "type": "jsonl_quarter",
+      "max_fresh_hours": 26.0,
+      "exists": true,
+      "ts_source": "mtime",
+      "last_update_kst": "2026-09-20T03:30:55.459593+09:00",
+      "age_hours": 0.03,
+      "status": "fresh",
+      "line_count": 27063,
+      "last_entry": {
+        "ts": "2026-09-18T21:40:07.045894+09:00"
+      }
+    },
+    {
+      "key": "dart_batch",
+      "label": "DART KR 펀더멘털",
+      "path": "data/dart_fundamentals_kr.json",
+      "type": "json_collected_at",
+      "max_fresh_hours": 192.0,
+      "exists": true,
+      "ts_source": "content",
+      "last_update_kst": "2026-09-14T01:47:47+09:00",
+      "age_hours": 145.75,
+      "status": "fresh",
+      "diagnostics": {
+        "ok": true,
+        "fundamentals_count": 2391,
+        "elapsed_s": 131.2,
+        "used_prev_snapshot": false,
+        "source_counts": {
+          "DART": 2057,
+          "DART+yfinance": 322,
+          "none": 12
+        }
+      }
+    },
+    {
+      "key": "macro_snapshot",
+      "label": "매크로 스냅샷",
+      "path": "data/macro_snapshot.json",
+      "type": "json_collected_at",
+      "max_fresh_hours": 6.0,
+      "exists": true,
+      "ts_source": "content",
+      "last_update_kst": "2026-09-20T03:32:16+09:00",
+      "age_hours": 0.01,
+      "status": "fresh",
+      "diagnostics": {
+        "elapsed_s": 30.03,
+        "used_prev_snapshot": []
+      }
+    },
+    {
+      "key": "universe_candidates",
+      "label": "Universe 후보 (top N)",
+      "path": "data/universe_candidates.json",
+      "type": "json_collected_at",
+      "max_fresh_hours": 26.0,
+      "exists": true,
+      "ts_source": "content",
+      "last_update_kst": "2026-09-18T20:43:01+09:00",
+      "age_hours": 30.83,
+      "status": "stale",
+      "diagnostics": {
+        "ok": true,
+        "candidates_count": 44,
+        "kr_count": 29,
+        "us_count": 15,
+        "elapsed_s": 3425.27,
+        "used_prev_snapshot": false
+      }
+    },
+    {
+      "key": "runtime_load",
+      "label": "ramp_up_monitor",
+      "path": "data/metadata/runtime_load_log.jsonl",
+      "type": "jsonl_runtime",
+      "max_fresh_hours": 26.0,
+      "exists": true,
+      "ts_source": "mtime",
+      "last_update_kst": "2026-09-20T03:30:55.118589+09:00",
+      "age_hours": 0.03,
+      "status": "fresh",
+      "line_count": 1267,
+      "last_entry": {
+        "mode": "full_us",
+        "ramp_up_stage": 5000,
+        "execution_time_seconds": 0.0,
+        "fail_triggers": [],
+        "yfinance_failure_rate": 0.0
+      }
+    },
+    {
+      "key": "insider_kr",
+      "label": "내부자거래 KR (DART)",
+      "path": "data/insider_trades.json",
+      "type": "json_content",
+      "max_fresh_hours": 72.0,
+      "exists": true,
+      "ts_source": "content",
+      "last_update_kst": "2026-09-19T13:38:17.743135+09:00",
+      "age_hours": 13.91,
+      "status": "fresh"
+    },
+    {
+      "key": "insider_us",
+      "label": "내부자거래 US (Form4)",
+      "path": "data/us_insider_trades.json",
+      "type": "json_content",
+      "max_fresh_hours": 72.0,
+      "exists": true,
+      "ts_source": "content",
+      "last_update_kst": "2026-09-19T18:00:36.627491+09:00",
+      "age_hours": 9.54,
+      "status": "fresh"
+    },
+    {
+      "key": "stock_report_kr",
+      "label": "종목 리포트 KR",
+      "path": "data/stock_report_public.json",
+      "type": "json_content",
+      "max_fresh_hours": 72.0,
+      "exists": true,
+      "ts_source": "content",
+      "last_update_kst": "2026-09-19T13:34:57.746844+09:00",
+      "age_hours": 13.96,
+      "status": "fresh"
+    },
+    {
+      "key": "stock_report_us",
+      "label": "종목 리포트 US",
+      "path": "data/us_stock_report_public.json",
+      "type": "json_content",
+      "max_fresh_hours": 840.0,
+      "exists": true,
+      "ts_source": "content",
+      "last_update_kst": "2026-09-18T23:38:07.868738+09:00",
+      "age_hours": 27.91,
+      "status": "fresh"
+    },
+    {
+      "key": "flow_kr",
+      "label": "외국인·기관 수급",
+      "path": "data/stock_flow_5d.json",
+      "type": "json_content",
+      "max_fresh_hours": 72.0,
+      "exists": true,
+      "ts_source": "content",
+      "last_update_kst": "2026-09-19T13:44:14.004223+09:00",
+      "age_hours": 13.81,
+      "status": "fresh"
+    },
+    {
+      "key": "forensics_kr",
+      "label": "공시 forensics",
+      "path": "data/disclosure_forensics.json",
+      "type": "json_content",
+      "max_fresh_hours": 72.0,
+      "exists": true,
+      "ts_source": "content",
+      "last_update_kst": "2026-09-19T13:35:13.173565+09:00",
+      "age_hours": 13.96,
+      "status": "fresh"
+    },
+    {
+      "key": "disclosure_feed_kr",
+      "label": "공시 피드 KR",
+      "path": "data/public_disclosure_feed.json",
+      "type": "json_content",
+      "max_fresh_hours": 72.0,
+      "exists": true,
+      "ts_source": "content",
+      "last_update_kst": "2026-09-19T13:34:45.282750+09:00",
+      "age_hours": 13.97,
+      "status": "fresh"
+    },
+    {
+      "key": "broker_guide",
+      "label": "증권사 가이드",
+      "path": "data/broker_guide.json",
+      "type": "json_content",
+      "max_fresh_hours": 960.0,
+      "exists": true,
+      "ts_source": "content",
+      "last_update_kst": "2026-09-14T02:09:37.236097+09:00",
+      "age_hours": 145.39,
+      "status": "fresh"
+    },
+    {
+      "key": "market_warnings",
+      "label": "시장경보 (투자주의/경고)",
+      "path": "data/market_warnings.json",
+      "type": "json_content",
+      "max_fresh_hours": 720.0,
+      "exists": true,
+      "ts_source": "content",
+      "last_update_kst": "2026-09-19T13:35:46.316506+09:00",
+      "age_hours": 13.95,
+      "status": "fresh"
+    }
+  ],
+  "persist_frozen": [],
+  "schema_version": "v0"
+}

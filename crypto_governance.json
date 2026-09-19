@@ -1,0 +1,613 @@
+{
+  "ok": true,
+  "source": "snapshot",
+  "endpoint": "https://hub.snapshot.org/graphql",
+  "state_filter": "active",
+  "count": 25,
+  "proposals": [
+    {
+      "id": "0xf23fa57351b541fde72444ac7a6214f14de7eeeaa5762416b2294ae0eac8a7d1",
+      "title": "Proposal: SHARE Token Contract Swap",
+      "space_id": "share-x.eth",
+      "space_name": "ShareX",
+      "state": "active",
+      "start": 1789540938,
+      "end": 1790145738,
+      "scores_total": 1.817540133302987e+24,
+      "votes": 110,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        0,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/share-x.eth/proposal/0xf23fa57351b541fde72444ac7a6214f14de7eeeaa5762416b2294ae0eac8a7d1"
+    },
+    {
+      "id": "0x7de9ee3b7b1163de64a843ade2fd79bb90110fd8c7e43e830b416dfd3a622b13",
+      "title": "RSR Burn Gauge Setting — September 2026",
+      "space_id": "reserveprotocol.eth",
+      "space_name": "Reserve",
+      "state": "active",
+      "start": 1789747200,
+      "end": 1790352000,
+      "scores_total": 581483086.3396579,
+      "votes": 18,
+      "choices": [
+        "High burn",
+        "Low burn",
+        "Sustain",
+        "Low growth",
+        "High growth"
+      ],
+      "scores": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/reserveprotocol.eth/proposal/0x7de9ee3b7b1163de64a843ade2fd79bb90110fd8c7e43e830b416dfd3a622b13"
+    },
+    {
+      "id": "0x71b50a792e4606e593ff4502b1753aa3fb894a0bf994d6a5f1d42cee9c94a594",
+      "title": "Authorize a Contingent LDO CEX Liquidity Market-Making Mandate",
+      "space_id": "lido-snapshot.eth",
+      "space_name": "Lido",
+      "state": "active",
+      "start": 1789401600,
+      "end": 1790006400,
+      "scores_total": 49359929.40181953,
+      "votes": 50,
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "scores": [
+        49359929.40181953,
+        0
+      ],
+      "link": "https://snapshot.org/#/lido-snapshot.eth/proposal/0x71b50a792e4606e593ff4502b1753aa3fb894a0bf994d6a5f1d42cee9c94a594"
+    },
+    {
+      "id": "0x5753c2a012a1733420aa771b7cc8f36912010e277153be5f0281e2196cb0f3a5",
+      "title": "Lido Alliance BORG Foundation Update: Appointment of Leeward Supervisors Limited as Supervisor",
+      "space_id": "lido-snapshot.eth",
+      "space_name": "Lido",
+      "state": "active",
+      "start": 1789401600,
+      "end": 1790006400,
+      "scores_total": 47057937.01084953,
+      "votes": 48,
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "scores": [
+        47057937.01084953,
+        0
+      ],
+      "link": "https://snapshot.org/#/lido-snapshot.eth/proposal/0x5753c2a012a1733420aa771b7cc8f36912010e277153be5f0281e2196cb0f3a5"
+    },
+    {
+      "id": "0xe52c97b415b08b14b88ee3ee8ffb2a423bf9986005dbaf9770a33f6414c69d84",
+      "title": "SPR Bribe ranking metric (temp check)",
+      "space_id": "hydrexgov.eth",
+      "space_name": "Hydrex (Temp Checks)",
+      "state": "active",
+      "start": 1789500419,
+      "end": 1789846019,
+      "scores_total": 33245018.737336025,
+      "votes": 28,
+      "choices": [
+        "Option 1: TVL-based bribes",
+        "Option 2: Fee-based bribes",
+        "Option 3: Gamified Fee-based bribes"
+      ],
+      "scores": [
+        0,
+        14981218.775859697,
+        18263799.961476333
+      ],
+      "link": "https://snapshot.org/#/hydrexgov.eth/proposal/0xe52c97b415b08b14b88ee3ee8ffb2a423bf9986005dbaf9770a33f6414c69d84"
+    },
+    {
+      "id": "0x3fc7dc270f3e315e9bc2449bf9f5d0288046125f82b9b140b5866c2886fe71ac",
+      "title": "CIP-88: Quote Competition Redesign",
+      "space_id": "cow.eth",
+      "space_name": "CoW DAO",
+      "state": "active",
+      "start": 1789705829,
+      "end": 1790310629,
+      "scores_total": 18231296.057503358,
+      "votes": 18,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        18231296.05750336,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/cow.eth/proposal/0x3fc7dc270f3e315e9bc2449bf9f5d0288046125f82b9b140b5866c2886fe71ac"
+    },
+    {
+      "id": "0xac029d280643ef1e0828a2305d43e1d5b2b85c648fc0eed38ad4f3b7aa8f6366",
+      "title": "Gauge Proposal [23 Gauges] 2026-09-19 02:00 GMT+2 to 2026-10-03 02:00 GMT+2",
+      "space_id": "puffer-gauge.eth",
+      "space_name": "Puffer Gauge",
+      "state": "active",
+      "start": 1789776000,
+      "end": 1790985600,
+      "scores_total": 16467672.719999997,
+      "votes": 2,
+      "choices": [
+        "0xCDf927C0F7b81b146C0C9e9323eb5A28D1BFA183",
+        "0xEEda34A377dD0ca676b9511EE1324974fA8d980D",
+        "0x39F5b252dE249790fAEd0C2F05aBead56D2088e1",
+        "0x1f2aa9680910aC5a4527FA72001dC249943f60b4",
+        "0x2B8D093f22f7B6f53D02AcA106DE3eabC0937D45",
+        "0xD9A442856C234a39a81a089C06451EBAa4306a72",
+        "0xc5c9a9AB6403CDBa9722463000146C18b504F0bA",
+        "0x196ead472583Bc1e9aF7A05F860D9857e1Bd3dCc",
+        "0xBDB04e915B94FbFD6e8552ff7860E59Db7d4499a",
+        "0xa56600e670724b42F38d3A6e4B25e8D786B4F5f9",
+        "0xf00032d0F95e8f43E750C51d0188DCa33cC5a8eA",
+        "0x170D847A8320F3B6A77eE15B0CAE430e3eC933a0",
+        "0x82c40e07277eBb92935f79cE92268F80dDc7caB4",
+        "0x48e8dE138C246c14248C94d2D616a2F9eb4590D2",
+        "0x9346A5043C590133FE900aec643D9622EDddBA57",
+        "0x03F83FdFb168E7A2A621691E4B15297B1917ab91",
+        "0xDA7630A141dBB6382DDb6409AeA7331da543B0Bb",
+        "0x85AB69d50Add7Daa0934B5224889Af0a882f2e3B",
+        "0xCD30dE9aF40724742C8E3030EA7A84A668187C90",
+        "0x1e168460EA0cF3F126dDd3183dc2e376515a5e91",
+        "0xA17581A9E3356d9A858b789D68B4d866e593aE94",
+        "0x0a35CCc9651634Efe92e266FCC2C691b106B1bbF",
+        "0x79A8b102dD39329AAFecC69499c0F6D07F2F959D"
+      ],
+      "scores": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        15037632,
+        0,
+        1430040.7199999974,
+        0
+      ],
+      "link": "https://snapshot.org/#/puffer-gauge.eth/proposal/0xac029d280643ef1e0828a2305d43e1d5b2b85c648fc0eed38ad4f3b7aa8f6366"
+    },
+    {
+      "id": "0x78f3938f5bf1f71d5859efcdeb20767ad6645d759d0bf9411b87da31712f752a",
+      "title": "SCP-224: Engineering Workstream Renewal: October 1, 2026 – March 31, 2027",
+      "space_id": "ideation.shapeshiftdao.eth",
+      "space_name": "ShapeShift Ideation",
+      "state": "active",
+      "start": 1789252959,
+      "end": 1789857840,
+      "scores_total": 11365211.750245793,
+      "votes": 6,
+      "choices": [
+        "For",
+        "For with changes",
+        "Against"
+      ],
+      "scores": [
+        10533237.24011858,
+        831974.5101272119,
+        0
+      ],
+      "link": "https://snapshot.org/#/ideation.shapeshiftdao.eth/proposal/0x78f3938f5bf1f71d5859efcdeb20767ad6645d759d0bf9411b87da31712f752a"
+    },
+    {
+      "id": "0x6e3119d7eda921645b8a0e010225539e136bdd691e6a8dd90c0821e6eaa30649",
+      "title": "Orvium - Technical Support Retainer",
+      "space_id": "dorg.eth",
+      "space_name": "dOrg",
+      "state": "active",
+      "start": 1789413499,
+      "end": 1789845499,
+      "scores_total": 1548940,
+      "votes": 6,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        1548940,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/dorg.eth/proposal/0x6e3119d7eda921645b8a0e010225539e136bdd691e6a8dd90c0821e6eaa30649"
+    },
+    {
+      "id": "0xe3f2d1d8e9f13ffce7da6c983cfc4a257f8859e7507b92c370c3dfbd4f318c23",
+      "title": "Add Show/Hide Toggle for Archived Bids/Offers in DCL Marketplace",
+      "space_id": "snapshot.dcl.eth",
+      "space_name": "Decentraland",
+      "state": "active",
+      "start": 1789519980,
+      "end": 1789951980,
+      "scores_total": 1026570.331679909,
+      "votes": 7,
+      "choices": [
+        "Yes ",
+        "No ",
+        "Invalid question/options"
+      ],
+      "scores": [
+        1024570.331679909,
+        0,
+        2000
+      ],
+      "link": "https://snapshot.org/#/snapshot.dcl.eth/proposal/0xe3f2d1d8e9f13ffce7da6c983cfc4a257f8859e7507b92c370c3dfbd4f318c23"
+    },
+    {
+      "id": "0x7b5976e0ea88110f6b8fd78df04bd1f122910e56e33918567de77d0aae8fe322",
+      "title": "Coin Of The Month 2026 Round 9 -> Which Coin do you want to claim on Coin Roll Game during October 2026 ?",
+      "space_id": "spacetokendao.eth",
+      "space_name": "Space Token",
+      "state": "active",
+      "start": 1788220815,
+      "end": 1790812799,
+      "scores_total": 686527.0424581899,
+      "votes": 8,
+      "choices": [
+        "Avalanche (AVAX)",
+        "Bonk (BONK)",
+        "Cosmos (ATOM)",
+        "Ethereum Classic (ETC)",
+        "Iota (IOTA)",
+        "Kaia (KAIA)",
+        "Ravencoin (RVN)",
+        "Ripple (XRP)",
+        "Sui (SUI)",
+        "Zcash (ZEC)"
+      ],
+      "scores": [
+        0,
+        0,
+        635753.553596532,
+        13263.819545060724,
+        0,
+        0,
+        0,
+        0.3342032395424819,
+        31952.04993719172,
+        5557.28517616586
+      ],
+      "link": "https://snapshot.org/#/spacetokendao.eth/proposal/0x7b5976e0ea88110f6b8fd78df04bd1f122910e56e33918567de77d0aae8fe322"
+    },
+    {
+      "id": "0x3ae12eeab9dbbac794286e69eb59419a9f85fc5868a086e19782e2b63da75924",
+      "title": "[DIP-51] DAO Delegation Revision #1 | Introducing Auto-Delegation, Community Score, and Delegation Portal",
+      "space_id": "mainnet.ssvnetwork.eth",
+      "space_name": "ssv.network",
+      "state": "active",
+      "start": 1789393500,
+      "end": 1789998300,
+      "scores_total": 461721.4530063882,
+      "votes": 24,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        461721.4530063882,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/mainnet.ssvnetwork.eth/proposal/0x3ae12eeab9dbbac794286e69eb59419a9f85fc5868a086e19782e2b63da75924"
+    },
+    {
+      "id": "0x4e87b3189f7d5c3bc4cee4f051547772106f3add83e3dcefd018ac4fe4fe3f80",
+      "title": "Bonding Curve Protocol Upgrade Proposal (DDD-9360v3)",
+      "space_id": "dynamicdao.eth",
+      "space_name": "Dynamic (DNA)",
+      "state": "active",
+      "start": 1789356721,
+      "end": 1789961521,
+      "scores_total": 408166.0121870477,
+      "votes": 121,
+      "choices": [
+        "For",
+        "Against"
+      ],
+      "scores": [
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/dynamicdao.eth/proposal/0x4e87b3189f7d5c3bc4cee4f051547772106f3add83e3dcefd018ac4fe4fe3f80"
+    },
+    {
+      "id": "0xa2b1b3a7ce0122e1440488713b139cba5989a1e543b68b1d4037fd660bdcac2e",
+      "title": "PIP-5: Establishing the Pieverse Staking Program and Reward Model",
+      "space_id": "pieverse-snapshot.eth",
+      "space_name": "Pieverse Governance",
+      "state": "active",
+      "start": 1786147200,
+      "end": 1791417600,
+      "scores_total": 134254.8090435593,
+      "votes": 905,
+      "choices": [
+        "Token Rewards",
+        "Platform Revenue",
+        "Platform Perks",
+        "Governance Voting Power",
+        "Other (Suggest)"
+      ],
+      "scores": [
+        109546.064279924,
+        75059.42528097988,
+        73317.05797397991,
+        80561.79273597966,
+        62137.62568100003
+      ],
+      "link": "https://snapshot.org/#/pieverse-snapshot.eth/proposal/0xa2b1b3a7ce0122e1440488713b139cba5989a1e543b68b1d4037fd660bdcac2e"
+    },
+    {
+      "id": "0xd68e14057f29d58dcb537f5711f552cacb9b79805fac8dd12bb929853b78f605",
+      "title": "Add the location 40,54 to the Points of Interest",
+      "space_id": "snapshot.dcl.eth",
+      "space_name": "Decentraland",
+      "state": "active",
+      "start": 1789787940,
+      "end": 1790392740,
+      "scores_total": 97028.96477776341,
+      "votes": 2,
+      "choices": [
+        "yes",
+        "no",
+        "abstain"
+      ],
+      "scores": [
+        97028.9647777634,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/snapshot.dcl.eth/proposal/0xd68e14057f29d58dcb537f5711f552cacb9b79805fac8dd12bb929853b78f605"
+    },
+    {
+      "id": "0xc5b14bcb9650109c45b83f0c38feaa7e5b59578dd30d19c7d2d3ae99a78695ef",
+      "title": "[Curve] Ownership DAO Vote ID: 1498",
+      "space_id": "veclev.eth",
+      "space_name": "CLever",
+      "state": "active",
+      "start": 1789645715,
+      "end": 1789883495,
+      "scores_total": 35607.678344093656,
+      "votes": 5,
+      "choices": [
+        "yes",
+        "no"
+      ],
+      "scores": [
+        35607.678344093656,
+        0
+      ],
+      "link": "https://snapshot.org/#/veclev.eth/proposal/0xc5b14bcb9650109c45b83f0c38feaa7e5b59578dd30d19c7d2d3ae99a78695ef"
+    },
+    {
+      "id": "0xe1ac3254ff43d5d780fc6ae1f13a0c027c2ef138fadb316198d3ed814a154b7e",
+      "title": "Protocol Fee Expansion: Arc",
+      "space_id": "uniswapgovernance.eth",
+      "space_name": "Uniswap",
+      "state": "active",
+      "start": 1789742513,
+      "end": 1790174513,
+      "scores_total": 35244.72566896765,
+      "votes": 216,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        35244.69974086969,
+        0,
+        0.02592809795584671
+      ],
+      "link": "https://snapshot.org/#/uniswapgovernance.eth/proposal/0xe1ac3254ff43d5d780fc6ae1f13a0c027c2ef138fadb316198d3ed814a154b7e"
+    },
+    {
+      "id": "0xa11332c5c326f34fd4d252853378f0041c4baf6a92094a2dbe91ac5c6ad855d9",
+      "title": "Rotate Sentinel Addresses on the DUNI-Owned Uniswap Earn Vaults",
+      "space_id": "uniswapgovernance.eth",
+      "space_name": "Uniswap",
+      "state": "active",
+      "start": 1789742751,
+      "end": 1790174751,
+      "scores_total": 35244.264008564,
+      "votes": 215,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        35244.23808046604,
+        0.02592809795584671,
+        0
+      ],
+      "link": "https://snapshot.org/#/uniswapgovernance.eth/proposal/0xa11332c5c326f34fd4d252853378f0041c4baf6a92094a2dbe91ac5c6ad855d9"
+    },
+    {
+      "id": "QmfKo4TnZfTDxavHVp1hVZz7iscTAeMLTqHtF9GorWS6iM",
+      "title": "SIP-0 How To Create Proposals & Vote",
+      "space_id": "shoppingio.eth",
+      "space_name": "SPI Governance",
+      "state": "active",
+      "start": 1615460400,
+      "end": 1793444400,
+      "scores_total": 3709.875693725839,
+      "votes": 73,
+      "choices": [
+        "Understandable",
+        "https://docs.snapshot.org"
+      ],
+      "scores": [
+        3709.875693725839,
+        0
+      ],
+      "link": "https://snapshot.org/#/shoppingio.eth/proposal/QmfKo4TnZfTDxavHVp1hVZz7iscTAeMLTqHtF9GorWS6iM"
+    },
+    {
+      "id": "0xb1752ee3450cdb0507a3485b229364b2c7bff2aca6ec30fd1ae50442b7bee13f",
+      "title": "CORPUS Final Vote: Proposal 2 // Adaptation",
+      "space_id": "corpus.takens.eth",
+      "space_name": "CORPUS by Takens Theorem",
+      "state": "active",
+      "start": 1789565977,
+      "end": 1789875577,
+      "scores_total": 1997.184131159367,
+      "votes": 6,
+      "choices": [
+        "CHAOS",
+        "CONSERVATION"
+      ],
+      "scores": [
+        1868.9630418211136,
+        128.22108933825356
+      ],
+      "link": "https://snapshot.org/#/corpus.takens.eth/proposal/0xb1752ee3450cdb0507a3485b229364b2c7bff2aca6ec30fd1ae50442b7bee13f"
+    },
+    {
+      "id": "0x5e2eb91385aab46fd417f4c54da6e6d01760f40eba38c5dbe0806765f68fc017",
+      "title": "CORPUS Final Vote: Proposal 1 // Induction",
+      "space_id": "corpus.takens.eth",
+      "space_name": "CORPUS by Takens Theorem",
+      "state": "active",
+      "start": 1789566093,
+      "end": 1789875693,
+      "scores_total": 1997.184131159367,
+      "votes": 6,
+      "choices": [
+        "OLIGARCHS",
+        "COLLECTIVE"
+      ],
+      "scores": [
+        799.6793715027198,
+        1197.5047596566474
+      ],
+      "link": "https://snapshot.org/#/corpus.takens.eth/proposal/0x5e2eb91385aab46fd417f4c54da6e6d01760f40eba38c5dbe0806765f68fc017"
+    },
+    {
+      "id": "0xb3c0a2fb27c069e8f3dc71ee0d173fee21fee182bbb12b652604547c528f6349",
+      "title": "CIP-39: Monday Magic News Funding",
+      "space_id": "forgottengov.eth",
+      "space_name": "Forgotten Runes Wizard's Cult",
+      "state": "active",
+      "start": 1789581600,
+      "end": 1790791200,
+      "scores_total": 689,
+      "votes": 10,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        0,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/forgottengov.eth/proposal/0xb3c0a2fb27c069e8f3dc71ee0d173fee21fee182bbb12b652604547c528f6349"
+    },
+    {
+      "id": "0x761e9535f1891c416bddbe7bd734457922d5176ed3d093ce9de2b1d2b42f8ca0",
+      "title": "CIP-40: Forgotten Runes Adventure Builder + Story RPG Game",
+      "space_id": "forgottengov.eth",
+      "space_name": "Forgotten Runes Wizard's Cult",
+      "state": "active",
+      "start": 1789581900,
+      "end": 1790791500,
+      "scores_total": 638,
+      "votes": 10,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        0,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/forgottengov.eth/proposal/0x761e9535f1891c416bddbe7bd734457922d5176ed3d093ce9de2b1d2b42f8ca0"
+    },
+    {
+      "id": "0x34464cbd61c8bc51664429ddb9ce8a299483959ac3c0a025e6ac88cb05c32bdd",
+      "title": "CIP-38: REBEL SHADOWS",
+      "space_id": "forgottengov.eth",
+      "space_name": "Forgotten Runes Wizard's Cult",
+      "state": "active",
+      "start": 1789581600,
+      "end": 1790791200,
+      "scores_total": 491,
+      "votes": 7,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        0,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/forgottengov.eth/proposal/0x34464cbd61c8bc51664429ddb9ce8a299483959ac3c0a025e6ac88cb05c32bdd"
+    },
+    {
+      "id": "0x4e0b4533f0096cdffb7b4dda6c549a5a1eed3081b23e2f2c8cf9fc93f07b3a4d",
+      "title": "Test Vote 2",
+      "space_id": "clearpoolfinance.eth",
+      "space_name": "Clearpool",
+      "state": "active",
+      "start": 1789637927,
+      "end": 1789897127,
+      "scores_total": 71.51445705642801,
+      "votes": 2,
+      "choices": [
+        "For",
+        "Against",
+        "Abstain"
+      ],
+      "scores": [
+        71.51445705642801,
+        0,
+        0
+      ],
+      "link": "https://snapshot.org/#/clearpoolfinance.eth/proposal/0x4e0b4533f0096cdffb7b4dda6c549a5a1eed3081b23e2f2c8cf9fc93f07b3a4d"
+    }
+  ],
+  "collected_at": "2026-09-20T03:32:24+09:00",
+  "schema_version": "v0",
+  "diagnostics": {
+    "proposals": 25,
+    "used_prev_snapshot": false
+  }
+}
