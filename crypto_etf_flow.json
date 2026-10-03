@@ -1,0 +1,28 @@
+{
+  "source": "sosovalue",
+  "btc": {
+    "ok": true,
+    "symbol": "BTC",
+    "daily_net_inflow_usd": 102670557.075,
+    "cumulative_net_inflow_usd": 57597970872.918,
+    "total_aum_usd": 109337825263.06184,
+    "as_of": "2026-10-01"
+  },
+  "eth": {
+    "ok": true,
+    "symbol": "ETH",
+    "daily_net_inflow_usd": -55372684.475,
+    "cumulative_net_inflow_usd": 13839244991.476,
+    "total_aum_usd": 17713572173.962,
+    "as_of": "2026-10-01"
+  },
+  "by_issuer": null,
+  "ok": true,
+  "ok_count": 2,
+  "collected_at": "2026-10-04T05:32:32+09:00",
+  "schema_version": "v0",
+  "diagnostics": {
+    "ok_count": 2,
+    "used_prev_snapshot": false
+  }
+}

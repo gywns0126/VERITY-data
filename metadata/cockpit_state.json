@@ -1,0 +1,70 @@
+{
+  "collected_at": "2026-10-03T19:23:10.540175+00:00",
+  "schema_version": 1,
+  "severity": "GREEN",
+  "severity_reasons": [],
+  "n_verification_days": 47,
+  "n_milestones": {
+    "to_50": 3,
+    "to_100": 53
+  },
+  "n_trades": 35,
+  "trade_milestones": {
+    "to_50": 15,
+    "to_100": 65
+  },
+  "n_validation_samples": 0,
+  "sample_milestones": {
+    "to_50": 50,
+    "to_100": 100
+  },
+  "one_liner": "과열 (Euphoria) · 13 BUY / 12 WATCH / 10 CAUTION / 5 AVOID · VAMS 6% 현금 · 가설 N=47",
+  "ttd_recent_p50_minutes": null,
+  "days_clean": {
+    "kis": 0,
+    "fred": 1,
+    "telegram": 1,
+    "vercel": null
+  },
+  "open_p0_p1": [],
+  "operator_deadman": {
+    "days_git": 0.01,
+    "days_telegram": null,
+    "days_uaq": 12.12,
+    "trigger": "ok",
+    "maintenance": false,
+    "warn_days": 7.0
+  },
+  "pre_registration_pending": [],
+  "alert_volume_24h": {
+    "sent": 2,
+    "dedupe_skip": 2,
+    "quiet_skip": 3,
+    "fp_repeat_max": 3
+  },
+  "auto_action_blocked": [],
+  "_inputs_snapshot": {
+    "kis_lock_commits_24h": 1,
+    "fred_age_h": 0.46,
+    "fred_24h_failure_rate": 0.0,
+    "core_sources_ok": true,
+    "delivery_status": "amber",
+    "publish_verify_ok": true,
+    "publish_verify_failed": 0,
+    "runtime_mode": "full_us",
+    "ramp_up_stage": 5000,
+    "brain_anomaly_24h": 0,
+    "vams_days_since_reset": 139,
+    "validation_sample": null
+  },
+  "rule7_quota": {
+    "quarter": "2026Q4",
+    "start": "2026-10-01",
+    "end": "2026-12-31",
+    "count": 0,
+    "limit": 4,
+    "status": "OK",
+    "commits": [],
+    "as_of": "2026-10-02T14:37:48+09:00"
+  }
+}
