@@ -1,0 +1,58 @@
+{
+  "available": true,
+  "fear_and_greed": {
+    "ok": true,
+    "value": 55,
+    "label": "Greed",
+    "prev_value": 63,
+    "change": -8,
+    "signal": "neutral"
+  },
+  "funding_rate": {
+    "ok": true,
+    "rate": 6.73413028984e-05,
+    "rate_pct": 0.0067,
+    "prev_rate_pct": null,
+    "signal": "neutral",
+    "timestamp": "1792281600000",
+    "source": "okx"
+  },
+  "kimchi_premium": {
+    "ok": true,
+    "premium_pct": 1.96,
+    "upbit_krw": 110094000.0,
+    "global_usd": 81208.0,
+    "binance_usd": 81208.0,
+    "usdt_krw": 1329.5999755859375,
+    "signal": "normal",
+    "source": "upbit+bybit/okx"
+  },
+  "btc_nasdaq_corr": {
+    "ok": true,
+    "correlation": -0.058,
+    "period_days": 30,
+    "signal": "decoupled",
+    "btc_last_price": 81210.0
+  },
+  "stablecoin_mcap": {
+    "ok": true,
+    "total_mcap_usd": 256021012968.40015,
+    "total_mcap_b": 256.0,
+    "usdt_mcap_b": 183.5,
+    "usdc_mcap_b": 72.5
+  },
+  "ok_count": 5,
+  "total": 5,
+  "composite": {
+    "score": 52,
+    "label": "중립",
+    "risk_level": "normal",
+    "signals": []
+  },
+  "collected_at": "2026-10-18T07:02:25+09:00",
+  "schema_version": "v0",
+  "diagnostics": {
+    "ok_count": 5,
+    "used_prev_snapshot": false
+  }
+}

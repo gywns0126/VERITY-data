@@ -1,0 +1,159 @@
+{
+ "_meta": {
+  "generated_at": "2026-10-18T06:22:29.348686+09:00",
+  "source": "data_health_builder — 데이터 무결 신호 집계(판정·수정 0)"
+ },
+ "status": "amber",
+ "reasons": [
+  "감시 근거 annual_backfill: invalid_timestamp",
+  "연간 재무 수집 시도·결과 집계 불일치",
+  "연간 재무 미해결 수집 오류 7칸",
+  "연간 재무 미분류 수집 기록 5칸",
+  "신선도 감시 대상 누락·미측정",
+  "비P0 stale 1건"
+ ],
+ "evidence": {
+  "publish_verify": {
+   "generated_at": "2026-10-18T06:22:29.249004+09:00",
+   "max_age_h": 3,
+   "age_h": 0.0,
+   "status": "fresh"
+  },
+  "coverage": {
+   "generated_at": "2026-10-17T13:29:12.055407+09:00",
+   "max_age_h": 96,
+   "age_h": 16.888,
+   "status": "fresh"
+  },
+  "freshness": {
+   "generated_at": "2026-10-18T06:22:22.938445+09:00",
+   "max_age_h": 3,
+   "age_h": 0.002,
+   "status": "fresh"
+  },
+  "annual_backfill": {
+   "generated_at": null,
+   "max_age_h": 48,
+   "age_h": null,
+   "status": "invalid_timestamp"
+  }
+ },
+ "publish_guard": {
+  "held_24h": 0,
+  "recent": []
+ },
+ "publish_verify": {
+  "generated_at": "2026-10-18T06:22:29.249004+09:00",
+  "ok": true,
+  "failed": 0,
+  "checked": 4,
+  "max_cdn_age_s": 40818,
+  "files": [
+   {
+    "file": "stock_report_public.json",
+    "ok": true,
+    "pct": {
+     "PER": 61.6,
+     "PBR": 96.0
+    },
+    "total": 2550,
+    "cdn_age_s": 8486,
+    "error": null
+   },
+   {
+    "file": "us_stock_report_public.json",
+    "ok": true,
+    "pct": {
+     "PER": 45.2,
+     "PBR": 73.6
+    },
+    "total": 5271,
+    "cdn_age_s": 40818,
+    "error": null
+   },
+   {
+    "file": "us_stock_report_us_smallcap.json",
+    "ok": true,
+    "pct": {
+     "PER": 38.9,
+     "PBR": 75.2
+    },
+    "total": 3972,
+    "cdn_age_s": 16391,
+    "error": null
+   },
+   {
+    "file": "_verity_data_push_recency",
+    "ok": true,
+    "pct": null,
+    "total": null,
+    "cdn_age_s": null,
+    "error": null
+   }
+  ]
+ },
+ "coverage": {
+  "generated_at": "2026-10-17T13:29:12.055407+09:00",
+  "kr_total": 2550,
+  "us_total": 5271,
+  "core_fill_pct": {
+   "fields.facts.PBR": 96.0,
+   "fields.facts.PER": 61.6,
+   "us_fields.facts.PBR": 73.6,
+   "us_fields.facts.PER": 45.2
+  },
+  "last_run_blocked": false,
+  "last_run_fails": 0,
+  "last_run_warns": 0,
+  "last_run_at": "2026-10-17T13:29:12.179624+09:00"
+ },
+ "freshness": {
+  "generated_at": "2026-10-18T06:22:22.938445+09:00",
+  "summary": {
+   "fresh": 30,
+   "stale": 1,
+   "closed": 31,
+   "discontinued": 3,
+   "p0": {
+    "total": 7,
+    "fresh": 2,
+    "closed": 5,
+    "active": 2
+   },
+   "p1": {
+    "total": 22,
+    "fresh": 8,
+    "closed": 12,
+    "active": 8
+   },
+   "p2": {
+    "total": 36,
+    "fresh": 20,
+    "closed": 14,
+    "active": 21
+   }
+  },
+  "stream_count": 65,
+  "skipped_count": 2,
+  "stale_p0": [],
+  "stale_other": [
+   "logo_map"
+  ]
+ },
+ "annual_backfill": {
+  "generated_at": null,
+  "clock_kind": "collection_attempt",
+  "attempted_at": null,
+  "counts_valid": false,
+  "requested": null,
+  "attempted": null,
+  "success": null,
+  "empty": null,
+  "error": null,
+  "deferred": null,
+  "touched": null,
+  "requests": 153,
+  "unresolved_error_cells": 7,
+  "unclassified_cells": 5
+ }
+}
