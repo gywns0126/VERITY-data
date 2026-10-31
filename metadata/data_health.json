@@ -1,0 +1,219 @@
+{
+ "_meta": {
+  "generated_at": "2026-11-01T03:12:43.373785+09:00",
+  "source": "data_health_builder — 데이터 무결 신호 집계(판정·수정 0)"
+ },
+ "status": "amber",
+ "reasons": [
+  "연간 재무 수집 실패 5/55칸",
+  "연간 재무 미해결 수집 오류 5칸",
+  "연간 재무 원천 기간 공란 1칸",
+  "신선도 감시 대상 누락·미측정"
+ ],
+ "evidence": {
+  "publish_verify": {
+   "generated_at": "2026-11-01T03:12:43.311011+09:00",
+   "max_age_h": 3,
+   "age_h": 0.0,
+   "status": "fresh"
+  },
+  "coverage": {
+   "generated_at": "2026-10-31T14:40:36.289893+09:00",
+   "max_age_h": 96,
+   "age_h": 12.535,
+   "status": "fresh"
+  },
+  "freshness": {
+   "generated_at": "2026-11-01T03:12:33.737115+09:00",
+   "max_age_h": 3,
+   "age_h": 0.003,
+   "status": "fresh"
+  },
+  "annual_backfill": {
+   "generated_at": "2026-10-30T20:32:56.716884+00:00",
+   "max_age_h": 48,
+   "age_h": 21.663,
+   "status": "fresh"
+  }
+ },
+ "publish_guard": {
+  "held_24h": 0,
+  "recent": []
+ },
+ "publish_verify": {
+  "generated_at": "2026-11-01T03:12:43.311011+09:00",
+  "ok": true,
+  "failed": 0,
+  "checked": 4,
+  "max_cdn_age_s": 39586,
+  "files": [
+   {
+    "file": "stock_report_public.json",
+    "ok": true,
+    "pct": {
+     "PER": 61.4,
+     "PBR": 95.9
+    },
+    "total": 2554,
+    "cdn_age_s": 39586,
+    "error": null
+   },
+   {
+    "file": "us_stock_report_public.json",
+    "ok": true,
+    "pct": {
+     "PER": 45.4,
+     "PBR": 73.7
+    },
+    "total": 5274,
+    "cdn_age_s": 10781,
+    "error": null
+   },
+   {
+    "file": "us_stock_report_us_smallcap.json",
+    "ok": true,
+    "pct": {
+     "PER": 38.9,
+     "PBR": 75.2
+    },
+    "total": 3972,
+    "cdn_age_s": 0,
+    "error": null
+   },
+   {
+    "file": "_verity_data_push_recency",
+    "ok": true,
+    "pct": null,
+    "total": null,
+    "cdn_age_s": null,
+    "error": null
+   }
+  ]
+ },
+ "coverage": {
+  "generated_at": "2026-10-31T14:40:36.289893+09:00",
+  "kr_total": 2554,
+  "us_total": 5274,
+  "core_fill_pct": {
+   "fields.facts.PBR": 95.9,
+   "fields.facts.PER": 61.4,
+   "us_fields.facts.PBR": 73.7,
+   "us_fields.facts.PER": 45.4
+  },
+  "last_run_blocked": false,
+  "last_run_fails": 0,
+  "last_run_warns": 0,
+  "last_run_at": "2026-10-31T14:40:36.417015+09:00"
+ },
+ "freshness": {
+  "generated_at": "2026-11-01T03:12:33.737115+09:00",
+  "summary": {
+   "fresh": 30,
+   "stale": 0,
+   "closed": 33,
+   "discontinued": 3,
+   "unmeasured": 1,
+   "p0": {
+    "total": 8,
+    "fresh": 2,
+    "closed": 6,
+    "active": 2,
+    "unmeasured": 0
+   },
+   "p1": {
+    "total": 22,
+    "fresh": 8,
+    "closed": 12,
+    "active": 8,
+    "unmeasured": 0
+   },
+   "p2": {
+    "total": 37,
+    "fresh": 20,
+    "closed": 15,
+    "active": 21,
+    "unmeasured": 1
+   }
+  },
+  "stream_count": 66,
+  "skipped_count": 1,
+  "unmeasured_streams": [
+   {
+    "id": "logo_map",
+    "reason": "no_ts",
+    "measurement_reason": "source_access_stop"
+   }
+  ],
+  "producer_evidence": {
+   "news_flash": {
+    "status": "bound_query_complete",
+    "completed_at": "2026-10-31T08:32:25.871969+09:00",
+    "clock_kind": "source_query_attempt",
+    "asset_binding": "verified_sha256",
+    "source_freshness_verified": false,
+    "all_records_revalidated": false,
+    "outcome": "complete",
+    "expected_feeds": 3,
+    "successful_feeds": 3,
+    "new_rows": 0
+   },
+   "dividends_kr": {
+    "status": "bound_query_complete",
+    "completed_at": "2026-10-31T09:48:18+09:00",
+    "clock_kind": "bounded_source_query_attempt",
+    "asset_binding": "verified_sha256",
+    "source_freshness_verified": false,
+    "all_records_revalidated": false,
+    "outcome": "complete",
+    "scope_counts": {
+     "selected": 200,
+     "attempted": 200,
+     "successful": 200,
+     "total": 1518,
+     "rotation_checked": 1000
+    },
+    "source_report_date_min": "2025-10-24",
+    "source_report_date_max": "2026-08-14",
+    "bounded_scope_completed": false
+   },
+   "logo_map": {
+    "status": "bound_query_incomplete",
+    "clock_kind": "bounded_logo_url_query",
+    "asset_binding": "verified_sha256",
+    "source_freshness_verified": false,
+    "all_records_revalidated": false,
+    "outcome": "source_blocked",
+    "scope_counts": {
+     "selected": 16,
+     "attempted": 12,
+     "passed": 10,
+     "failed": 2,
+     "unattempted": 4,
+     "total": 9361
+    },
+    "quality_reason": "source_access_stop"
+   }
+  },
+  "stale_p0": [],
+  "stale_other": [],
+  "stale_other_details": []
+ },
+ "annual_backfill": {
+  "generated_at": "2026-10-30T20:32:56.716884+00:00",
+  "clock_kind": "collection_attempt",
+  "attempted_at": "2026-10-30T20:32:56.716884+00:00",
+  "counts_valid": true,
+  "requested": 55,
+  "attempted": 55,
+  "success": 49,
+  "empty": 0,
+  "error": 5,
+  "deferred": 0,
+  "touched": 35,
+  "requests": 61,
+  "source_gap": 1,
+  "unresolved_error_cells": 5,
+  "source_blank_cells": 1,
+  "unclassified_cells": 0
+ }
+}
