@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "ok_count": 2,
+  "total": 2,
+  "total_supply_usd": 247561244291.19238,
+  "usdt": {
+    "ok": true,
+    "total_supply_usd": 177028037577.4114,
+    "by_chain": [
+      {
+        "chain": "TRON",
+        "supply": 94234904636.6919
+      },
+      {
+        "chain": "ETH",
+        "supply": 84298550180.9401
+      },
+      {
+        "chain": "SOL",
+        "supply": 3839918802.83705
+      },
+      {
+        "chain": "TON",
+        "supply": 1429976002.51
+      },
+      {
+        "chain": "OMNI",
+        "supply": 887961971.795665
+      },
+      {
+        "chain": "AVA",
+        "supply": 847205574.047338
+      },
+      {
+        "chain": "APTOS",
+        "supply": 629832921.984195
+      },
+      {
+        "chain": "NEAR",
+        "supply": 525944120.793709
+      },
+      {
+        "chain": "CELO",
+        "supply": 470000001.0
+      },
+      {
+        "chain": "KAIA",
+        "supply": 249900001.0
+      },
+      {
+        "chain": "COSMOS",
+        "supply": 159997865.1663
+      },
+      {
+        "chain": "TEZOS",
+        "supply": 141000001.0
+      }
+    ],
+    "chain_count": 18,
+    "total_assets_usd": 182494986105.0762,
+    "total_liabilities_usd": 177028037577.4114,
+    "chain_sum_usd": 187986331689.6733,
+    "as_of": null,
+    "source": "Tether (tether.to)"
+  },
+  "usdc": {
+    "ok": true,
+    "total_supply_usd": 70533206713.78099,
+    "by_chain": [
+      {
+        "chain": "ETH",
+        "supply": 46290247084.90122
+      },
+      {
+        "chain": "SOL",
+        "supply": 6840015778.498736
+      },
+      {
+        "chain": "HYPEREVM",
+        "supply": 6384511397.59998
+      },
+      {
+        "chain": "BASE",
+        "supply": 4272506433.63702
+      },
+      {
+        "chain": "ARB",
+        "supply": 2436030244.603207
+      },
+      {
+        "chain": "ARC",
+        "supply": 1282222861.174078
+      },
+      {
+        "chain": "POLY",
+        "supply": 626528915.416932
+      },
+      {
+        "chain": "SUI",
+        "supply": 349671632.221832
+      },
+      {
+        "chain": "XLM",
+        "supply": 338826294.4663821
+      },
+      {
+        "chain": "APTOS",
+        "supply": 298211936.007315
+      },
+      {
+        "chain": "AVAX",
+        "supply": 228626598.424564
+      },
+      {
+        "chain": "MONAD",
+        "supply": 198695398.317009
+      }
+    ],
+    "chain_count": 39,
+    "as_of": "2026-11-07T13:31:01.797Z",
+    "source": "Circle (circle.com)"
+  },
+  "sources": [
+    "Tether (tether.to)",
+    "Circle (circle.com)"
+  ],
+  "collected_at": "2026-11-07T22:32:49+09:00",
+  "schema_version": "v0",
+  "diagnostics": {
+    "ok_count": 2,
+    "used_prev_snapshot": false
+  }
+}

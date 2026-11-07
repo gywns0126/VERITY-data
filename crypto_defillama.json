@@ -1,0 +1,520 @@
+{
+  "ok": true,
+  "source": "DefiLlama (defillama.com)",
+  "protocols": [
+    {
+      "name": "Tether",
+      "category": "Stablecoin Issuer",
+      "chains": [
+        "Off Chain"
+      ],
+      "fees_24h": 16641763.0,
+      "fees_7d": 117583479.0,
+      "revenue_24h": 16641763.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "Circle USDC",
+      "category": "Stablecoin Issuer",
+      "chains": [
+        "Ethereum",
+        "Off Chain"
+      ],
+      "fees_24h": 6663572.0,
+      "fees_7d": 47196998.0,
+      "revenue_24h": 6663572.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "Hyperliquid Perps",
+      "category": "Derivatives",
+      "chains": [
+        "Hyperliquid L1"
+      ],
+      "fees_24h": 2772024.0,
+      "fees_7d": 19708388.0,
+      "revenue_24h": 2075647.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "Polymarket US",
+      "category": "Prediction Market",
+      "chains": [
+        "Off Chain"
+      ],
+      "fees_24h": 2334704.0,
+      "fees_7d": 15508038.0,
+      "revenue_24h": 0.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "PumpSwap",
+      "category": "Dexs",
+      "chains": [
+        "Solana"
+      ],
+      "fees_24h": 1944011.0,
+      "fees_7d": 16569885.0,
+      "revenue_24h": 248875.0,
+      "tvl": 308861373.01096773
+    },
+    {
+      "name": "Lido",
+      "category": "Liquid Staking",
+      "chains": [
+        "Ethereum"
+      ],
+      "fees_24h": 1793606.0,
+      "fees_7d": 11633366.0,
+      "revenue_24h": 108981.0,
+      "tvl": 21823408909.39464
+    },
+    {
+      "name": "Aethir",
+      "category": "Developer Tools",
+      "chains": [
+        "Arbitrum"
+      ],
+      "fees_24h": 1586903.0,
+      "fees_7d": 1586903.0,
+      "revenue_24h": 317381.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "pump.fun",
+      "category": "Launchpad",
+      "chains": [
+        "Solana"
+      ],
+      "fees_24h": 1386157.0,
+      "fees_7d": 10433223.0,
+      "revenue_24h": 975398.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "Polymarket International",
+      "category": "Prediction Market",
+      "chains": [
+        "Polygon"
+      ],
+      "fees_24h": 1186450.0,
+      "fees_7d": 8924691.0,
+      "revenue_24h": 707479.0,
+      "tvl": 310488603.4969715
+    },
+    {
+      "name": "Aave V3",
+      "category": "Lending",
+      "chains": [
+        "Polygon",
+        "Fantom",
+        "Arbitrum",
+        "Avalanche",
+        "OP Mainnet",
+        "Ethereum",
+        "Metis",
+        "Base",
+        "Gnosis",
+        "BSC",
+        "Scroll",
+        "ZKsync Era",
+        "Linea",
+        "Celo",
+        "Sonic",
+        "Soneium",
+        "Plasma",
+        "Mantle",
+        "MegaETH",
+        "X Layer",
+        "Monad"
+      ],
+      "fees_24h": 1151227.0,
+      "fees_7d": 9716605.0,
+      "revenue_24h": 142258.0,
+      "tvl": 15851243526.670357
+    },
+    {
+      "name": "Morpho Blue",
+      "category": "Lending",
+      "chains": [
+        "Ethereum",
+        "Base",
+        "Arbitrum",
+        "OP Mainnet",
+        "Polygon",
+        "Fraxtal",
+        "Scroll",
+        "World Chain",
+        "Ink",
+        "Unichain",
+        "Hemi",
+        "Sonic",
+        "Corn",
+        "Mode",
+        "Hyperliquid L1",
+        "Soneium",
+        "Zircuit",
+        "Katana",
+        "Monad",
+        "Stable",
+        "Celo",
+        "Plume Mainnet",
+        "Abstract",
+        "Flare",
+        "Citrea",
+        "Etherlink",
+        "Tempo",
+        "Robinhood Chain",
+        "Morph",
+        "Pharos",
+        "Arc"
+      ],
+      "fees_24h": 1116933.0,
+      "fees_7d": 6599531.0,
+      "revenue_24h": 0.0,
+      "tvl": 10889673632.218891
+    },
+    {
+      "name": "Hyper Foundation HYPE Staking",
+      "category": "Staking Pool",
+      "chains": [
+        "Hyperliquid L1"
+      ],
+      "fees_24h": 1005199.0,
+      "fees_7d": 7445257.0,
+      "revenue_24h": 30156.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "Fragment",
+      "category": "NFT Marketplace",
+      "chains": [
+        "TON"
+      ],
+      "fees_24h": 991628.0,
+      "fees_7d": 8384360.0,
+      "revenue_24h": -151419.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "Tron",
+      "category": "Chain",
+      "chains": [
+        "Tron"
+      ],
+      "fees_24h": 922084.0,
+      "fees_7d": 6448376.0,
+      "revenue_24h": 922084.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "Uniswap V4",
+      "category": "Dexs",
+      "chains": [
+        "Ethereum",
+        "Unichain",
+        "OP Mainnet",
+        "Base",
+        "Arbitrum",
+        "Polygon",
+        "Blast",
+        "Zora",
+        "World Chain",
+        "Ink",
+        "Soneium",
+        "Avalanche",
+        "BSC",
+        "Monad",
+        "X Layer",
+        "MegaETH",
+        "Robinhood Chain",
+        "Celo",
+        "Tempo",
+        "Arc"
+      ],
+      "fees_24h": 830027.0,
+      "fees_7d": 7065693.0,
+      "revenue_24h": 0.0,
+      "tvl": 1180131039.5703602
+    },
+    {
+      "name": "Sky Lending",
+      "category": "CDP",
+      "chains": [
+        "Ethereum"
+      ],
+      "fees_24h": 828732.0,
+      "fees_7d": 6350869.0,
+      "revenue_24h": 411382.0,
+      "tvl": 4283721694.2584887
+    },
+    {
+      "name": "Binance staked ETH",
+      "category": "Liquid Staking",
+      "chains": [
+        "BSC",
+        "Ethereum"
+      ],
+      "fees_24h": 729375.0,
+      "fees_7d": 5587518.0,
+      "revenue_24h": 72937.0,
+      "tvl": 8708671843.86112
+    },
+    {
+      "name": "Spiko",
+      "category": "RWA",
+      "chains": [
+        "Polygon",
+        "Ethereum",
+        "Arbitrum",
+        "Base",
+        "Starknet",
+        "Stellar",
+        "Etherlink"
+      ],
+      "fees_24h": 694923.0,
+      "fees_7d": 1786732.0,
+      "revenue_24h": 19829.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "Uniswap V3",
+      "category": "Dexs",
+      "chains": [
+        "Ethereum",
+        "Arbitrum",
+        "OP Mainnet",
+        "Polygon",
+        "Celo",
+        "BSC",
+        "ZKsync Era",
+        "Sei",
+        "Taiko",
+        "Scroll",
+        "Rootstock",
+        "Filecoin",
+        "Boba",
+        "Moonbeam",
+        "Manta",
+        "Mantle",
+        "Linea",
+        "Avalanche",
+        "Base",
+        "Polygon zkEVM",
+        "Blast",
+        "Gnosis",
+        "BOB",
+        "Lisk",
+        "Corn",
+        "Unichain",
+        "Hemi",
+        "Saga",
+        "LightLink",
+        "GOAT",
+        "XDC",
+        "Lens",
+        "Telos",
+        "World Chain",
+        "Nibiru",
+        "Plasma",
+        "Monad",
+        "Etherlink",
+        "Sonic",
+        "Zora",
+        "X Layer",
+        "Robinhood Chain",
+        "Ink",
+        "Tempo",
+        "0G",
+        "Arc",
+        "Redbelly"
+      ],
+      "fees_24h": 662547.0,
+      "fees_7d": 7291818.0,
+      "revenue_24h": 111014.0,
+      "tvl": 1515902982.5579762
+    },
+    {
+      "name": "Paxos Stablecoin Issuer",
+      "category": "Stablecoin Issuer",
+      "chains": [
+        "Off Chain"
+      ],
+      "fees_24h": 598162.0,
+      "fees_7d": 4381915.0,
+      "revenue_24h": 297088.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "Axiom",
+      "category": "Trading App",
+      "chains": [
+        "Solana",
+        "BSC",
+        "Robinhood Chain"
+      ],
+      "fees_24h": 546581.0,
+      "fees_7d": 3897333.0,
+      "revenue_24h": 261706.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "Grayscale",
+      "category": "RWA",
+      "chains": [
+        "Off Chain"
+      ],
+      "fees_24h": 526394.0,
+      "fees_7d": 3783453.0,
+      "revenue_24h": 526394.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "tradeXYZ",
+      "category": "Interface",
+      "chains": [
+        "Hyperliquid L1"
+      ],
+      "fees_24h": 488483.0,
+      "fees_7d": 2641024.0,
+      "revenue_24h": 162465.0,
+      "tvl": 0.0
+    },
+    {
+      "name": "Jupiter Perpetual Exchange",
+      "category": "Derivatives",
+      "chains": [
+        "Solana"
+      ],
+      "fees_24h": 481934.0,
+      "fees_7d": 1884958.0,
+      "revenue_24h": 120483.0,
+      "tvl": 662067991.2367373
+    },
+    {
+      "name": "Solana",
+      "category": "Chain",
+      "chains": [
+        "Solana"
+      ],
+      "fees_24h": 466944.0,
+      "fees_7d": 3240125.0,
+      "revenue_24h": 34339.0,
+      "tvl": 0.0
+    }
+  ],
+  "chains": [
+    {
+      "name": "Ethereum",
+      "tvl": 43501806009.551254
+    },
+    {
+      "name": "Base",
+      "tvl": 5824629567.213967
+    },
+    {
+      "name": "Solana",
+      "tvl": 5238493696.366988
+    },
+    {
+      "name": "BSC",
+      "tvl": 5079556302.488937
+    },
+    {
+      "name": "Tron",
+      "tvl": 5042114578.045286
+    },
+    {
+      "name": "Bitcoin",
+      "tvl": 4037743719.989356
+    },
+    {
+      "name": "Hyperliquid L1",
+      "tvl": 2456838396.369724
+    },
+    {
+      "name": "Arbitrum",
+      "tvl": 1439583890.09231
+    },
+    {
+      "name": "Robinhood Chain",
+      "tvl": 1090670699.6223357
+    },
+    {
+      "name": "Monad",
+      "tvl": 948406742.6806264
+    },
+    {
+      "name": "Polygon",
+      "tvl": 632406733.1484808
+    },
+    {
+      "name": "Avalanche",
+      "tvl": 612999859.5843314
+    },
+    {
+      "name": "Arc",
+      "tvl": 604063100.0103885
+    },
+    {
+      "name": "Plasma",
+      "tvl": 479103623.3009146
+    },
+    {
+      "name": "Sui",
+      "tvl": 441314209.8687212
+    },
+    {
+      "name": "OP Mainnet",
+      "tvl": 407370369.96792394
+    },
+    {
+      "name": "Anubis",
+      "tvl": 339023233.7051164
+    },
+    {
+      "name": "Stellar",
+      "tvl": 213869895.24510503
+    },
+    {
+      "name": "Ink",
+      "tvl": 189135219.6085008
+    },
+    {
+      "name": "Near",
+      "tvl": 174801192.87793705
+    },
+    {
+      "name": "Flare",
+      "tvl": 165110061.16315913
+    },
+    {
+      "name": "X Layer",
+      "tvl": 154936136.95086473
+    },
+    {
+      "name": "Pharos",
+      "tvl": 136274448.18373525
+    },
+    {
+      "name": "Provenance",
+      "tvl": 126590233.52680898
+    },
+    {
+      "name": "Cronos",
+      "tvl": 108744630.9276118
+    }
+  ],
+  "counts": {
+    "fee_protocols_total": 3158,
+    "revenue_protocols_total": 2799,
+    "chains_total": 421,
+    "tvl_map_size": 8960
+  },
+  "collected_at": "2026-11-07T22:32:45+09:00",
+  "schema_version": "v0",
+  "diagnostics": {
+    "protocols": 25,
+    "used_prev_snapshot": false
+  }
+}
