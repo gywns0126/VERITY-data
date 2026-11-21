@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "ok_count": 2,
+  "source": "Deribit (deribit.com), 무료 공개 API",
+  "btc": {
+    "dvol": 59.52,
+    "hist_vol_pct": 59.63,
+    "put_call_ratio_oi": 0.826,
+    "max_pain_strike": 60000.0,
+    "max_pain_expiry": "22NOV26",
+    "total_oi": 401287.9,
+    "call_oi": 219817.9,
+    "put_oi": 181470.0,
+    "underlying_price": 58881.04,
+    "num_instruments": 1028,
+    "num_expiries": 12,
+    "iv_rv_spread": -0.11,
+    "ok": true
+  },
+  "eth": {
+    "dvol": 70.75,
+    "hist_vol_pct": 76.44,
+    "put_call_ratio_oi": 0.533,
+    "max_pain_strike": 1650.0,
+    "max_pain_expiry": "22NOV26",
+    "total_oi": 1739398.0,
+    "call_oi": 1134985.0,
+    "put_oi": 604413.0,
+    "underlying_price": 1657.06,
+    "num_instruments": 830,
+    "num_expiries": 12,
+    "iv_rv_spread": -5.69,
+    "ok": true
+  },
+  "collected_at": "2026-11-21T21:32:53+09:00",
+  "schema_version": "v0",
+  "diagnostics": {
+    "ok_count": 2,
+    "used_prev_snapshot": false
+  }
+}

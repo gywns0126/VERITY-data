@@ -1,0 +1,60 @@
+{
+  "available": true,
+  "fear_and_greed": {
+    "ok": true,
+    "value": 12,
+    "label": "Extreme Fear",
+    "prev_value": 12,
+    "change": 0,
+    "signal": "extreme_fear"
+  },
+  "funding_rate": {
+    "ok": true,
+    "rate": -1.91845750851e-05,
+    "rate_pct": -0.0019,
+    "prev_rate_pct": null,
+    "signal": "neutral",
+    "timestamp": "1795276800000",
+    "source": "okx"
+  },
+  "kimchi_premium": {
+    "ok": true,
+    "premium_pct": 3.01,
+    "upbit_krw": 80485000.0,
+    "global_usd": 58534.4,
+    "binance_usd": 58534.4,
+    "usdt_krw": 1334.7900390625,
+    "signal": "elevated",
+    "source": "upbit+bybit/okx"
+  },
+  "btc_nasdaq_corr": {
+    "ok": true,
+    "correlation": 0.09,
+    "period_days": 30,
+    "signal": "decoupled",
+    "btc_last_price": 58526.2
+  },
+  "stablecoin_mcap": {
+    "ok": true,
+    "total_mcap_usd": 242926706292.14194,
+    "total_mcap_b": 242.9,
+    "usdt_mcap_b": 174.6,
+    "usdc_mcap_b": 68.3
+  },
+  "ok_count": 5,
+  "total": 5,
+  "composite": {
+    "score": 44,
+    "label": "중립",
+    "risk_level": "normal",
+    "signals": [
+      "크립토 극단적 공포"
+    ]
+  },
+  "collected_at": "2026-11-21T21:32:49+09:00",
+  "schema_version": "v0",
+  "diagnostics": {
+    "ok_count": 5,
+    "used_prev_snapshot": false
+  }
+}
