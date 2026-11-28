@@ -1,0 +1,236 @@
+{
+ "_meta": {
+  "generated_at": "2026-11-29T05:13:11.338985+09:00",
+  "source": "data_health_builder — 데이터 무결 신호 집계(판정·수정 0)"
+ },
+ "status": "red",
+ "reasons": [
+  "P0 stale 1건",
+  "연간 재무 수집 실패 38/88칸",
+  "연간 재무 미해결 수집 오류 38칸",
+  "연간 재무 원천 기간 공란 1칸",
+  "신선도 감시 대상 누락·미측정",
+  "비P0 stale 1건"
+ ],
+ "evidence": {
+  "publish_verify": {
+   "generated_at": "2026-11-29T05:13:11.267959+09:00",
+   "max_age_h": 3,
+   "age_h": 0.0,
+   "status": "fresh"
+  },
+  "coverage": {
+   "generated_at": "2026-11-28T16:55:37.730086+09:00",
+   "max_age_h": 96,
+   "age_h": 12.293,
+   "status": "fresh"
+  },
+  "freshness": {
+   "generated_at": "2026-11-29T05:13:00.756256+09:00",
+   "max_age_h": 3,
+   "age_h": 0.003,
+   "status": "fresh"
+  },
+  "annual_backfill": {
+   "generated_at": "2026-11-27T20:32:47.093208+00:00",
+   "max_age_h": 48,
+   "age_h": 23.673,
+   "status": "fresh"
+  }
+ },
+ "publish_guard": {
+  "held_24h": 0,
+  "recent": []
+ },
+ "publish_verify": {
+  "generated_at": "2026-11-29T05:13:11.267959+09:00",
+  "ok": true,
+  "failed": 0,
+  "checked": 4,
+  "max_cdn_age_s": 119702,
+  "files": [
+   {
+    "file": "stock_report_public.json",
+    "ok": true,
+    "pct": {
+     "PER": 61.2,
+     "PBR": 95.6
+    },
+    "total": 2565,
+    "cdn_age_s": 42277,
+    "error": null
+   },
+   {
+    "file": "us_stock_report_public.json",
+    "ok": true,
+    "pct": {
+     "PER": 47.5,
+     "PBR": 76.7
+    },
+    "total": 5271,
+    "cdn_age_s": 119702,
+    "error": null
+   },
+   {
+    "file": "us_stock_report_us_smallcap.json",
+    "ok": true,
+    "pct": {
+     "PER": 38.4,
+     "PBR": 74.5
+    },
+    "total": 4001,
+    "cdn_age_s": 0,
+    "error": null
+   },
+   {
+    "file": "_verity_data_push_recency",
+    "ok": true,
+    "pct": null,
+    "total": null,
+    "cdn_age_s": null,
+    "error": null
+   }
+  ]
+ },
+ "coverage": {
+  "generated_at": "2026-11-28T16:55:37.730086+09:00",
+  "kr_total": 2565,
+  "us_total": 5271,
+  "core_fill_pct": {
+   "fields.facts.PBR": 95.6,
+   "fields.facts.PER": 61.2,
+   "us_fields.facts.PBR": 76.7,
+   "us_fields.facts.PER": 47.5
+  },
+  "last_run_blocked": false,
+  "last_run_fails": 0,
+  "last_run_warns": 0,
+  "last_run_at": "2026-11-28T16:55:37.864443+09:00"
+ },
+ "freshness": {
+  "generated_at": "2026-11-29T05:13:00.756256+09:00",
+  "summary": {
+   "fresh": 28,
+   "stale": 2,
+   "closed": 33,
+   "discontinued": 3,
+   "unmeasured": 1,
+   "p0": {
+    "total": 8,
+    "fresh": 1,
+    "closed": 6,
+    "active": 2,
+    "unmeasured": 0
+   },
+   "p1": {
+    "total": 22,
+    "fresh": 8,
+    "closed": 12,
+    "active": 8,
+    "unmeasured": 0
+   },
+   "p2": {
+    "total": 37,
+    "fresh": 19,
+    "closed": 15,
+    "active": 21,
+    "unmeasured": 1
+   }
+  },
+  "stream_count": 66,
+  "skipped_count": 1,
+  "unmeasured_streams": [
+   {
+    "id": "logo_map",
+    "reason": "no_ts",
+    "measurement_reason": "source_access_stop"
+   }
+  ],
+  "producer_evidence": {
+   "news_flash": {
+    "status": "bound_query_complete",
+    "completed_at": "2026-11-28T08:32:53.485505+09:00",
+    "clock_kind": "source_query_attempt",
+    "asset_binding": "verified_sha256",
+    "source_freshness_verified": false,
+    "all_records_revalidated": false,
+    "outcome": "complete",
+    "expected_feeds": 3,
+    "successful_feeds": 3,
+    "new_rows": 0
+   },
+   "dividends_kr": {
+    "status": "bound_query_complete",
+    "completed_at": "2026-11-28T12:20:13+09:00",
+    "clock_kind": "bounded_source_query_attempt",
+    "asset_binding": "verified_sha256",
+    "source_freshness_verified": false,
+    "all_records_revalidated": false,
+    "outcome": "complete",
+    "scope_counts": {
+     "selected": 200,
+     "attempted": 200,
+     "successful": 200,
+     "total": 1501,
+     "rotation_checked": 1200
+    },
+    "source_report_date_min": "2025-06-18",
+    "source_report_date_max": "2026-10-06",
+    "bounded_scope_completed": false
+   },
+   "logo_map": {
+    "status": "bound_query_incomplete",
+    "clock_kind": "bounded_logo_url_query",
+    "asset_binding": "verified_sha256",
+    "source_freshness_verified": false,
+    "all_records_revalidated": false,
+    "outcome": "source_blocked",
+    "scope_counts": {
+     "selected": 16,
+     "attempted": 12,
+     "passed": 10,
+     "failed": 2,
+     "unattempted": 4,
+     "total": 9361
+    },
+    "quality_reason": "source_access_stop"
+   }
+  },
+  "stale_p0": [
+   {
+    "id": "macro_snapshot",
+    "label": "매크로 스냅샷",
+    "age_min": 10.2
+   }
+  ],
+  "stale_other": [
+   "ipo_watch"
+  ],
+  "stale_other_details": [
+   {
+    "id": "ipo_watch",
+    "last_ts": "2026-11-16T12:06:02.066408+09:00",
+    "age_eff_min": 18307.0,
+    "max_age_min": 12960
+   }
+  ]
+ },
+ "annual_backfill": {
+  "generated_at": "2026-11-27T20:32:47.093208+00:00",
+  "clock_kind": "collection_attempt",
+  "attempted_at": "2026-11-27T20:32:47.093208+00:00",
+  "counts_valid": true,
+  "requested": 88,
+  "attempted": 88,
+  "success": 49,
+  "empty": 0,
+  "error": 38,
+  "deferred": 0,
+  "touched": 38,
+  "requests": 61,
+  "source_gap": 1,
+  "unresolved_error_cells": 38,
+  "source_blank_cells": 1,
+  "unclassified_cells": 0
+ }
+}
